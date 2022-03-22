@@ -682,7 +682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.17364816, y: -0, z: -0, w: 0.9848078}
-  m_LocalPosition: {x: 0, y: 1.0220253, z: 0.516}
+  m_LocalPosition: {x: 0, y: 1.0220255, z: 0.5159998}
   m_LocalScale: {x: 1, y: 0.5771527, z: 0.9115301}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -808,7 +808,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  rotationSpeed: 200
+  sensibiltyMouse: 2
+  playerCamera: {fileID: 963194228}
 --- !u!54 &1557791221
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -823,7 +824,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &1595807957
 GameObject:
