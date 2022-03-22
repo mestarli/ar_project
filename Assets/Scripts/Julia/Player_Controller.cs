@@ -24,26 +24,22 @@ public class Player_Controller : MonoBehaviour
     //public Animator anim;
     //private float x, y;
     
-    // Start is called before the first frame update
     void Start()
     {
+        // Recuperamos los componentes Rigidbody y Animator 
         rb = GetComponent<Rigidbody>();
         //anim = GetComponent<Animator>();
 
+        // Recuperación de la rotación "vertical" de la camara
         rotX = playerCamera.eulerAngles.x;
-    }
-
-    private void FixedUpdate()
-    {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Llamada de los métodos de movimiento y correr
         Player_Movement();
         Player_Run();
-        Player_Hide();
     }
 
     #region Player Movement
@@ -66,6 +62,7 @@ public class Player_Controller : MonoBehaviour
                       + new Vector3(0, rb.velocity.y, 0); // Para hacer que baje por la gravedad
         
         /*
+        // Recuperamos los floats del animator para que se ejecuten las animaciones del player
         anim.SetFloat("Speed_X", x);
         anim.SetFloat("Speed_Y", y);
         
@@ -97,25 +94,20 @@ public class Player_Controller : MonoBehaviour
 
     private void Player_Run()
     {
+        // Si mantenemos presionado shift izquierdo se aumenta la speed y se activa la animación de correr
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             speed = 10f;
             //anim.SetBool("Run", true);
         }
+        
+        // Si se deja de presionar shift izquierdo la velocidad se resetea a la velocidad inicial y se desactiva
+        // la animación de correr
         else
         {
             speed = 5f;
             //anim.SetBool("Run", false);
         }
-    }
-
-    #endregion
-
-    #region Player Hide
-
-    private void Player_Hide()
-    {
-        
     }
 
     #endregion
