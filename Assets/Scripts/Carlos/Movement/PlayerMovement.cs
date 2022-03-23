@@ -42,6 +42,12 @@ public class PlayerMovement : MonoBehaviour
         // El vector3 Move = la posicion horizontal dependiendo del valor en X (positivo o negativo) y
         // la posicion Vertical dependiendo del valor en z (positivo o negativo).
         Vector3 move = transform.right * x + transform.forward * z;
+        
+        // Si la magnitud de movimiento supera el valor 1, se dividirá por su propia magnitud (Esto hace que no aumente la velocidad en diagonal)
+        if (move.magnitude > 1)
+        {
+            move /= move.magnitude;
+        }
 
         // El movimiento del player dependerá del eje en el que se mueva y su velocidad.
         controller.Move(move * speed * Time.deltaTime);
