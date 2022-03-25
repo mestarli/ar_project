@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Carlos/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Carlos/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/PlayerClone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/PlayerClone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Polimorfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Polimorfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +22,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mary/WebRequestManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mary/Constants.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,6 +75,8 @@
       <workItem from="1648080050299" duration="4951000" />
       <workItem from="1648085076394" duration="4000" />
       <workItem from="1648085095505" duration="1567000" />
+      <workItem from="1648217002120" duration="1305000" />
+      <workItem from="1648231345738" duration="1140000" />
     </task>
     <servers />
   </component>

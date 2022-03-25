@@ -8,6 +8,7 @@ public class Polimorfo : MonoBehaviour
     [SerializeField] private float distanceToClosestEnemy;
     [SerializeField] private float distanceToEnemy;
     [SerializeField] private Enemy ClosestEnemy;
+    [SerializeField] private GameObject Enemies;
 
     // Start is called before the first frame update
     void Start()
@@ -34,9 +35,14 @@ public class Polimorfo : MonoBehaviour
             {
                 distanceToClosestEnemy = distanceToEnemy;
                 ClosestEnemy = currentEnemy;
+                ClosestEnemy.GetComponent<Outline>().enabled = true;
+            }
+            else
+            {
+                Enemies.GetComponent<Outline>().enabled = false;
             }
         }
-        
+        Debug.Log("" + ClosestEnemy);
         Debug.DrawLine(transform.position, ClosestEnemy.transform.position);
     }
 }

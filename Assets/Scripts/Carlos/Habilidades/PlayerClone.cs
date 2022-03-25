@@ -32,20 +32,20 @@ public class PlayerClone : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            // Paramos la corrutina DestruirClone
-            StopCoroutine(destruirClone);
+            // Empezamos la corrutina DestruirClone
+            StartCoroutine(destruirClone);
             
             // Si existe un objeto con el nombre "PlayerClone" lo destruimos (esto nos sirve para solo tener un clon spawneado)
             if (GameObject.FindWithTag("PlayerClone") != null)
             {
                 // Destruimos el objeto con el tag "PlayerClone"
                 Destroy(GameObject.FindWithTag("PlayerClone"));
+                // Paramos la corrutina DestruirClone
+                StopCoroutine(destruirClone);
             }
             
             // Spawneamos el prefab en la posicion del player y donde estemos mirando
             Instantiate(playerClone, spawnerClone.transform.position, transform.rotation);
-            // Empezamos la corrutina DestruirClone
-            StartCoroutine(destruirClone);
         }
     }
 

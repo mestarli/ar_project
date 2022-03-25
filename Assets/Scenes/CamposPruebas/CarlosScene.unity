@@ -232,6 +232,7 @@ MonoBehaviour:
   distanceToClosestEnemy: 0
   distanceToEnemy: 0
   ClosestEnemy: {fileID: 0}
+  Enemies: {fileID: 4502960458081454187, guid: 8d0af9d3216e3604eb842ed9b36c371e, type: 3}
 --- !u!1001 &392270460
 PrefabInstance:
   m_ObjectHideFlags: 0
