@@ -5,10 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/PlayerClone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/PlayerClone.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Polimorfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Polimorfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Movement/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Movement/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +83,7 @@
       <workItem from="1648243885631" duration="4238000" />
       <workItem from="1648262157856" duration="67000" />
       <workItem from="1648303644810" duration="4983000" />
+      <workItem from="1648321243336" duration="3072000" />
     </task>
     <servers />
   </component>

@@ -5,17 +5,23 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 { 
     //Variables
-    
+    [Header("PLAYER")]
     [SerializeField] private CharacterController controller;
 
+    [Space(10)]
+    [Header("VALORES PLAYER")]
     [SerializeField] private float speed = 12f;
     [SerializeField] private float gravity = -9.81f;
     [SerializeField] private float jumpHeight = 3f;
 
+    [Space(10)]
+    [Header("VALORES SUELO")]
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundDistance = 0.4f;
     [SerializeField] private LayerMask groundmask;
 
+    [Space(10)]
+    [Header("INFO PLAYER")]
     [SerializeField] private Vector3 velocity;
     [SerializeField] private bool isGrounded;
     

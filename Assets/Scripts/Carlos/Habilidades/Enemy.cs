@@ -5,30 +5,37 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     // Variables
+    [Header( "SCRIPT PLAYER_POLIMORFO")]
     [SerializeField] private Polimorfo _polimorfo;
-    [SerializeField] public Camera camera;
 
-    
+
     // Start is called before the first frame update
     void Start()
     {
         _polimorfo = FindObjectOfType<Polimorfo>();
-        camera = _polimorfo.GetComponentInChildren<Camera>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (this == _polimorfo.ClosestEnemy && IsVisible(camera, _polimorfo.ClosestEnemy))
+        MarcarEnemigo();   
+    }
+
+    private void MarcarEnemigo()
+    {
+        // Si el enemigo que tenga este escript es el enemigo más cercano al jugador y es visible en la cámara de nuestro jugador, estará marcado
+        if (this == _polimorfo.ClosestEnemy && IsVisible(_polimorfo.camera, _polimorfo.ClosestEnemy))
         {
             GetComponent<Outline>().enabled = true;
         }
+        // Si no se cumple no estará marcado
         else
         {
             GetComponent<Outline>().enabled = false;
         }
     }
     
+    // Función para saber que hay en el fov de la cámara
     public bool IsVisible(Camera c, Enemy currentEnemy)
     {
         var planes = GeometryUtility.CalculateFrustumPlanes(c);
