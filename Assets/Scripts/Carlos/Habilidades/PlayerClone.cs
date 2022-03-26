@@ -13,13 +13,15 @@ public class PlayerClone : MonoBehaviour
 
     private void Start()
     {
-        // Añadimos a la variable la funcion que queremos que haga
-        destruirClone = TimeToDestroyClone();
+        
     }
 
     private void Update()
     {
         SpawnearClone();
+        
+        // Añadimos a la variable la funcion que queremos que haga
+        destruirClone = TimeToDestroyClone();
         
         // Si existe un objeto con el tag "PlayerClone" se moverá hacia delante
         if (GameObject.FindWithTag("PlayerClone") != null)

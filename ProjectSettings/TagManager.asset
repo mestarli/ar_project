@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerClone
   - Enemy
+  - Prop
   layers:
   - Default
   - TransparentFX
