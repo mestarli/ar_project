@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Polimorfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Polimorfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Movement/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Movement/PlayerMovement.cs" afterDir="false" />
-    </list>
+    <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +16,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mary/WebRequestManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13e6546058e340ada820e34dce3b245e157400/45/de493183/Random.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mary/Constants.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5c8f1172115149e593ecad20a23a781680b800/3c/372ee1d6/TreeGroup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../M6/UF3/Practica_1/SanBasilioPigeon/Grupo02_RANDOM_GAME_Proyecto/Assets/Scripts/Foot_Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../M6/UF3/Practica_1/SanBasilioPigeon/Grupo02_RANDOM_GAME_Proyecto/Assets/Scripts/Player_Controller.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,6 +76,8 @@
       <workItem from="1648262157856" duration="67000" />
       <workItem from="1648303644810" duration="4983000" />
       <workItem from="1648321243336" duration="3072000" />
+      <workItem from="1648401970373" duration="1190000" />
+      <workItem from="1648403225963" duration="702000" />
     </task>
     <servers />
   </component>

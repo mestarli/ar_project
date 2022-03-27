@@ -15,6 +15,9 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float sensibiltyMouse;
     [SerializeField] private Transform playerCamera;
+    [SerializeField] private float jumpForce;
+    
+    public bool iCanJump;
 
     private Vector2 inputMov;
     private Vector2 inputRot;
@@ -26,10 +29,13 @@ public class Player_Controller : MonoBehaviour
     
     void Start()
     {
+        // Negamos que podamos saltar
+        iCanJump = false;
+        
         // Recuperamos los componentes Rigidbody y Animator 
         rb = GetComponent<Rigidbody>();
         //anim = GetComponent<Animator>();
-
+        
         // Recuperación de la rotación "vertical" de la camara
         rotX = playerCamera.eulerAngles.x;
     }
@@ -37,9 +43,10 @@ public class Player_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Llamada de los métodos de movimiento y correr
+        // Llamada de los métodos de movimiento, correr y saltar
         Player_Movement();
         Player_Run();
+        Player_Jump();
     }
 
     #region Player Movement
@@ -108,6 +115,30 @@ public class Player_Controller : MonoBehaviour
             speed = 5f;
             //anim.SetBool("Run", false);
         }
+    }
+
+    #endregion
+
+    #region Player Jump
+
+    public void Player_Jump()
+    {
+        if (iCanJump)
+        {
+            // Si presionamos la tecla "Espacio" se activará la animación de saltar y impulsaremos el rigidbody 
+            // hacia arriba en y
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                //anim.SetBool("Jump", true);
+                rb.AddForce(new Vector3(0,jumpForce,0), ForceMode.Impulse);
+            }
+            
+            // Desactivamos la animación de saltar
+            else
+            {
+                //anim.SetBool("Jump", false);
+            }
+        }   
     }
 
     #endregion
