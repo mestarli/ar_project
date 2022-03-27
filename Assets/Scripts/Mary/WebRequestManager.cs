@@ -34,6 +34,16 @@ public class WebRequestManager : MonoBehaviour
         StartCoroutine(CorrutinaEscribirJSON(data_users));
     }
     
+    /// <summary>
+    /// Para inicializar el fichero de json a través de context menu
+    /// </summary>
+    /// 
+    [ContextMenu("CREA JSON RECORDS")]
+    public void CrearEstructuraUSERS()
+   {
+            StartCoroutine(CorrutinaEscribirJSON(data_users));
+   }
+    
     
     /// <summary>
     /// Método para leer el archivo JSON de la URL especificada en la clase CONSTANTES
@@ -49,8 +59,8 @@ public class WebRequestManager : MonoBehaviour
 
         if (web.result != UnityWebRequest.Result.ConnectionError && web.result != UnityWebRequest.Result.ProtocolError)
         {
-            //datos_usuarios = JsonUtility.FromJson<Users>(web.downloadHandler.text);
-            //DataManager.Instance.DatosUsuarios = datos_usuarios;
+            data_users = JsonUtility.FromJson<Users>(web.downloadHandler.text);
+            DataManager.Instance.DataUsers = data_users;
 
             if (crearListaUsuarios)
             {
@@ -59,7 +69,7 @@ public class WebRequestManager : MonoBehaviour
         }
         else
         {
-            //Debug.Log(Constantes.MENSAJE_ERROR);
+            Debug.Log(Constants.MENSAJE_ERROR);
         }
     }
     
@@ -75,8 +85,8 @@ public class WebRequestManager : MonoBehaviour
         if (web.result != UnityWebRequest.Result.ConnectionError && web.result != UnityWebRequest.Result.ProtocolError)
         {
             data_users = JsonUtility.FromJson<Users>(web.downloadHandler.text);
-            //DataManager.Instance.DatosUsuarios = datos_usuarios;
-            //DataManager.Instance.CrearNuevoUsuario();
+            DataManager.Instance.DataUsers = data_users;
+            DataManager.Instance.CreateNewUser();
         }
         else
         {
@@ -107,6 +117,4 @@ public class WebRequestManager : MonoBehaviour
             Debug.Log(Constants.MENSAJE_ERROR);
         }
     }
-    
-    
 }
