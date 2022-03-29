@@ -375,7 +375,7 @@ MonoBehaviour:
   groundDistance: 0.4
   groundmask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 128
   velocity: {x: 0, y: 0, z: 0}
   isGrounded: 0
 --- !u!114 &256224073
@@ -404,13 +404,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e04fde561f6d654b8214d76d88c33d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceToClosestEnemy: 0
-  distanceToEnemy: 0
-  range: 10
-  ClosestEnemy: {fileID: 1278980439}
   allProps: []
   Prop: {fileID: 0}
   camera: {fileID: 963194227}
+  range: 10
+  ClosestEnemy: {fileID: 1278980439}
+  distanceToClosestEnemy: 0
+  distanceToEnemy: 0
 --- !u!1 &358256862
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,7 +615,7 @@ GameObject:
   - component: {fileID: 409856978}
   - component: {fileID: 409856977}
   - component: {fileID: 409856976}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1066,7 +1066,7 @@ GameObject:
   - component: {fileID: 744272163}
   - component: {fileID: 744272162}
   - component: {fileID: 744272161}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
