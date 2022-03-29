@@ -17,8 +17,13 @@ public class FieldOfView : MonoBehaviour
     {
         cazador = FindObjectOfType<Cazador>();
     }
+    private void Update()
+    {
+        FindVisibleTarget();
+    }
     void FindVisibleTarget()
     {
+        cazador.target = null;
         Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
         int i=0;
         while(i < targetsInViewRadius.Length)
@@ -31,10 +36,6 @@ public class FieldOfView : MonoBehaviour
                 if (!Physics.Raycast(transform.position, dirToTarget, distToTarget, obstacleMask))
                 {
                     cazador.target = target.gameObject;
-                }
-                else
-                {
-                    cazador.target = null;
                 }
             }
             i++;
