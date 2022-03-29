@@ -23,9 +23,12 @@ public class FieldOfView : MonoBehaviour
     }
     void FindVisibleTarget()
     {
+        //Resetea el target para que no haya en caso de que haya dejado de verlo en este frame
         cazador.target = null;
+        //Hace un array para todos los targets dentro del rango, está hecho por si hay mas de un player pero como solo hay uno yo lo guardo en una variable normal y no una lista
         Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
         int i=0;
+        //Por cada objetivo hace un calculo matemático para ver si están dentro del angulo que hemos seteado y si lo está lo guarda como target en cazador
         while(i < targetsInViewRadius.Length)
         {
             Transform target = targetsInViewRadius[i].transform;
@@ -41,7 +44,7 @@ public class FieldOfView : MonoBehaviour
             i++;
         }
     }
-
+    //Esto es una cosa que usa el FieldOfViewEditor
     public Vector3 DirFromAngle(float angleInDegrees, bool angleIsGlobal)
     {
         if (!angleIsGlobal)
