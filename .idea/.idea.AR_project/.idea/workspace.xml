@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/FX/Carlos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FX/Carlos/SmokeEffect.vfx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FX/Carlos/SmokeEffect.vfx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/EnemyMat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/EnemyMat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/Smoke.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/Smoke/Wispy-Smoke01-8x8-png-normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/Smoke/Wispy-Smoke01-8x8-png-normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/Smoke/WispySmoke01_8x8.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/Smoke/WispySmoke01_8x8.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/Smoke/WispySmoke01_8x8.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/Smoke/WispySmoke01_8x8.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/URP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/URP/URP_ASSET.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/URP/URP_ASSET.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/URP/URP_ASSET_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/URP/URP_ASSET_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineGlobalSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Carlos/Hologram/Arissa_MAT.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/Hologram/Arissa_MAT.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Carlos/Hologram/Hologram.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/Hologram/Hologram.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Carlos/PlayerMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/PlayerMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Carlos/TestMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Carlos/TestMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Carlos/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Carlos/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Carlos/FPPClone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Carlos/FPPClone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/PlayerClone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/PlayerClone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Polimorfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Habilidades/Polimorfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -32,9 +71,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -77,7 +117,7 @@
       <workItem from="1648321243336" duration="3072000" />
       <workItem from="1648401970373" duration="1190000" />
       <workItem from="1648403225963" duration="702000" />
-      <workItem from="1648562916793" duration="652000" />
+      <workItem from="1648563155662" duration="5064000" />
     </task>
     <servers />
   </component>
