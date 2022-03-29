@@ -9,13 +9,15 @@ public class Cazador : MonoBehaviour
     public int state = 0;
     public float timePassed = 0;
     public float secondsToDismiss;
+    bool search;
 
     private void Update()
     {
-        if(target != null)
+        if(target != null && search)
         {
             state = 2;
             timePassed = 0;
+            search = true;
         }
         else
         {
@@ -27,6 +29,7 @@ public class Cazador : MonoBehaviour
             else
             {
                 state = 0;
+                search = false;
             }
         }
     }
