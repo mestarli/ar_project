@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
     private void MarcarEnemigo()
     {
         // Si el enemigo que tenga este escript es el enemigo más cercano al jugador y es visible en la cámara de nuestro jugador, estará marcado
-        if (this == _polimorfo.ClosestEnemy && IsVisible(_polimorfo.camera, _polimorfo.ClosestEnemy))
+        if (this == _polimorfo.ClosestEnemy && IsVisible(_polimorfo._camera, _polimorfo.ClosestEnemy))
         {
             GetComponent<Outline>().enabled = true;
         }

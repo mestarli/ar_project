@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(CharacterController))]
 [RequireComponent(typeof(BoxCollider))]
 
 /*[RequireComponent(typeof(CapsuleCollider))]
@@ -12,17 +12,11 @@ using UnityEngine;
 public class Player_Controller : MonoBehaviour
 {
     // Variables
-    [SerializeField] private float speed;
-    [SerializeField] private float sensibiltyMouse;
-    [SerializeField] private Transform playerCamera;
+    [SerializeField] private CharacterController _controller;
+    [SerializeField] private float speed = 10f;
     [SerializeField] private float jumpForce;
     
     public bool iCanJump;
-
-    private Vector2 inputMov;
-    private Vector2 inputRot;
-    private Rigidbody rb;
-    private float rotX;
 
     //public Animator anim;
     //private float x, y;
@@ -32,12 +26,8 @@ public class Player_Controller : MonoBehaviour
         // Negamos que podamos saltar
         iCanJump = false;
         
-        // Recuperamos los componentes Rigidbody y Animator 
-        rb = GetComponent<Rigidbody>();
+        // Recuperamos el componente Animator 
         //anim = GetComponent<Animator>();
-        
-        // Recuperación de la rotación "vertical" de la camara
-        rotX = playerCamera.eulerAngles.x;
     }
 
     // Update is called once per frame
@@ -54,20 +44,12 @@ public class Player_Controller : MonoBehaviour
     private void Player_Movement()
     {
         // Leemos los inputs para el desplazamiento del player
-        inputMov.x = Input.GetAxis("Horizontal");
-        inputMov.y = Input.GetAxis("Vertical");
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
         
-        // Leemos los inputs para la rotació del player
-        inputRot.x = Input.GetAxis("Mouse X") * sensibiltyMouse;
-        inputRot.y = Input.GetAxis("Mouse Y") * sensibiltyMouse;
+        Vector3 move = transform.right * x + transform.forward * z;
+        _controller.Move(move * speed * Time.deltaTime);
 
-        // Método que se encarga de actualizar la rotación de la cámara
-        MovePlayerCamera();
-
-        rb.velocity = transform.forward * speed * inputMov.y // Movimiento hacia adelante y atrás del player 
-                      + transform.right * speed * inputMov.x // Movimiento hacia izquierda y derecha del player
-                      + new Vector3(0, rb.velocity.y, 0); // Para hacer que baje por la gravedad
-        
         /*
         // Recuperamos los floats del animator para que se ejecuten las animaciones del player
         anim.SetFloat("Speed_X", x);
@@ -79,20 +61,6 @@ public class Player_Controller : MonoBehaviour
         // Rotación player
         transform.Rotate(0, x * Time.deltaTime * rotationSpeed, 0);
         */
-    }
-
-    private void MovePlayerCamera()
-    {
-        rotX -= inputRot.y;
-        
-        // Establecemos límites en la rotación vertical de la cámara
-        rotX = Mathf.Clamp(rotX, 10, 25);
-        
-        // Rotación horizontal de la cámara
-        transform.Rotate(0, inputRot.x * sensibiltyMouse, 0f);
-        
-        // Rotación vertical de la cámara
-        playerCamera.transform.localRotation=Quaternion.Euler(rotX, 0f, 0f);
     }
 
     #endregion
@@ -130,7 +98,7 @@ public class Player_Controller : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 //anim.SetBool("Jump", true);
-                rb.AddForce(new Vector3(0,jumpForce,0), ForceMode.Impulse);
+                //rb.AddForce(new Vector3(0,jumpForce,0), ForceMode.Impulse);
             }
             
             // Desactivamos la animación de saltar
