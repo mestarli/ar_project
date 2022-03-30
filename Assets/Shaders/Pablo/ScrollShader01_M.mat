@@ -98,10 +98,10 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Tall: 0.15
+    - _Tall: 0.7
     - _UVSec: 0
     - _VoronoiCellSpeed: 2
-    - _VoronoiPower: 6
+    - _VoronoiPower: 8.6
     - _VoronoiScale: 5
     - _WallBrightness: 0.3
     - _WallPower: 20
