@@ -66,7 +66,7 @@ public class Wall : MonoBehaviour
     
     private void ActualizarPosicionador()
     {
-        Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f, 0));
+        Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, detectRange))
@@ -83,8 +83,8 @@ public class Wall : MonoBehaviour
         if (inRange)
         {
             PosicionadorDeMuro.transform.position = destination;
-            rotation = new Quaternion(PosicionadorDeMuro.transform.rotation.x, rotation.y,
-                PosicionadorDeMuro.transform.rotation.z, PosicionadorDeMuro.transform.rotation.w);
+            rotation = new Quaternion(PosicionadorDeMuro.transform.rotation.x, rotation.y, PosicionadorDeMuro.transform.rotation.z, 
+                PosicionadorDeMuro.transform.rotation.w);
             PosicionadorDeMuro.transform.rotation = rotation;
             PosicionadorDeMuro.SetActive(true);
         }
