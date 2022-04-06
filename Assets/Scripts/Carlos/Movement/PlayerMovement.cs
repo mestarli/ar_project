@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,11 +6,14 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 { 
     //Variables
+    public static PlayerMovement instance;
+    
     [Header("PLAYER")]
     [SerializeField] private CharacterController controller;
 
-    [Space(10)]
-    [Header("VALORES PLAYER")]
+    [Space(10)] [Header("VALORES PLAYER")] 
+    [SerializeField] public float axisX;
+    [SerializeField] public float axisZ;
     [SerializeField] private float speed = 12f;
     [SerializeField] private float gravity = -9.81f;
     [SerializeField] private float jumpHeight = 3f;
@@ -24,7 +28,12 @@ public class PlayerMovement : MonoBehaviour
     [Header("INFO PLAYER")]
     [SerializeField] private Vector3 velocity;
     [SerializeField] private bool isGrounded;
-    
+
+    private void Start()
+    {
+        instance = this;
+    }
+
     void Update()
     {
         CharacterMovement();
@@ -42,12 +51,12 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Recogemos los valores del teclado en X e Y para el movimiento horizontal y vertical del player.
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        axisX = Input.GetAxis("Horizontal");
+        axisZ = Input.GetAxis("Vertical");
 
         // El vector3 Move = la posicion horizontal dependiendo del valor en X (positivo o negativo) y
         // la posicion Vertical dependiendo del valor en z (positivo o negativo).
-        Vector3 move = transform.right * x + transform.forward * z;
+        Vector3 move = transform.right * axisX + transform.forward * axisZ;
         
         // Si la magnitud de movimiento supera el valor 1, se dividirá por su propia magnitud (Esto hace que no aumente la velocidad en diagonal)
         if (move.magnitude > 1)
