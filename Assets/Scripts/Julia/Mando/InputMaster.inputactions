@@ -24,9 +24,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Camera",
+                    "name": "Look",
                     "type": "Value",
-                    "id": "02e6968a-1d46-4261-89ae-4ab24726f06b",
+                    "id": "ce55a2dd-9f87-4cc8-bd1b-18025e7fb04a",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -113,12 +113,12 @@
                 },
                 {
                     "name": "",
-                    "id": "adda618f-9b10-43d6-a847-7873ec8b35af",
-                    "path": "<Mouse>/delta",
+                    "id": "408e2cfc-b2f0-42cb-99af-94cd191a970b",
+                    "path": "",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Camera",
+                    "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -33,8 +33,8 @@ public class Hide_Controller : MonoBehaviour
             playerTransform.position = Vector3.Lerp(playerTransform.position, inside.position, timing * Time.deltaTime);
             playerTransform.rotation = Quaternion.Lerp(playerTransform.rotation, inside.rotation, timing * Time.deltaTime);
 
-            // Si se pulsa la tecla "R", podremos salir del armario
-            if (Input.GetKeyDown(KeyCode.R))
+            // Si se pulsa la tecla "T", podremos salir del armario
+            if (Input.GetKeyDown(KeyCode.T))
             {
                 enter = false;
                 exit = true;
