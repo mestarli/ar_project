@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6837977884846401230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7707794749880818183}
+  - component: {fileID: 3589793346448116645}
+  m_Layer: 0
+  m_Name: Skills
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7707794749880818183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6837977884846401230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3589793346448116645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6837977884846401230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce53cb79f629f24a99c53a10acea0e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skills:
+  - {fileID: 2476858564674837472, guid: 0210c6df81ae6b64b815d69a7e4090ca, type: 3}
+  - {fileID: 846196570499706095, guid: 34cfb2c5faf8eda4b88f890941344140, type: 3}
+  - {fileID: 7657928536851021732, guid: 99198bd204afdf6478a7c3e8743bb321, type: 3}
+  - {fileID: 7275036604329016086, guid: fde9374bceb4d1b4a9264f18f45e1084, type: 3}
+  - {fileID: 8100726049458673531, guid: 7939f709484c8c64aab60edbf388c102, type: 3}
+  - {fileID: 2119281961598259839, guid: 344d3168069752947948b84a0ad7f69c, type: 3}
+  - {fileID: 2930179316431197547, guid: 7129197e0c0626e49964e5af851fa0ed, type: 3}
+  - {fileID: 858913649427549153, guid: dcb76b3d3ae779e459d3fce85538b763, type: 3}
+  SelectedSkill_1: 0
+  SelectedSkill_2: 0
+  SelectedSkill_3: 0
+  Skill_1: {fileID: 0}
+  Skill_2: {fileID: 0}
+  Skill_3: {fileID: 0}
+  SkillsSelected: 0

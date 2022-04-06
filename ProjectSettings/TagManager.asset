@@ -7,7 +7,7 @@ TagManager:
   - PlayerClone
   - Prop
   - Enemy
-  - Smoke
+  - Bullet
   layers:
   - Default
   - TransparentFX
