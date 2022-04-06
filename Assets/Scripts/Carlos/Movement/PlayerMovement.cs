@@ -1,15 +1,25 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
-{ 
+{
+    // Wall stuff
+    public KeyCode castKeyBind, directionKeyBind;
+    public float range;
+    public GameObject iceWallPreview, iceWallOBJ;
+    public LayerMask LayerMask;
+    private bool direction, casting;
+    
     //Variables
     public static PlayerMovement instance;
     
     [Header("PLAYER")]
     [SerializeField] private CharacterController controller;
+    [SerializeField] private Transform cam;
+    [SerializeField] private GameObject bullet;
 
     [Space(10)] [Header("VALORES PLAYER")] 
     [SerializeField] public float axisX;
@@ -32,11 +42,76 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         instance = this;
+        cam = Camera.main.transform;
     }
 
     void Update()
     {
         CharacterMovement();
+
+        IceBullet();
+    }
+
+    private void IceBullet()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            Instantiate(bullet, cam.position + cam.forward, cam.rotation);
+        }
+
+        if (Input.GetKeyDown(castKeyBind))
+        {
+            casting = !casting;
+            if (!casting)
+            {
+                iceWallPreview.SetActive(false);
+            }
+        }
+        
+        if (casting)
+        {
+            CastingIceWall();
+        }
+    }
+
+    private void CastingIceWall()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(cam.transform.position, cam.forward, out hit, range, LayerMask))
+        {
+            if (iceWallPreview.activeSelf)
+            {
+                iceWallPreview.SetActive(true);
+            }
+            Quaternion rotation = Quaternion.Euler(0,0,0);
+            if (direction)
+            {
+                rotation.y = 1;
+            }
+            else
+            {
+                rotation.y = 0;
+            }
+
+            iceWallPreview.transform.localRotation = rotation;
+            iceWallPreview.transform.position = hit.point;
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                Instantiate(iceWallOBJ, hit.point, iceWallPreview.transform.rotation);
+                casting = false;
+                iceWallPreview.SetActive(false);
+            }
+        }
+        else
+        {
+            iceWallPreview.SetActive(false);
+        }
+        
+        if (Input.GetKeyDown(directionKeyBind))
+        {
+            direction = !direction;
+        }
     }
 
     private void CharacterMovement()

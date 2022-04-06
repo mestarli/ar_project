@@ -7,6 +7,7 @@ public class LoadSkill : MonoBehaviour
 
     public GameObject[] skillsPrefabs;
 
+    public int SelectedSkill_1;
     
     void Start()
     {
@@ -16,5 +17,7 @@ public class LoadSkill : MonoBehaviour
     }
 
     // Update is called once per frame
-
+    
+    
+    
 }

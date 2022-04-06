@@ -81,17 +81,17 @@ public class SillSelection : MonoBehaviour
         if (SkillsSelected == 1)
         {
             Skill_1.text = "" + SelectedSkill_1;
-            PlayerPrefs.SetInt(""+SelectedSkill_1, SelectedSkill_1);
+            PlayerPrefs.SetInt("SelectedSkill_1", SelectedSkill_1);
         }
         else if (SkillsSelected == 2)
         {
             Skill_2.text = "" + SelectedSkill_2;
-            PlayerPrefs.SetInt(""+SelectedSkill_2, SelectedSkill_2);
+            PlayerPrefs.SetInt("SelectedSkill_2", SelectedSkill_2);
         }
         else if (SkillsSelected == 3)
         {
             Skill_3.text = "" + SelectedSkill_3;
-            PlayerPrefs.SetInt(""+SelectedSkill_3, SelectedSkill_3);
+            PlayerPrefs.SetInt("SelectedSkill_3", SelectedSkill_3);
             //LoadScene
         }
     }
