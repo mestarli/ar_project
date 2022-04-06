@@ -57,6 +57,9 @@ public class Cazador : MonoBehaviour
         {
             _navMeshAgent.SetDestination(target.transform.position);
             searching = false;
+            
+            // Poner aqui los disparos del cazador con Time.deltatime
+            
         }
         if(state == 1)
         {
