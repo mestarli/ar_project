@@ -6,18 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Pablo/Invis_M.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Pablo/Invis_M.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Pablo/Invisibility_M.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Pablo/Invisibility_M.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Skills/Skill3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Skills/Skill3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Skills/Skill7.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Skills/Skill7.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Skills/Skill8.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Skills/Skill8.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Wall/WallPlacer.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Wall/WallPlacer.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Carlos/Movement/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Carlos/Movement/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pablo/LoadSkill.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pablo/LoadSkill.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pablo/SillSelection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pablo/SillSelection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pablo/Wall.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pablo/Wall.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/PabloScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/PabloScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +99,7 @@
       <workItem from="1648647754997" duration="3578000" />
       <workItem from="1648655881457" duration="3938000" />
       <workItem from="1649151658367" duration="2571000" />
-      <workItem from="1649255170141" duration="6571000" />
+      <workItem from="1649255170141" duration="7308000" />
     </task>
     <servers />
   </component>
