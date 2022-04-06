@@ -6,11 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pablo/Wall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pablo/Wall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Pablo/ScrollShader01.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Pablo/ScrollShader01.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Pablo/Invisibility_M.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Pablo/Invisibility_M.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Pablo/Test_M.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Pablo/Test_M.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/CarlosScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/PabloScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/PabloScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExampleRenderPipelineAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExampleRenderPipelineAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExampleRenderPipelineInstance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExampleRenderPipelineInstance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/New Custom Universal Renderer Data.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/New Custom Universal Renderer Data.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pablo/Hook.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pablo/Hook.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RenderPipeline.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RenderPipeline.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Pablo/ScrollShader01_M.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Pablo/ScrollShader01_M.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +42,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExampleRenderPipelineAsset.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExampleRenderPipelineInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pablo/LoadSkill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pablo/Wall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pablo/SillSelection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pablo/Blind.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pablo/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +113,9 @@
       <workItem from="1648562916793" duration="652000" />
       <workItem from="1648567747266" duration="29000" />
       <workItem from="1648567809016" duration="3429000" />
-      <workItem from="1648647754997" duration="1412000" />
+      <workItem from="1648647754997" duration="3578000" />
+      <workItem from="1648655881457" duration="3938000" />
+      <workItem from="1649151658367" duration="2571000" />
     </task>
     <servers />
   </component>
