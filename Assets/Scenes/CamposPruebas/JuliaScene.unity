@@ -1230,6 +1230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -1314,6 +1315,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30, y: -30, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &713892577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,7 +1813,7 @@ Transform:
   m_GameObject: {fileID: 1900308504}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2049,7 +2070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 847040847476149163, guid: 3d88e42fb659d3544b6dc288f71872cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.38
+      value: -18.97
       objectReference: {fileID: 0}
     - target: {fileID: 847040847476149163, guid: 3d88e42fb659d3544b6dc288f71872cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2102,7 +2123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3947437374241210798, guid: 0285b64d664d3f84ba3130442b537ea4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 10.05
       objectReference: {fileID: 0}
     - target: {fileID: 3947437374241210798, guid: 0285b64d664d3f84ba3130442b537ea4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2110,7 +2131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3947437374241210798, guid: 0285b64d664d3f84ba3130442b537ea4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -11.66
       objectReference: {fileID: 0}
     - target: {fileID: 3947437374241210798, guid: 0285b64d664d3f84ba3130442b537ea4, type: 3}
       propertyPath: m_LocalRotation.w
