@@ -14,11 +14,11 @@ public class FieldOfView : MonoBehaviour
     public LayerMask targetMask;
     public LayerMask obstacleMask;
 
-    Cazador cazador;
+    Hunter cazador;
 
     private void Start()
     {
-        cazador = FindObjectOfType<Cazador>();
+        cazador = FindObjectOfType<Hunter>();
     }
     private void Update()
     {

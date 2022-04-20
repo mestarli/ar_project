@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Cazador : MonoBehaviour
+public class Hunter : MonoBehaviour
 {
     public GameObject target;
     public GameObject player;

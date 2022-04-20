@@ -8,18 +8,29 @@ public class GrapplingGun : MonoBehaviour {
     public Transform gunTip, camera, player;
     private float maxDistance = 100f;
     private SpringJoint joint;
-
+    public PlayerMovementWOChC playerMove;
+    bool isGrapled;
+    public float speedGrapple;
+    Vector3 lastFramePos;
+    Vector3 walkingDirection;
     void Awake() {
         lr = GetComponent<LineRenderer>();
+        playerMove = FindObjectOfType<PlayerMovementWOChC>();
     }
 
     void Update() {
+        walkingDirection = lastFramePos - playerMove.transform.position;
+        lastFramePos = playerMove.transform.position;
+        Debug.Log(walkingDirection.normalized);
         if (Input.GetMouseButtonDown(0)) {
             StartGrapple();
         }
         else if (Input.GetMouseButtonUp(0)) {
             StopGrapple();
         }
+        
+
+
     }
 
     //Called after Update
@@ -37,12 +48,16 @@ public class GrapplingGun : MonoBehaviour {
             joint = player.gameObject.AddComponent<SpringJoint>();
             joint.autoConfigureConnectedAnchor = false;
             joint.connectedAnchor = grapplePoint;
+            joint.connectedBody = player.GetComponent<Rigidbody>();
 
             float distanceFromPoint = Vector3.Distance(player.position, grapplePoint);
 
+            Vector3 direction = grapplePoint - player.position;
+            playerMove._rigidbody.AddForce(new Vector3(-walkingDirection.normalized.x * speedGrapple, direction.normalized.y*speedGrapple,-walkingDirection.normalized.z*speedGrapple), ForceMode.Impulse);
+
             //The distance grapple will try to keep from grapple point. 
             joint.maxDistance = distanceFromPoint * 0.8f;
-            joint.minDistance = distanceFromPoint * 0.25f;
+            joint.minDistance = distanceFromPoint * 0.4f;
 
             //Adjust these values to fit your game.
             joint.spring = 4.5f;
@@ -51,6 +66,7 @@ public class GrapplingGun : MonoBehaviour {
 
             lr.positionCount = 2;
             currentGrapplePosition = gunTip.position;
+            isGrapled = true;
         }
     }
 
@@ -61,6 +77,7 @@ public class GrapplingGun : MonoBehaviour {
     void StopGrapple() {
         lr.positionCount = 0;
         Destroy(joint);
+        isGrapled = false;
     }
 
     private Vector3 currentGrapplePosition;
