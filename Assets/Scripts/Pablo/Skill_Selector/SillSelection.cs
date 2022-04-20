@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,94 +6,89 @@ using UnityEngine.UI;
 
 public class SillSelection : MonoBehaviour
 {
-    public GameObject[] skills;
-    public int SelectedSkill_1 = 0;
-    public int SelectedSkill_2 = 0;
-    public int SelectedSkill_3 = 0;
+    public int SelectedSkill_1 = 10;
+    public int SelectedSkill_2 = 10;
+    public int SelectedSkill_3 = 10;
 
-    public Text Skill_1;
-    public Text Skill_2;
-    public Text Skill_3;
+    public Image SelectedSkillImage1;
+    public Image SelectedSkillImage2;
+    public Image SelectedSkillImage3;
 
-    public int SkillsSelected = 0;
-
-    public void NextSkill()
+    public List<Sprite> Sprites;
+    
+    public GameObject AllSkillsSelectedBttn;
+    
+    private void Start()
     {
-        if (SkillsSelected == 0)
-        {
-            skills[SelectedSkill_1].SetActive(false);
-            SelectedSkill_1 = (SelectedSkill_1 + 1) % skills.Length;
-            skills[SelectedSkill_1].SetActive(true);
-        }
-        else if (SkillsSelected == 1)
-        {
-            skills[SelectedSkill_2].SetActive(false);
-            SelectedSkill_2 = (SelectedSkill_2 + 1) % skills.Length;
-            skills[SelectedSkill_2].SetActive(true);
-        }
-        else if (SkillsSelected == 2)
-        {
-            skills[SelectedSkill_3].SetActive(false);
-            SelectedSkill_3 = (SelectedSkill_3 + 1) % skills.Length;
-            skills[SelectedSkill_3].SetActive(true);
-        }
-
+        AllSkillsSelectedBttn.SetActive(false);
     }
 
-    public void PreviousSkill()
+    public void SelectSkill(int skill)
     {
-        if (SkillsSelected == 0)
+        if (SelectedSkill_1 == 10)
         {
-            skills[SelectedSkill_1].SetActive(false);
-            SelectedSkill_1--;
-            if (SelectedSkill_1 < 0)
+            SelectedSkill_1 = skill;
+            SelectedSkillImage1.sprite = Sprites[skill];
+            if (SelectedSkill_1 == SelectedSkill_2 || SelectedSkill_1 == SelectedSkill_3)
             {
-                SelectedSkill_1 += skills.Length;
+                SelectedSkill_1 = 10;
+                SelectedSkillImage1.sprite = Sprites[8];
             }
-            skills[SelectedSkill_1].SetActive(true);
         }
-        else if (SkillsSelected == 1)
+        else if (SelectedSkill_2 == 10)
         {
-            skills[SelectedSkill_2].SetActive(false);
-            SelectedSkill_2--;
-            if (SelectedSkill_2 < 0)
+            SelectedSkill_2 = skill;
+            SelectedSkillImage2.sprite = Sprites[skill];
+            if (SelectedSkill_2 == SelectedSkill_1 || SelectedSkill_2 == SelectedSkill_3)
             {
-                SelectedSkill_2 += skills.Length;
+                SelectedSkill_2 = 10;
+                SelectedSkillImage2.sprite = Sprites[8];
             }
-            skills[SelectedSkill_2].SetActive(true);
         }
-        else if (SkillsSelected == 2)
+        else if (SelectedSkill_3 == 10)
         {
-            skills[SelectedSkill_3].SetActive(false);
-            SelectedSkill_3--;
-            if (SelectedSkill_3 < 0)
+            SelectedSkill_3 = skill;
+            SelectedSkillImage3.sprite = Sprites[skill];
+
+            if (SelectedSkill_3 == SelectedSkill_2 || SelectedSkill_3 == SelectedSkill_1)
             {
-                SelectedSkill_3 += skills.Length;
+                SelectedSkill_3 = 10;
+                SelectedSkillImage3.sprite = Sprites[8];
+                AllSkillsSelectedBttn.SetActive(false);
             }
-            skills[SelectedSkill_3].SetActive(true);
         }
 
+        if (SelectedSkill_1 != 10 && SelectedSkill_2 != 10 && SelectedSkill_3 != 10)
+        {
+            AllSkillsSelectedBttn.SetActive(true);
+        }
     }
-
-    public void SelectSkill()
+    
+    public void UnselectSkill(int skill)
     {
-        SkillsSelected++;
-        
-        if (SkillsSelected == 1)
+        if (skill == 0)
         {
-            Skill_1.text = "" + SelectedSkill_1;
-            PlayerPrefs.SetInt("SelectedSkill_1", SelectedSkill_1);
+            SelectedSkill_1 = 10;
+            SelectedSkillImage1.sprite = Sprites[8];
         }
-        else if (SkillsSelected == 2)
+        else if (skill == 1)
         {
-            Skill_2.text = "" + SelectedSkill_2;
-            PlayerPrefs.SetInt("SelectedSkill_2", SelectedSkill_2);
+            SelectedSkill_2 = 10;
+            SelectedSkillImage2.sprite = Sprites[8];
         }
-        else if (SkillsSelected == 3)
+        else if (skill == 2)
         {
-            Skill_3.text = "" + SelectedSkill_3;
-            PlayerPrefs.SetInt("SelectedSkill_3", SelectedSkill_3);
-            //LoadScene
+            SelectedSkill_3 = 10;
+            SelectedSkillImage3.sprite = Sprites[8];
         }
+        AllSkillsSelectedBttn.SetActive(false);
+    }
+    
+    public void AllSkillsSelected()
+    {
+        PlayerPrefs.SetInt("SelectedSkill_1", SelectedSkill_1);
+        PlayerPrefs.SetInt("SelectedSkill_2", SelectedSkill_2);
+        PlayerPrefs.SetInt("SelectedSkill_3", SelectedSkill_3);
+        //LoadScene
     }
 }
