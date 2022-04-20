@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UI_Manager : MonoBehaviour
@@ -23,12 +24,14 @@ public class UI_Manager : MonoBehaviour
 
     [SerializeField] private GameObject optionsPanel;
     [SerializeField] private GameObject gamePanel;
+    [SerializeField] private GameObject mainMenuPanel;
     
     // Start is called before the first frame update
     void Start()
     {
         optionsPanel.SetActive(false);
-        gamePanel.SetActive(true);
+        gamePanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
 
         #region Volume
         
@@ -73,22 +76,61 @@ public class UI_Manager : MonoBehaviour
         #endregion
     }
 
+    #region Play
+
+    public void PlayGame()
+    {
+        StartCoroutine(Coroutine_GameScene());
+    }
+
+    IEnumerator Coroutine_GameScene()
+    {
+        yield return new WaitForSeconds(2.0f);
+        //SceneManager.LoadScene("MainLevel");
+        optionsPanel.SetActive(false);
+        gamePanel.SetActive(true);
+        mainMenuPanel.SetActive(false);
+    }
+    #endregion
+
     #region Options
 
     public void ShowOptions()
     {
         optionsPanel.SetActive(true);
         gamePanel.SetActive(false);
+        mainMenuPanel.SetActive(false);
         
         Time.timeScale = 0f;
     }
 
     public void ToMenu()
     {
+        StartCoroutine(Coroutine_MainMenuScene());
+    }
+    
+    public void ToGame()
+    {
         optionsPanel.SetActive(false);
-        gamePanel.SetActive(true);
+        gamePanel.SetActive(true);        
+        mainMenuPanel.SetActive(false);
 
         Time.timeScale = 1f;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Game quited");
+    }
+
+    IEnumerator Coroutine_MainMenuScene()
+    {
+        yield return new WaitForSeconds(2.0f);
+        //SceneManager.LoadScene("StartMenu");
+        optionsPanel.SetActive(false);
+        gamePanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
     }
 
     #endregion
