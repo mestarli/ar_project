@@ -7314,41 +7314,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1003443316}
     m_Modifications:
-    - target: {fileID: 5230290171001052074, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290171351621411, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172017473693, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172086425938, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172161363421, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
     - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.50502
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.50502
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.50502
       objectReference: {fileID: 0}
     - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7397,10 +7365,6 @@ PrefabInstance:
     - target: {fileID: 5230290172245190325, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172245190325, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
@@ -56707,26 +56671,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1003443316}
     m_Modifications:
-    - target: {fileID: 5230290171001052074, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290171351621411, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172017473693, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172086425938, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172161363421, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
-      objectReference: {fileID: 0}
     - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -56778,10 +56722,6 @@ PrefabInstance:
     - target: {fileID: 5230290172245190325, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230290172245190325, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
-      propertyPath: m_TagString
-      value: Waypoint
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
