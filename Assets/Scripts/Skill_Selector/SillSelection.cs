@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SillSelection : MonoBehaviour
@@ -90,5 +91,6 @@ public class SillSelection : MonoBehaviour
         PlayerPrefs.SetInt("SelectedSkill_2", SelectedSkill_2);
         PlayerPrefs.SetInt("SelectedSkill_3", SelectedSkill_3);
         //LoadScene
+        SceneManager.LoadScene("MainLevelEstarli");
     }
 }
