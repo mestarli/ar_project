@@ -5,7 +5,6 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public float spawnRadius;
-    public GameObject enemy;
     PlayerMovementWOChC player;
     public float refreshSeconds;
     float seconds;
@@ -30,9 +29,9 @@ public class Spawner : MonoBehaviour
             if (dist.magnitude <= spawnRadius && !spawned)
             {
                 spawned = true;
-                foreach (Transform waypoint in transform)
+                foreach (Transform enemy in transform)
                 {
-                    Instantiate(enemy, waypoint.position, waypoint.rotation);
+                    enemy.gameObject.SetActive(true);
                 }
             }
         }

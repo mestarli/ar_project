@@ -28,7 +28,10 @@ public class Hunter : MonoBehaviour
         route.Add(firstWaypoint);
        foreach(Transform waypoint in firstWaypoint.transform)
         {
-            route.Add(waypoint.gameObject);
+            if (waypoint.tag == "Waypoint")
+            {
+                route.Add(waypoint.gameObject);
+            }
         }
         timePassed = secondsToDismiss;
     }

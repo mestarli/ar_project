@@ -8,6 +8,7 @@ TagManager:
   - Prop
   - Enemy
   - Bullet
+  - Waypoint
   layers:
   - Default
   - TransparentFX
