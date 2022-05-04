@@ -7,7 +7,7 @@ public class ProjectileHunter : MonoBehaviour
     public float dno = 0;
     public float speed = 0;
     public float range = 0;
-    public float path = 0;
+    float path = 0;
     public float finalSpeed = 0;
     public float delay = 0;
     public Rigidbody _rigidbody;
@@ -39,13 +39,10 @@ public class ProjectileHunter : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else
+        else if (collision.gameObject.tag == "Player")
         {
-            if (collision.gameObject.tag == "Player")
-            {
-                //collision.gameObject.GetComponent<Player>().MetodoRecibirDno;
-                Destroy(gameObject);
-            }
+            //collision.gameObject.GetComponent<Player>().MetodoRecibirDno;
+            Destroy(gameObject);
         }
     }
 
