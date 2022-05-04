@@ -7339,16 +7339,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.50502
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.50502
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.50502
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.1323547
+      value: 5.7148
       objectReference: {fileID: 0}
     - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.44
+      value: -1.19
       objectReference: {fileID: 0}
     - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.972926
+      value: -4.6599
       objectReference: {fileID: 0}
     - target: {fileID: 5230290172245190324, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_LocalRotation.w
@@ -24633,7 +24645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 551108235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FirePoint
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -25372,7 +25384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 571681076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnSmokeBomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29958,6 +29970,10 @@ PrefabInstance:
       value: GunPosition
       objectReference: {fileID: 0}
     - target: {fileID: 4526584935323134768, guid: 6b6cd0bcdf7e6644bbbc0287466bfc19, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526584935323134768, guid: 6b6cd0bcdf7e6644bbbc0287466bfc19, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -30005,6 +30021,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4526584936604989091, guid: 6b6cd0bcdf7e6644bbbc0287466bfc19, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4526584936948286802, guid: 6b6cd0bcdf7e6644bbbc0287466bfc19, type: 3}
       propertyPath: camera
       value: 
@@ -30028,6 +30048,10 @@ PrefabInstance:
     - target: {fileID: 4526584936948286806, guid: 6b6cd0bcdf7e6644bbbc0287466bfc19, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.r
       value: 0.5820955
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526584936948286824, guid: 6b6cd0bcdf7e6644bbbc0287466bfc19, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b6cd0bcdf7e6644bbbc0287466bfc19, type: 3}
@@ -30120,7 +30144,7 @@ GameObject:
   - component: {fileID: 646953658}
   - component: {fileID: 646953657}
   - component: {fileID: 646953656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FPP
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -43709,7 +43733,7 @@ GameObject:
   - component: {fileID: 941678322}
   - component: {fileID: 941678321}
   - component: {fileID: 941678320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -61454,7 +61478,7 @@ GameObject:
   - component: {fileID: 1327174902}
   - component: {fileID: 1327174904}
   - component: {fileID: 1327174903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84094,7 +84118,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1903326108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CloneSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -90631,7 +90655,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2042928632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
