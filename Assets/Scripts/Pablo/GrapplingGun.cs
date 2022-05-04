@@ -21,7 +21,6 @@ public class GrapplingGun : MonoBehaviour {
     void Update() {
         walkingDirection = lastFramePos - playerMove.transform.position;
         lastFramePos = playerMove.transform.position;
-        Debug.Log(walkingDirection.normalized);
         if (Input.GetMouseButtonDown(0)) {
             StartGrapple();
         }
