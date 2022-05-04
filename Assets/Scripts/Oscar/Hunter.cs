@@ -28,10 +28,14 @@ public class Hunter : MonoBehaviour
         route.Add(firstWaypoint);
        foreach(Transform waypoint in firstWaypoint.transform)
         {
-            route.Add(waypoint.gameObject);
+            if (waypoint.tag == "Waypoint")
+            {
+                route.Add(waypoint.gameObject);
+            }
         }
         timePassed = secondsToDismiss;
     }
+    
     private void Update()
     {
         //Si el target no es igual a nada, es decir, si tiene target, pasa a modo perseguir, si deja de tener target modo Buscando y si pasa un tiempo sin ver al target vuelve a la patrulla.
