@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Bruja/BrujaController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Bruja/BrujaController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cazador/Cazador.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Cazador/Cazador.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/MainLevel_OSCAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/MainLevel_OSCAR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +97,7 @@
       <workItem from="1649704746420" duration="579000" />
       <workItem from="1650463584094" duration="4875000" />
       <workItem from="1650472195972" duration="1016000" />
-      <workItem from="1651673546315" duration="1431000" />
+      <workItem from="1651673546315" duration="1866000" />
     </task>
     <servers />
   </component>
