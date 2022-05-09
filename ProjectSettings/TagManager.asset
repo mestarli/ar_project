@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Bullet
   - Waypoint
+  - Exit
   layers:
   - Default
   - TransparentFX
