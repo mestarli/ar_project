@@ -18,6 +18,7 @@ public class Hunter : MonoBehaviour
     public float timePassed = 0;
     public float secondsToDismiss;
     Vector3 lastSeenPosition;
+    float random = 0;
 
     bool searching;
     NavMeshAgent _navMeshAgent;
@@ -89,12 +90,21 @@ public class Hunter : MonoBehaviour
         {
             var dist = route[indexRoute].transform.position - transform.position;
             _navMeshAgent.SetDestination(route[indexRoute].transform.position);
-            if (dist.magnitude <= 1 )
+            if (dist.magnitude <= 1)
             {
-                indexRoute++;
-                if(indexRoute >= route.Count - 1)
+                if (random < 0)
                 {
-                    indexRoute = 0;
+                    random = Random.Range(1, 10);
+                    indexRoute++;
+                    if (indexRoute >= route.Count - 1)
+                    {
+                        indexRoute = 0;
+                    }
+                }
+                else
+                {
+
+                    random -= Time.deltaTime;
                 }
             }
         }

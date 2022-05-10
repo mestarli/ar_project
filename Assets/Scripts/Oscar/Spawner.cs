@@ -5,14 +5,14 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public float spawnRadius;
-    PlayerMovementWOChC player;
+    PlayerMovement player;
     public float refreshSeconds;
     float seconds;
     bool spawned;
     private void Awake()
     {
         seconds = refreshSeconds;
-        player = FindObjectOfType<PlayerMovementWOChC>();
+        player = FindObjectOfType<PlayerMovement>();
         
     }
     void OnDrawGizmosSelected()
