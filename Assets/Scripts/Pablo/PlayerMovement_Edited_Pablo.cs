@@ -11,7 +11,10 @@ public class PlayerMovement_Edited_Pablo : MonoBehaviour
     public float range;
     public GameObject iceWallPreview, iceWallOBJ;
     public LayerMask LayerMask;
-    private bool direction, casting;
+    [SerializeField] private bool direction, casting;
+    [SerializeField] private int wallCharges = 3;
+    [SerializeField] private int RechargeTimer;
+    private bool isRecharging = false;
     
     //Variables
     public static PlayerMovement_Edited_Pablo instance;
@@ -19,7 +22,6 @@ public class PlayerMovement_Edited_Pablo : MonoBehaviour
     [Header("PLAYER")]
     [SerializeField] private CharacterController controller;
     [SerializeField] private Transform cam;
-    [SerializeField] private GameObject bullet;
 
     [Space(10)] [Header("VALORES PLAYER")] 
     [SerializeField] public float axisX;
@@ -54,9 +56,12 @@ public class PlayerMovement_Edited_Pablo : MonoBehaviour
 
     private void IceBullet()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (wallCharges < 3)
         {
-            Instantiate(bullet, cam.position + cam.forward, cam.rotation);
+            if (!isRecharging)
+            {
+                StartCoroutine(CoroutineWallCharges());
+            }
         }
 
         if (Input.GetKeyDown(castKeyBind))
@@ -74,15 +79,29 @@ public class PlayerMovement_Edited_Pablo : MonoBehaviour
         }
     }
 
+    IEnumerator CoroutineWallCharges()
+    {
+        isRecharging = true;
+        yield return new WaitForSeconds(RechargeTimer);
+        wallCharges += 1;
+        isRecharging = false;
+    }
+
     private void CastingIceWall()
     {
         RaycastHit hit;
         if (Physics.Raycast(cam.transform.position, cam.forward, out hit, range, LayerMask))
         {
-            if (iceWallPreview.activeSelf)
+            //if (iceWallPreview.activeSelf)
             {
                 iceWallPreview.SetActive(true);
             }
+            
+            if (Input.GetKeyDown(directionKeyBind))
+            {
+                direction = !direction;
+            }
+            
             Quaternion rotation = Quaternion.Euler(0,0,0);
             if (direction)
             {
@@ -98,9 +117,13 @@ public class PlayerMovement_Edited_Pablo : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                Instantiate(iceWallOBJ, hit.point, iceWallPreview.transform.rotation);
-                casting = false;
-                iceWallPreview.SetActive(false);
+                if (wallCharges > 0)
+                {
+                    Instantiate(iceWallOBJ, hit.point, iceWallPreview.transform.rotation);
+                    casting = false;
+                    iceWallPreview.SetActive(false);
+                    wallCharges -= 1;
+                }
             }
         }
         else
@@ -108,10 +131,7 @@ public class PlayerMovement_Edited_Pablo : MonoBehaviour
             iceWallPreview.SetActive(false);
         }
         
-        if (Input.GetKeyDown(directionKeyBind))
-        {
-            direction = !direction;
-        }
+        
     }
 
     private void CharacterMovement()
