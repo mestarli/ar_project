@@ -54,10 +54,10 @@ public class PlayerMovement_Edited_Pablo : MonoBehaviour
 
     private void IceBullet()
     {
-        /*if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1))
         {
             Instantiate(bullet, cam.position + cam.forward, cam.rotation);
-        }*/
+        }
 
         if (Input.GetKeyDown(castKeyBind))
         {

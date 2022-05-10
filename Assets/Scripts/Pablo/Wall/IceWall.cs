@@ -17,7 +17,7 @@ public class IceWall : MonoBehaviour
 
     private SkinnedMeshRenderer rend;
     private MeshCollider col;
-    private float blendAmount = 0;
+    [SerializeField] private float blendAmount = 0;
     private bool isRaised = false;
 
     // Start is called before the first frame update
