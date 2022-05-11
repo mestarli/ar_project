@@ -30,24 +30,25 @@ public class ProjectileHunter : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
 
         }
-        Destroy(gameObject);
+        Hit();
     }
     public virtual void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "Barrier")
+        if (collision.gameObject.tag == "Obstaculo")
         {
-            Destroy(gameObject);
+            Hit();
         }
         else if (collision.gameObject.tag == "Player")
         {
-            //collision.gameObject.GetComponent<Player>().MetodoRecibirDno;
-            Destroy(gameObject);
+            //collision.gameObject.GetComponent<PlayerMovement>().MetodoRecibirDno;
+            Hit();
         }
     }
 
     void Hit()
     {
-        Instantiate(collisionGO,transform.position,transform.rotation);
+        Instantiate(collisionGO, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 
 }
