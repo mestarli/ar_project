@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 6760053620656547399}
   m_Layer: 0
   m_Name: Botella_alchol_4
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

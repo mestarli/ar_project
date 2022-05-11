@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 533522721432757914}
   - component: {fileID: 890815706}
   - component: {fileID: 5531182113158212347}
+  - component: {fileID: 634914555}
   m_Layer: 0
   m_Name: VFX_Projectile
   m_TagString: Untagged
@@ -184,7 +185,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533522721432757915}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.26111713, y: 0.24498391, z: 0.93546873}
@@ -205,6 +206,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &634914555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533522721432757915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520f5a886d61acc4db5eaaae1473bd24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dno: 40
+  speed: 40
+  range: 100000
+  _rigidbody: {fileID: 0}
+  collisionGO: {fileID: 8721578210091830701, guid: c7e8d66210cc41b4dbced25b71a5c26f, type: 3}
 --- !u!1 &533522721458273845
 GameObject:
   m_ObjectHideFlags: 0

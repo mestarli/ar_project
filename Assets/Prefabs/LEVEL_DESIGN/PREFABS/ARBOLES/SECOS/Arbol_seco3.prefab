@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 268485908845334303}
   m_Layer: 0
   m_Name: Arbol_seco3
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

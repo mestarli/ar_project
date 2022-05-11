@@ -8,9 +8,8 @@ public class ProjectileHunter : MonoBehaviour
     public float speed = 0;
     public float range = 0;
     float path = 0;
-    public float finalSpeed = 0;
-    public float delay = 0;
     public Rigidbody _rigidbody;
+    public GameObject collisionGO;
 
     public virtual void Start()
     {
@@ -24,26 +23,32 @@ public class ProjectileHunter : MonoBehaviour
 
     public virtual IEnumerator Avance()
     {
-        while (range >= path)
+        while (range*10000 >= path)
         {
             _rigidbody.velocity = transform.forward * speed;
             path += speed * Time.deltaTime;
             yield return new WaitForSeconds(0.01f);
 
         }
-        Destroy(gameObject);
+        Hit();
     }
     public virtual void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "Barrier")
+        if (collision.gameObject.tag == "Obstaculo")
         {
-            Destroy(gameObject);
+            Hit();
         }
         else if (collision.gameObject.tag == "Player")
         {
-            //collision.gameObject.GetComponent<Player>().MetodoRecibirDno;
-            Destroy(gameObject);
+            //collision.gameObject.GetComponent<PlayerMovement>().MetodoRecibirDno;
+            Hit();
         }
+    }
+
+    void Hit()
+    {
+        Instantiate(collisionGO, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 
 }

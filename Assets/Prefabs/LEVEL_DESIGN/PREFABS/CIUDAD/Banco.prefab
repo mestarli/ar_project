@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9135478604067761512}
   m_Layer: 0
   m_Name: Banco
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

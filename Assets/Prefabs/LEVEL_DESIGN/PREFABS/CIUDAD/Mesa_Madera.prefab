@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 8555795564816340282}
   m_Layer: 0
   m_Name: Mesa_Madera
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

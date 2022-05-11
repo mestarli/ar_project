@@ -19,6 +19,10 @@ public class Hunter : MonoBehaviour
     public float secondsToDismiss;
     Vector3 lastSeenPosition;
     float random = 0;
+    public float range = 0;
+    float recharge = 0;
+    public float rechargeTime = 0;
+    public GameObject bullet;
 
     bool searching;
     NavMeshAgent _navMeshAgent;
@@ -39,6 +43,7 @@ public class Hunter : MonoBehaviour
     
     private void Update()
     {
+        recharge -= Time.deltaTime;
         //Si el target no es igual a nada, es decir, si tiene target, pasa a modo perseguir, si deja de tener target modo Buscando y si pasa un tiempo sin ver al target vuelve a la patrulla.
         if(target != null)
         {
@@ -62,8 +67,13 @@ public class Hunter : MonoBehaviour
         {
             _navMeshAgent.SetDestination(target.transform.position);
             searching = false;
-            
-            // Poner aqui los disparos del cazador con Time.deltatime
+
+            var dist = target.transform.position - transform.position;
+            if (range > dist.magnitude && recharge <= 0)
+            {
+                Instantiate(bullet, transform.position, transform.rotation);
+                recharge = rechargeTime;
+            }
             
         }
         if(state == 1)
