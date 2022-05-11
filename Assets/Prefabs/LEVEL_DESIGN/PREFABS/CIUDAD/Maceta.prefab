@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6411550846809929287
 Transform:
@@ -62,10 +62,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2648709921853018616, guid: a56f942b00f8ef74094becf16a71f4ba, type: 3}
-  - {fileID: -3966888401369558877, guid: a56f942b00f8ef74094becf16a71f4ba, type: 3}
-  - {fileID: 224481806599714141, guid: a56f942b00f8ef74094becf16a71f4ba, type: 3}
-  - {fileID: 4984614122548335209, guid: a56f942b00f8ef74094becf16a71f4ba, type: 3}
+  - {fileID: 2100000, guid: b11ce09f5cddf2f459954e8caa48f1e8, type: 2}
+  - {fileID: 2100000, guid: 233a56d9d31482e44a2b213246939298, type: 2}
+  - {fileID: 2100000, guid: 08ade46bbc32def429a135078bf71397, type: 2}
+  - {fileID: 2100000, guid: 94e93fbd2278fe04f8357c190e47fedc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -115,7 +115,7 @@ GameObject:
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5485837212233751816
 Transform:
@@ -124,7 +124,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8952263527061410853}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 887.9552, y: -311.5497, z: 107.5974}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
