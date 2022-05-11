@@ -222,7 +222,7 @@ MonoBehaviour:
   speed: 40
   range: 100000
   _rigidbody: {fileID: 0}
-  collisionGO: {fileID: 0}
+  collisionGO: {fileID: 8721578210091830701, guid: c7e8d66210cc41b4dbced25b71a5c26f, type: 3}
 --- !u!1 &533522721458273845
 GameObject:
   m_ObjectHideFlags: 0
