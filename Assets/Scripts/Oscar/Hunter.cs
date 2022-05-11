@@ -19,6 +19,7 @@ public class Hunter : MonoBehaviour
     public float secondsToDismiss;
     Vector3 lastSeenPosition;
     float random = 0;
+    public float range = 0;
 
     bool searching;
     NavMeshAgent _navMeshAgent;
@@ -62,8 +63,9 @@ public class Hunter : MonoBehaviour
         {
             _navMeshAgent.SetDestination(target.transform.position);
             searching = false;
-            
-            // Poner aqui los disparos del cazador con Time.deltatime
+
+            var dist = target.transform.position - transform.position;
+            if()
             
         }
         if(state == 1)

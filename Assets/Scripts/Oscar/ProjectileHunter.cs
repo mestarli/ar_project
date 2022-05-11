@@ -8,9 +8,8 @@ public class ProjectileHunter : MonoBehaviour
     public float speed = 0;
     public float range = 0;
     float path = 0;
-    public float finalSpeed = 0;
-    public float delay = 0;
     public Rigidbody _rigidbody;
+    public GameObject collisionGO;
 
     public virtual void Start()
     {
@@ -24,7 +23,7 @@ public class ProjectileHunter : MonoBehaviour
 
     public virtual IEnumerator Avance()
     {
-        while (range >= path)
+        while (range*10000 >= path)
         {
             _rigidbody.velocity = transform.forward * speed;
             path += speed * Time.deltaTime;
@@ -44,6 +43,11 @@ public class ProjectileHunter : MonoBehaviour
             //collision.gameObject.GetComponent<Player>().MetodoRecibirDno;
             Destroy(gameObject);
         }
+    }
+
+    void Hit()
+    {
+        Instantiate(collisionGO,transform.position,transform.rotation);
     }
 
 }

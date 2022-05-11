@@ -3544,7 +3544,7 @@ GameObject:
   - component: {fileID: 6013615054530678746}
   m_Layer: 3
   m_Name: "Casita_Peque\xF1a"
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
