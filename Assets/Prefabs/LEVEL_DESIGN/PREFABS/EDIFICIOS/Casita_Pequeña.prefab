@@ -3542,7 +3542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6013615054530678746}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "Casita_Peque\xF1a"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

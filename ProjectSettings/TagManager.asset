@@ -10,6 +10,7 @@ TagManager:
   - Bullet
   - Waypoint
   - Exit
+  - Obstaculo
   layers:
   - Default
   - TransparentFX
