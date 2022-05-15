@@ -91,6 +91,6 @@ public class SillSelection : MonoBehaviour
         PlayerPrefs.SetInt("SelectedSkill_2", SelectedSkill_2);
         PlayerPrefs.SetInt("SelectedSkill_3", SelectedSkill_3);
         //LoadScene
-        SceneManager.LoadScene("MainLevelEstarli");
+        SceneManager.LoadScene("MainLevelOptimizar");
     }
 }
