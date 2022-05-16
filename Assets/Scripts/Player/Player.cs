@@ -24,15 +24,15 @@ public class Player : MonoBehaviour
         
     }
     
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag =="exit")
+        if (other.gameObject.tag =="Finish")
         {
             SceneManager.LoadScene("YouWin");
         }
         if (other.gameObject.tag =="exit")
         {
-            SceneManager.LoadScene("YouWin");
+            //SceneManager.LoadScene("YouWin");
         }
     }
 }
