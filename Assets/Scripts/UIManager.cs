@@ -10,10 +10,18 @@ public class UIManager : MonoBehaviour
     
     [SerializeField] private Text nickname;
     [SerializeField] private Text record_game;
-   
+    [SerializeField] private Text timeOnScreen;
+    private float secondsCount;
+    private int minuteCount;
+    private int hourCount;
     private void Awake()
     {
         Instance = this;
+    }
+
+    void Update()
+    {
+        UpdateTimerUI();
     }
 
     /// <summary>
@@ -31,7 +39,19 @@ public class UIManager : MonoBehaviour
             DataManager.Instance.NewUserTMP = new_user;
             WebRequestManager.Instance.LeerJSON_Usuarios_Y_Crear_Usuario();
         }
-        
-        
+    }
+    
+    public void UpdateTimerUI(){
+        //set timer UI
+        secondsCount += Time.deltaTime;
+        timeOnScreen.text = hourCount.ToString("00") +":"+ minuteCount.ToString("00") +":"+secondsCount.ToString("00") + "";
+        if(secondsCount >= 60){
+            minuteCount++;
+            secondsCount %= 60;
+            if(minuteCount >= 60){
+                hourCount++;
+                minuteCount %= 60;
+            }
+        }    
     }
 }
