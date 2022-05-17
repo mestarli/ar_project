@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
         }
     }
     
-    public void restarVida(float restar_vida)
+    public void RestarVida(float restar_vida)
     {
         life -= restar_vida;
         UIManager.Instance.UpdateLife(life, Maxlife);

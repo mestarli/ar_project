@@ -40,7 +40,7 @@ public class ProjectileHunter : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Player")
         {
-            //collision.gameObject.GetComponent<PlayerMovement>().MetodoRecibirDno;
+            Player.Instance.RestarVida(5f);   
             Hit();
         }
     }
