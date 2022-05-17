@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Oscar uwu/Hunter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Oscar uwu/Hunter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Wall/IceWall 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Wall/IceWall 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Wall/IceWall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pablo/Wall/IceWall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/PabloScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CamposPruebas/PabloScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevelOptimizar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevelOptimizar.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CLASE/Carlos/Habilidades/Enemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CLASE/Carlos/Habilidades/Enemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Hunter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Hunter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Skills/Polimorfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Skills/Polimorfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +118,7 @@
       <workItem from="1652647970017" duration="7483000" />
       <workItem from="1652760843412" duration="5143000" />
       <workItem from="1652772736132" duration="10341000" />
+      <workItem from="1652792494649" duration="2174000" />
     </task>
     <servers />
   </component>
@@ -138,14 +148,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/WinGame.cs</url>
           <line>22</line>
-          <properties documentPath="C:\Users\Mary\Desktop\ar_project\Assets\Scripts\WinGame.cs" initialLine="21" containingFunctionPresentation="method 'OnTriggerEnter'">
-            <startOffsets>
-              <option value="437" />
-            </startOffsets>
-            <endOffsets>
-              <option value="470" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\Mary\Desktop\ar_project\Assets\Scripts\WinGame.cs" initialLine="21" containingFunctionPresentation="method 'OnTriggerEnter'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

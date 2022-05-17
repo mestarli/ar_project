@@ -18,7 +18,7 @@ public class Polimorfo : MonoBehaviour
     
     [Space(10)]
     [Header("ENEMIGO")]
-    [SerializeField] public Enemy ClosestEnemy;
+    [SerializeField] public Hunter ClosestEnemy;
     [SerializeField] private float distanceToClosestEnemy;
     [SerializeField] private float distanceToEnemy;
     
@@ -57,9 +57,9 @@ public class Polimorfo : MonoBehaviour
         // 
         distanceToClosestEnemy = Mathf.Infinity;
         ClosestEnemy = null;
-        Enemy[] allEnemies = FindObjectsOfType<Enemy>();
+        Hunter[] allEnemies = FindObjectsOfType<Hunter>();
         
-        foreach (Enemy currentEnemy in allEnemies)
+        foreach (Hunter currentEnemy in allEnemies)
         {
             // Buscamos entre todos los enemigos si están visibles en nuestra pantalla
             if (currentEnemy.IsVisible(_camera, currentEnemy))
@@ -94,7 +94,7 @@ public class Polimorfo : MonoBehaviour
         // Si apuntamos a un enemigo que esté como máximo en el "range" este será el enemigo más cercano
         if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out hit, range))
         {
-            Enemy Enemigo = hit.transform.GetComponent<Enemy>();
+            Hunter Enemigo = hit.transform.GetComponent<Hunter>();
             
             if (Enemigo != null)
             {
