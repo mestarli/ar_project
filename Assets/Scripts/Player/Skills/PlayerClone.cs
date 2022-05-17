@@ -10,15 +10,22 @@ public class PlayerClone : MonoBehaviour
     [SerializeField] private GameObject spawnerClone;
     
     private IEnumerator destruirClone;
-    [Header("CONTROL")]
-    [SerializeField] private string control;
-    // Setear la tecla
     
-    public void setControl(string tecla)
+    public KeyCode control;
+    void Start()
     {
-        control = tecla;
+        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "PlayerClone")
+        {
+            control = KeyCode.T;
+        }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "PlayerClone")
+        {
+            control = KeyCode.R; 
+        }
+        else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() ==  "PlayerClone")
+        {
+            control = KeyCode.E; 
+        }
     }
-
     private void Update()
     {
         SpawnearClone();
