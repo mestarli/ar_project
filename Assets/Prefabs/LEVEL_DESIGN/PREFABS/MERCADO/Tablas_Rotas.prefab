@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5695785022785722508}
   - component: {fileID: 2712229262393228182}
   - component: {fileID: 7376044894959937675}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Maderas
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1835475130020778998}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tablas_Rotas
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}

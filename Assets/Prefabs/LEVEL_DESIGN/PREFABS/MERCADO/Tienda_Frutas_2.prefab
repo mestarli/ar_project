@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4993553679252549943}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tienda_Frutas_2
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -44,9 +44,9 @@ GameObject:
   - component: {fileID: 8343145042592247791}
   - component: {fileID: 3210053081776981492}
   - component: {fileID: 1422925539326357150}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TiendaFrutas
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 213271119970283771}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carruaje
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -44,9 +44,9 @@ GameObject:
   - component: {fileID: 7788232408962270521}
   - component: {fileID: 5163893744959266855}
   - component: {fileID: 1544521537842657256}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carro
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

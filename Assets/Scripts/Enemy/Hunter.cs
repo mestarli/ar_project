@@ -27,7 +27,7 @@ public class Hunter : MonoBehaviour
 
     bool searching;
     NavMeshAgent _navMeshAgent;
-    FieldOfView fov;
+   public  FieldOfView fov;
     
     
     // Variables
@@ -81,21 +81,21 @@ public class Hunter : MonoBehaviour
         }
         if (state == 2)
         {
-            
-
             var dist = target.transform.position - transform.position;
             if (range > dist.magnitude && recharge <= 0)
             {
                 Instantiate(bullet, transform.position, transform.rotation);
                 recharge = rechargeTime;
             }
-            if (dist.magnitude > 6)
+            if (dist.magnitude > 10)
             {
                 _navMeshAgent.SetDestination(target.transform.position);
             }
             else
             {
                 _navMeshAgent.SetDestination(transform.position);
+                transform.LookAt(target.transform.position);
+                transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
             }
 
             searching = false;
@@ -143,23 +143,30 @@ public class Hunter : MonoBehaviour
             }
         }
     }
-    private void OnCollisionStay(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Smoke")
+        if (other.gameObject.tag == "Smoke")
         {
+            Debug.Log("ey");
+            target = null;
             state = 1;
-            if (!cegado) StartCoroutine(Cegar());
+            StartCoroutine(Cegar());
+        }
+        else
+        {
+
         }
     }
 
     IEnumerator Cegar()
     {
         cegado = true;
-        float aux = fov.awarenedViewRadius;
-        fov.awarenedViewRadius = 0;
+        float aux = GetComponent<NavMeshAgent>().speed;
+        GetComponent<NavMeshAgent>().speed = 0;
         yield return new WaitForSeconds(3);
-        fov.awarenedViewRadius = aux;
-            cegado = false;
+
+        GetComponent<NavMeshAgent>().speed = aux;
+        cegado = false;
     }
     private void MarcarEnemigo()
     {

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4396907451583044589}
   - component: {fileID: 8555851956113871953}
   - component: {fileID: 474698023481984650}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Poste1
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -110,9 +110,9 @@ GameObject:
   - component: {fileID: 8919611127551951900}
   - component: {fileID: 2646358569268123083}
   - component: {fileID: 4442886195258286444}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Poste2
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -208,9 +208,9 @@ GameObject:
   - component: {fileID: 4365560291167333227}
   - component: {fileID: 8287237208157213083}
   - component: {fileID: 4048617714112965879}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Toldo
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -306,9 +306,9 @@ GameObject:
   - component: {fileID: 1064371918544968699}
   - component: {fileID: 1715983239682658470}
   - component: {fileID: 6692557060169426881}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Poste4
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -404,9 +404,9 @@ GameObject:
   - component: {fileID: 8968548870643544112}
   - component: {fileID: 515163499366475696}
   - component: {fileID: 3477511490470971346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Poste3
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -502,9 +502,9 @@ GameObject:
   - component: {fileID: 9151591250266880680}
   - component: {fileID: 8240106004676369148}
   - component: {fileID: 2799652786898185342}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tendereta
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -597,7 +597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7754394474566426046}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tienda_frutal_1
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}

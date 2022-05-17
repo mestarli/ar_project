@@ -268,6 +268,9 @@ GameObject:
   - component: {fileID: 1835411183}
   - component: {fileID: 940855604}
   - component: {fileID: 1245979985354159006}
+  - component: {fileID: 3331207204108265159}
+  - component: {fileID: 2708181438381043104}
+  - component: {fileID: 2194663749798405633}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -489,6 +492,54 @@ MonoBehaviour:
   destroyRotForce: 0
   blendAmount: 0
   control: 0
+--- !u!114 &3331207204108265159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5707353096201398965}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d06941351ad37547897b8da068f7b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  control: 114
+  uses: 3
+  cooldown: 3
+  distance: 10
+  path: 0
+  speed: 80
+--- !u!136 &2708181438381043104
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5707353096201398965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.22
+  m_Height: 3.91
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2194663749798405633
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5707353096201398965}
+  serializedVersion: 2
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &5707353096225929210
 GameObject:
   m_ObjectHideFlags: 0

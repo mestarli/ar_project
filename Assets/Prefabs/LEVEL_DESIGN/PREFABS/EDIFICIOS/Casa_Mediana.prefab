@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 4277430679174957226}
   - component: {fileID: 4950779321647683573}
   - component: {fileID: 141399348288205414}
-  - component: {fileID: 8561028789453922153}
-  m_Layer: 0
+  - component: {fileID: 2238899714194783888}
+  m_Layer: 3
   m_Name: casa_part5
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8561028789453922153
+--- !u!64 &2238899714194783888
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,10 +109,10 @@ GameObject:
   - component: {fileID: 7616770746756645860}
   - component: {fileID: 7638769560808495983}
   - component: {fileID: 4102117545483428130}
-  - component: {fileID: 4706279872455267365}
-  m_Layer: 0
+  - component: {fileID: 2854372775666876987}
+  m_Layer: 3
   m_Name: casa_part1
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -182,7 +182,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4706279872455267365
+--- !u!64 &2854372775666876987
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,10 +207,10 @@ GameObject:
   - component: {fileID: 8459738885970845607}
   - component: {fileID: 6479029697859138705}
   - component: {fileID: 4733000351523979908}
-  - component: {fileID: 2280204312913670928}
-  m_Layer: 0
+  - component: {fileID: 1119751237122283073}
+  m_Layer: 3
   m_Name: casa_part3
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -280,7 +280,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2280204312913670928
+--- !u!64 &1119751237122283073
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -342,10 +342,10 @@ GameObject:
   - component: {fileID: 8269193324746653105}
   - component: {fileID: 5231462192547536321}
   - component: {fileID: 2463561491110134882}
-  - component: {fileID: 2274017420972593964}
-  m_Layer: 0
+  - component: {fileID: 1102637735853172796}
+  m_Layer: 3
   m_Name: casa_part4
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -415,7 +415,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2274017420972593964
+--- !u!64 &1102637735853172796
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -440,10 +440,10 @@ GameObject:
   - component: {fileID: 8201747171542564003}
   - component: {fileID: 9009790528777534491}
   - component: {fileID: 6533136694895268063}
-  - component: {fileID: 818350551936514377}
-  m_Layer: 0
+  - component: {fileID: 7907204425654330564}
+  m_Layer: 3
   m_Name: casa_part6
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -513,7 +513,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &818350551936514377
+--- !u!64 &7907204425654330564
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -538,10 +538,10 @@ GameObject:
   - component: {fileID: 378594351327382077}
   - component: {fileID: 3977977150478404733}
   - component: {fileID: 2659888919564413595}
-  - component: {fileID: 543203561546313272}
-  m_Layer: 0
+  - component: {fileID: 1114817634117878129}
+  m_Layer: 3
   m_Name: casa_part2
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -611,7 +611,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &543203561546313272
+--- !u!64 &1114817634117878129
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
