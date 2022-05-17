@@ -42,18 +42,21 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private int RechargeTimer;
     private bool isRecharging = false;
     [SerializeField] private Transform cam;
+
+    [Space(10)] [Header("COOLDOWN")] [SerializeField] private Cooldown cooldown;
     
     private void Start()
     {
         instance = this;
         cam = Camera.main.transform;
+        cooldown = FindObjectOfType<Cooldown>();
     }
 
     void Update()
     {
         CharacterMovement();
         
-        //IceBullet();
+        IceBullet();
     }
 
     private void CharacterMovement()
@@ -103,6 +106,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!isRecharging)
             {
+                cooldown.UseSpell();
                 StartCoroutine(CoroutineWallCharges());
             }
         }
