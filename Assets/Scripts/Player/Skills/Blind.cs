@@ -12,19 +12,26 @@ public class Blind : MonoBehaviour
     public float projectileSpeed = 30;
 
     private Vector3 destination;
-    [Space(10)]
-    [Header("CONTROL")]
-    [SerializeField] private string control;
-    // Setear la tecla
-    public void setControl(string tecla)
+    
+    public KeyCode control;
+    void Start()
     {
-        control = tecla;
+        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Blind")
+        {
+            control = KeyCode.T;
+        }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Blind")
+        {
+            control = KeyCode.R; 
+        }
+        else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() ==  "Blind")
+        {
+            control = KeyCode.E; 
+        }
     }
-
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown(control))
+        if (Input.GetKeyDown(control))
         {
             ShootProjectile();
         }

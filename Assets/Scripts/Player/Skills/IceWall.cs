@@ -19,15 +19,7 @@ public class IceWall : MonoBehaviour
     [SerializeField] private float blendAmount = 0;
     private bool isRaised = false;
 
-    [Space(10)]
-    [Header("CONTROL")]
-    [SerializeField] private string control;
-    // Setear la tecla
-
-    public void setControl(string tecla)
-    {
-        control = tecla;
-    }
+    public KeyCode control;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +30,17 @@ public class IceWall : MonoBehaviour
         foreach (IceWall wall in iceWalls)
         {
             wall.transform.SetParent(null);
+        }
+        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "IceWall")
+        {
+            control = KeyCode.T;
+        }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "IceWall")
+        {
+            control = KeyCode.R; 
+        }
+        else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() ==  "IceWall")
+        {
+            control = KeyCode.E; 
         }
     }
 

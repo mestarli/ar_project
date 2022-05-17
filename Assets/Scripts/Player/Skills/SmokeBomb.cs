@@ -12,8 +12,7 @@ public class SmokeBomb : MonoBehaviour
     [SerializeField] private bool canSpawnSmoke;
     [SerializeField] private List<GameObject> smokesEffects;
     [SerializeField] private VisualEffect[] smokeEffectsChildren;
-
-    [Header("CONTROL")]
+    
     public KeyCode control;
 
 
