@@ -155,10 +155,10 @@ public class Hunter : MonoBehaviour
     IEnumerator Cegar()
     {
         cegado = true;
-        float aux = fov.viewRadius;
-        fov.viewRadius = 0;
+        float aux = fov.awarenedViewRadius;
+        fov.awarenedViewRadius = 0;
         yield return new WaitForSeconds(3);
-        fov.viewRadius = aux;
+        fov.awarenedViewRadius = aux;
             cegado = false;
     }
     private void MarcarEnemigo()
