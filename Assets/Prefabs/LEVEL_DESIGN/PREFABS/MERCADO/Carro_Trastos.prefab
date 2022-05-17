@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3495397533515505296}
   - component: {fileID: 2236768931631194583}
   - component: {fileID: 1282881938842665475}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Caja
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -110,9 +110,9 @@ GameObject:
   - component: {fileID: 4033321708896521047}
   - component: {fileID: 3130982906092272200}
   - component: {fileID: 7413825780502475900}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rueda2
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -208,9 +208,9 @@ GameObject:
   - component: {fileID: 73531333893851794}
   - component: {fileID: 5991683420269885908}
   - component: {fileID: 4296207988278638}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rueda
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -306,9 +306,9 @@ GameObject:
   - component: {fileID: 2798547014088490466}
   - component: {fileID: 7240824481035741601}
   - component: {fileID: 9099790194763418728}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hierro
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -401,7 +401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5426686822965163363}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carro_Trastos
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -440,9 +440,9 @@ GameObject:
   - component: {fileID: 1752486327605169201}
   - component: {fileID: 1945340840291667760}
   - component: {fileID: 2635072516146308044}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carro
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

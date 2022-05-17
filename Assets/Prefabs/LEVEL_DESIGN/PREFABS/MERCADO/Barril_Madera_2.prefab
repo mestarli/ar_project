@@ -44,9 +44,9 @@ GameObject:
   - component: {fileID: 6352110956006610981}
   - component: {fileID: 3152929623770787476}
   - component: {fileID: 7342434736559296766}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BarrilEstilo2
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

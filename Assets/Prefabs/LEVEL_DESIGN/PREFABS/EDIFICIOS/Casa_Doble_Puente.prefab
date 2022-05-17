@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 231137427077016332}
   - component: {fileID: 262573374187789865}
   - component: {fileID: 2401183759766054546}
-  - component: {fileID: 2793572936541722854}
-  m_Layer: 0
+  - component: {fileID: 5145660713926794806}
+  m_Layer: 3
   m_Name: Casa2_puente
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2793572936541722854
+--- !u!64 &5145660713926794806
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,9 +144,10 @@ GameObject:
   - component: {fileID: 1380040233769873426}
   - component: {fileID: 4901185439797853039}
   - component: {fileID: 6968172150892321241}
-  m_Layer: 0
+  - component: {fileID: 3126292720998269681}
+  m_Layer: 3
   m_Name: Casa1_puente
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -230,6 +231,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2229692006530932830, guid: a56f942b00f8ef74094becf16a71f4ba, type: 3}
+--- !u!64 &3126292720998269681
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959353891334168595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2229692006530932830, guid: a56f942b00f8ef74094becf16a71f4ba, type: 3}
 --- !u!1 &6334964839408204768
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,10 +256,10 @@ GameObject:
   - component: {fileID: 182214385567113056}
   - component: {fileID: 9092259395093727957}
   - component: {fileID: 5250440626584113404}
-  - component: {fileID: 4044859643458706603}
-  m_Layer: 0
+  - component: {fileID: 3530939305260145676}
+  m_Layer: 3
   m_Name: puente_casas
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -314,7 +329,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4044859643458706603
+--- !u!64 &3530939305260145676
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

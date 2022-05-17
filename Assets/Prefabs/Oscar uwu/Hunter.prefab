@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 5230290172425101288}
   - component: {fileID: 3697424513955326084}
   - component: {fileID: 4526720588539026815}
+  - component: {fileID: 4679754575685342733}
   m_Layer: 0
   m_Name: Cazador
   m_TagString: Enemy
@@ -244,6 +245,7 @@ MonoBehaviour:
   range: 45
   rechargeTime: 3
   bullet: {fileID: 533522721432757915, guid: 7d9a05a5293336d4fa94189baee0dd0c, type: 3}
+  fov: {fileID: 0}
   _polimorfo: {fileID: 0}
 --- !u!195 &5230290172425101288
 NavMeshAgent:
@@ -299,3 +301,19 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!54 &4679754575685342733
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5230290172425101268}
+  serializedVersion: 2
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0

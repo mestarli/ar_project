@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1952718836314597891}
   - component: {fileID: 4999795796646167612}
   - component: {fileID: 982706153959461738}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mausoleo_ParteDelantera
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -110,9 +110,9 @@ GameObject:
   - component: {fileID: 1242752022834982915}
   - component: {fileID: 4634899602313201045}
   - component: {fileID: 1165212144813337150}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mausoleo_ParteTrasera
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

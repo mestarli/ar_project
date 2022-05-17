@@ -43,10 +43,10 @@ GameObject:
   - component: {fileID: 4685870187229407612}
   - component: {fileID: 8550177963141359321}
   - component: {fileID: 5858236192653906451}
-  - component: {fileID: 2873504300131790766}
-  m_Layer: 0
+  - component: {fileID: 212558747446801864}
+  m_Layer: 3
   m_Name: CasaGrandeOk
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,7 +117,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2873504300131790766
+--- !u!64 &212558747446801864
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
