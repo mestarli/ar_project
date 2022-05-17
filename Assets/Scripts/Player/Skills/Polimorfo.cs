@@ -22,22 +22,24 @@ public class Polimorfo : MonoBehaviour
     [SerializeField] private float distanceToClosestEnemy;
     [SerializeField] private float distanceToEnemy;
     
-    [Space(10)]
-    [Header("CONTROL")]
-    [SerializeField] private string control;
-    // Setear la tecla
+    public KeyCode control;
     
-
-    public void setControl(string tecla)
-    {
-        control = tecla;
-    }
-
     // Start is called before the first frame update
     void Start()
     {
         // Metemos en la lista de objetos todos los props del mapa
         allProps = GameObject.FindGameObjectsWithTag("Prop");
+        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Polimorfo")
+        {
+            control = KeyCode.T;
+        }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Polimorfo")
+        {
+            control = KeyCode.R; 
+        }
+        else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Polimorfo")
+        {
+            control = KeyCode.E; 
+        }
     }
 
     // Update is called once per frame
