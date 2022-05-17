@@ -14,16 +14,24 @@ public class SmokeBomb : MonoBehaviour
     [SerializeField] private VisualEffect[] smokeEffectsChildren;
 
     [Header("CONTROL")]
-    [SerializeField] private string control;
-    // Setear la tecla
-    public void setControl(string tecla)
-    {
-        control = tecla;
-    }
+    public KeyCode control;
+
+
     // Start is called before the first frame update
     void Start()
     {
         canSpawnSmoke = true;
+        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "SmokeBomb")
+        {
+            control = KeyCode.T;
+        }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "SmokeBomb")
+        {
+            control = KeyCode.R; 
+        }
+        else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() ==  "SmokeBomb")
+        {
+            control = KeyCode.E; 
+        }
     }
 
     // Update is called once per frame
