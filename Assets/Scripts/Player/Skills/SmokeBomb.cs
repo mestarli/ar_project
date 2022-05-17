@@ -20,7 +20,7 @@ public class SmokeBomb : MonoBehaviour
     void Start()
     {
         canSpawnSmoke = true;
-        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "SmokeBomb")
+        if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "SmokeBomb")
         {
             control = KeyCode.T;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "SmokeBomb")

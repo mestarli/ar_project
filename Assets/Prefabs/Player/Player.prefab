@@ -357,6 +357,7 @@ MonoBehaviour:
   canSpawnSmoke: 0
   smokesEffects: []
   smokeEffectsChildren: []
+  control: 0
 --- !u!114 &1835411178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,8 +374,7 @@ MonoBehaviour:
   maxVidaPlayer: 0
   speedVidaRegeneration: 0
   RegenerateVida: 0
-  vidaTXT: {fileID: 0}
-  Damage: 0
+  control: 0
 --- !u!114 &1835411179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,6 +394,7 @@ MonoBehaviour:
   ClosestEnemy: {fileID: 0}
   distanceToClosestEnemy: 0
   distanceToEnemy: 0
+  control: 0
 --- !u!114 &1835411180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,6 +409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerClone: {fileID: 919132149155446097, guid: 6950a5917c7ea804bac56b50aa9c955b, type: 3}
   spawnerClone: {fileID: 5707353096225929210}
+  control: 0
 --- !u!114 &1835411181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,6 +422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d791e5c2da4b2c14a99bf6dae49ba02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  control: 0
 --- !u!114 &1835411183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,6 +439,7 @@ MonoBehaviour:
   projectile: {fileID: 0}
   firePoint: {fileID: 0}
   projectileSpeed: 30
+  control: 0
 --- !u!114 &940855604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,6 +473,7 @@ MonoBehaviour:
   destroyPushForce: 0
   destroyRotForce: 0
   blendAmount: 0
+  control: 0
 --- !u!1 &5707353096225929210
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,6 +515,10 @@ PrefabInstance:
     - target: {fileID: 1507735663622696540, guid: a333980890d1c964e98193b65f795db1, type: 3}
       propertyPath: m_Name
       value: IceWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507735663622696540, guid: a333980890d1c964e98193b65f795db1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3177832195189127961, guid: a333980890d1c964e98193b65f795db1, type: 3}
       propertyPath: m_RootOrder

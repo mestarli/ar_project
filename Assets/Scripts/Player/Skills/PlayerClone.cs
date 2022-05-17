@@ -14,7 +14,7 @@ public class PlayerClone : MonoBehaviour
     public KeyCode control;
     void Start()
     {
-        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "PlayerClone")
+        if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "PlayerClone")
         {
             control = KeyCode.T;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "PlayerClone")
@@ -36,6 +36,7 @@ public class PlayerClone : MonoBehaviour
 
     private void SpawnearClone()
     {
+
         if (Input.GetKeyDown(control) && GameObject.FindWithTag("PlayerClone") == null)
         {
             // Spawneamos el prefab en la posicion del player y donde estemos mirando

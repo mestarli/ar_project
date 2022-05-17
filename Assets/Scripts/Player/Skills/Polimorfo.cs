@@ -29,7 +29,7 @@ public class Polimorfo : MonoBehaviour
     {
         // Metemos en la lista de objetos todos los props del mapa
         allProps = GameObject.FindGameObjectsWithTag("Prop");
-        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Polimorfo")
+        if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "Polimorfo")
         {
             control = KeyCode.T;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Polimorfo")

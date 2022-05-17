@@ -16,7 +16,7 @@ public class Blind : MonoBehaviour
     public KeyCode control;
     void Start()
     {
-        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Blind")
+        if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "Blind")
         {
             control = KeyCode.T;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Blind")

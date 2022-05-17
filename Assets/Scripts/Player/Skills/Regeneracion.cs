@@ -21,7 +21,7 @@ public class Regeneracion : MonoBehaviour
     {
         maxVidaPlayer = Player.Instance.Maxlife;
         speedVidaRegeneration = 10;
-        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Regeneracion")
+        if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "Regeneracion")
         {
             control = KeyCode.T;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Regeneracion")

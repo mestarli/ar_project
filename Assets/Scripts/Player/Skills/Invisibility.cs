@@ -9,7 +9,7 @@ public class Invisibility : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Invisibility")
+        if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "Invisibility")
         {
             control = KeyCode.T;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Invisibility")
