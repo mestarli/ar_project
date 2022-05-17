@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Text nickname;
     [SerializeField] private Text record_game;
     [SerializeField] private Text timeOnScreen;
+    [SerializeField] private Image countLife;
     private float secondsCount;
     private int minuteCount;
     private int hourCount;
@@ -53,5 +54,10 @@ public class UIManager : MonoBehaviour
                 minuteCount %= 60;
             }
         }    
+    }
+    
+    public void UpdateLife(float life,float maxlife)
+    {
+        countLife.fillAmount = life / maxlife;
     }
 }

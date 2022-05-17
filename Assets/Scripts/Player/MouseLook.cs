@@ -7,6 +7,7 @@ public class MouseLook : MonoBehaviour
     // Variables
     [SerializeField] private float mouseSensitivity;
     [SerializeField] private Transform playerBody;
+    [SerializeField] private Transform playerHands;
     [SerializeField] private float xRotation;
     
     // Start is called before the first frame update
@@ -36,5 +37,6 @@ public class MouseLook : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         // La rotación del player en horizontal será con el MouseX
         playerBody.Rotate(Vector3.up * mouseX);
+        playerHands.Rotate(Vector3.up * mouseX);
     }
 }
