@@ -30,14 +30,30 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Vector3 velocity;
     [SerializeField] private bool isGrounded;
 
+    [Space(10)]
+    [Header("WALL")]
+    // Wall stuff
+    public KeyCode castKeyBind, directionKeyBind;
+    public float range;
+    public GameObject iceWallPreview, iceWallOBJ;
+    public LayerMask LayerMask;
+    [SerializeField] private bool direction, casting;
+    [SerializeField] private int wallCharges = 3;
+    [SerializeField] private int RechargeTimer;
+    private bool isRecharging = false;
+    [SerializeField] private Transform cam;
+    
     private void Start()
     {
         instance = this;
+        cam = Camera.main.transform;
     }
 
     void Update()
     {
         CharacterMovement();
+        
+        //IceBullet();
     }
 
     private void CharacterMovement()
@@ -79,5 +95,84 @@ public class PlayerMovement : MonoBehaviour
 
         // El movimiento del player dependerá también su vector3 * Time.deltaTime.
         controller.Move(velocity * Time.deltaTime);
+    }
+    
+    private void IceBullet()
+    {
+        if (wallCharges < 3)
+        {
+            if (!isRecharging)
+            {
+                StartCoroutine(CoroutineWallCharges());
+            }
+        }
+
+        if (Input.GetKeyDown(castKeyBind))
+        {
+            casting = !casting;
+            if (!casting)
+            {
+                iceWallPreview.SetActive(false);
+            }
+        }
+        
+        if (casting)
+        {
+            CastingIceWall();
+        }
+    }
+
+    IEnumerator CoroutineWallCharges()
+    {
+        isRecharging = true;
+        yield return new WaitForSeconds(RechargeTimer);
+        wallCharges += 1;
+        isRecharging = false;
+    }
+    private void CastingIceWall()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(cam.transform.position, cam.forward, out hit, range, LayerMask))
+        {
+            //if (iceWallPreview.activeSelf)
+            {
+                iceWallPreview.SetActive(true);
+            }
+            
+            if (Input.GetKeyDown(directionKeyBind))
+            {
+                direction = !direction;
+            }
+            
+            Quaternion rotation = Quaternion.Euler(0,0,0);
+            if (direction)
+            {
+                rotation.y = 1;
+            }
+            else
+            {
+                rotation.y = 0;
+            }
+
+            iceWallPreview.transform.localRotation = rotation;
+            iceWallPreview.transform.position = hit.point;
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (wallCharges > 0)
+                {
+                    Instantiate(iceWallOBJ, hit.point, iceWallPreview.transform.rotation);
+                    casting = false;
+                    iceWallPreview.SetActive(false);
+                    wallCharges -= 1;
+                }
+            }
+        }
+        else
+        {
+            iceWallPreview.SetActive(false);
+        }
+        
+        
     }
 }

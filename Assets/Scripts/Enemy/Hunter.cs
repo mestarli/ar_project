@@ -26,6 +26,12 @@ public class Hunter : MonoBehaviour
 
     bool searching;
     NavMeshAgent _navMeshAgent;
+    
+    
+    // Variables
+    [Header( "SCRIPT PLAYER_POLIMORFO")]
+    [SerializeField] private Polimorfo _polimorfo;
+    
     private void Awake()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
@@ -39,10 +45,15 @@ public class Hunter : MonoBehaviour
             }
         }
         timePassed = secondsToDismiss;
+        
+        _polimorfo = FindObjectOfType<Polimorfo>();
     }
     
     private void Update()
     {
+        
+        MarcarEnemigo();   
+        
         recharge -= Time.deltaTime;
         //Si el target no es igual a nada, es decir, si tiene target, pasa a modo perseguir, si deja de tener target modo Buscando y si pasa un tiempo sin ver al target vuelve a la patrulla.
         if(target != null)
@@ -65,8 +76,7 @@ public class Hunter : MonoBehaviour
         }
         if (state == 2)
         {
-            _navMeshAgent.SetDestination(target.transform.position);
-            searching = false;
+            
 
             var dist = target.transform.position - transform.position;
             if (range > dist.magnitude && recharge <= 0)
@@ -74,7 +84,16 @@ public class Hunter : MonoBehaviour
                 Instantiate(bullet, transform.position, transform.rotation);
                 recharge = rechargeTime;
             }
-            
+            if (dist.magnitude > 6)
+            {
+                _navMeshAgent.SetDestination(target.transform.position);
+            }
+            else
+            {
+                _navMeshAgent.SetDestination(transform.position);
+            }
+
+            searching = false;
         }
         if(state == 1)
         {
@@ -118,5 +137,34 @@ public class Hunter : MonoBehaviour
                 }
             }
         }
+    }
+    private void MarcarEnemigo()
+    {
+        // Si el enemigo que tenga este escript es el enemigo más cercano al jugador y es visible en la cámara de nuestro jugador, estará marcado
+        if (this == _polimorfo.ClosestEnemy && IsVisible(_polimorfo._camera, _polimorfo.ClosestEnemy))
+        {
+            GetComponent<Outline>().enabled = true;
+        }
+        // Si no se cumple no estará marcado
+        else
+        {
+            GetComponent<Outline>().enabled = false;
+        }
+    }
+    
+    // Función para saber que hay en el fov de la cámara
+    public bool IsVisible(Camera c, Hunter currentEnemy)
+    {
+        var planes = GeometryUtility.CalculateFrustumPlanes(c);
+        var point = currentEnemy.transform.position;
+
+        foreach (var plane in planes)
+        {
+            if (plane.GetDistanceToPoint(point) < 0)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 }
