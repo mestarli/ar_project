@@ -5,7 +5,14 @@ using UnityEngine;
 public class Invisibility : MonoBehaviour
 {
     public KeyCode control;
+    public Material handsMat;
+    public Material invisibilityMat;
+    public GameObject HandsGameObject;
+    public int invisibilityTime;
+    private bool isInvis = false;
     
+    
+    // FALTA APLICAR LOGICA DE COOLDOWN
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +32,24 @@ public class Invisibility : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(control))
+        {
+            if (!isInvis)
+            {
+                StartCoroutine(CorroutineInvisibility());
+            }
+        }
+    }
+
+    IEnumerator CorroutineInvisibility()
+    {
+        isInvis = true;
+        HandsGameObject.GetComponent<SkinnedMeshRenderer>().material = invisibilityMat;
+        // APLICAR LOGICA PARA QUE DEJEN DE DETECTARTE LOS ENEMIES
+        yield return new WaitForSeconds(invisibilityTime);
+        HandsGameObject.GetComponent<SkinnedMeshRenderer>().material = handsMat;
+        // DESAPLICAR LOGICA PARA QUE DEJEN DE DETECTARTE LOS ENEMIES
+        isInvis = false;
         
     }
 }
