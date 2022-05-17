@@ -140,6 +140,13 @@ public class Hunter : MonoBehaviour
             }
         }
     }
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.tag == "Smoke")
+        {
+            state = 0;
+        }
+    }
     private void MarcarEnemigo()
     {
         // Si el enemigo que tenga este escript es el enemigo más cercano al jugador y es visible en la cámara de nuestro jugador, estará marcado
