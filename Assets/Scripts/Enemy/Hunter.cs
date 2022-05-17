@@ -45,7 +45,10 @@ public class Hunter : MonoBehaviour
             }
         }
         timePassed = secondsToDismiss;
-        
+    }
+
+    private void Start()
+    {
         _polimorfo = FindObjectOfType<Polimorfo>();
     }
     

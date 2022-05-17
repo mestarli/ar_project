@@ -27,24 +27,21 @@ public class LoadSkill : MonoBehaviour
     void Awake()
     {
         Instance = this;
+        Skill_1 = PlayerPrefs.GetInt("SelectedSkill_1", SelectedSkill_1);
+        Skill_2 = PlayerPrefs.GetInt("SelectedSkill_2", SelectedSkill_2);
+        Skill_3 = PlayerPrefs.GetInt("SelectedSkill_3", SelectedSkill_3);
+        Skills.Add("PlayerClone");
+        Skills.Add("IceWall");
+        Skills.Add("Dash");
+        Skills.Add("Regeneracion");
+        Skills.Add("Invisibility");
+        Skills.Add("Blind");
+        Skills.Add("Polimorfo");
+        Skills.Add("SmokeBomb");
+        PrinSelectedSkill();
+        LoadSkills();
     }
-    void Start()
-    {
-       Skill_1 = PlayerPrefs.GetInt("SelectedSkill_1", SelectedSkill_1);
-       Skill_2 = PlayerPrefs.GetInt("SelectedSkill_2", SelectedSkill_2);
-       Skill_3 = PlayerPrefs.GetInt("SelectedSkill_3", SelectedSkill_3);
-       Skills.Add("PlayerClone");
-       Skills.Add("IceWall");
-       Skills.Add("Dash");
-       Skills.Add("Regeneracion");
-       Skills.Add("Invisibility");
-       Skills.Add("Blind");
-       Skills.Add("Polimorfo");
-       Skills.Add("SmokeBomb");
-       PrinSelectedSkill();
-       LoadSkills();
-    }
-    
+
     public void PrinSelectedSkill()
     {
         SelectedSkillImage1.sprite = Sprites[Skill_1];
