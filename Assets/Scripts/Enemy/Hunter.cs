@@ -49,12 +49,11 @@ public class Hunter : MonoBehaviour
 
     private void Start()
     {
-        _polimorfo = FindObjectOfType<Polimorfo>();
+        _polimorfo = player.GetComponent<Polimorfo>();
     }
     
     private void Update()
     {
-        
         MarcarEnemigo();   
         
         recharge -= Time.deltaTime;
