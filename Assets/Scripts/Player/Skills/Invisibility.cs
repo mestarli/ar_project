@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class Invisibility : MonoBehaviour
 {
-    [Header("CONTROL")]
-    [SerializeField] private string control;
-    // Setear la tecla
-
-    public void setControl(string tecla)
-    {
-        control = tecla;
-    }
+    public KeyCode control;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Invisibility")
+        {
+            control = KeyCode.T;
+        }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Invisibility")
+        {
+            control = KeyCode.R; 
+        }
+        else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() ==  "Invisibility")
+        {
+            control = KeyCode.E; 
+        }
     }
 
     // Update is called once per frame
