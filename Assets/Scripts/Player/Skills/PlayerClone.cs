@@ -10,10 +10,13 @@ public class PlayerClone : MonoBehaviour
     [SerializeField] private GameObject spawnerClone;
     
     private IEnumerator destruirClone;
-
-    private void Start()
+    [Header("CONTROL")]
+    [SerializeField] private string control;
+    // Setear la tecla
+    
+    public void setControl(string tecla)
     {
-        
+        control = tecla;
     }
 
     private void Update()
@@ -26,7 +29,7 @@ public class PlayerClone : MonoBehaviour
 
     private void SpawnearClone()
     {
-        if (Input.GetKeyDown(KeyCode.E) && GameObject.FindWithTag("PlayerClone") == null)
+        if (Input.GetKeyDown(control) && GameObject.FindWithTag("PlayerClone") == null)
         {
             // Spawneamos el prefab en la posicion del player y donde estemos mirando
             Instantiate(playerClone, spawnerClone.transform.position, transform.rotation);

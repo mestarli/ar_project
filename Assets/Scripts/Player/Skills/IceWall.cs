@@ -7,7 +7,6 @@ using Random = UnityEngine.Random;
 
 public class IceWall : MonoBehaviour
 {
-
     public float health;
     public float duration;
     public float raiseSpeed;
@@ -20,6 +19,15 @@ public class IceWall : MonoBehaviour
     [SerializeField] private float blendAmount = 0;
     private bool isRaised = false;
 
+    [Space(10)]
+    [Header("CONTROL")]
+    [SerializeField] private string control;
+    // Setear la tecla
+
+    public void setControl(string tecla)
+    {
+        control = tecla;
+    }
     // Start is called before the first frame update
     void Start()
     {

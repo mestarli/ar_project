@@ -21,6 +21,17 @@ public class Polimorfo : MonoBehaviour
     [SerializeField] public Enemy ClosestEnemy;
     [SerializeField] private float distanceToClosestEnemy;
     [SerializeField] private float distanceToEnemy;
+    
+    [Space(10)]
+    [Header("CONTROL")]
+    [SerializeField] private string control;
+    // Setear la tecla
+    
+
+    public void setControl(string tecla)
+    {
+        control = tecla;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -93,7 +104,7 @@ public class Polimorfo : MonoBehaviour
     private void ConvertirPolimorfo()
     {
         // Si le damos a la "F" y hay un enemigo cercano...
-        if (Input.GetKeyDown(KeyCode.F) && ClosestEnemy != null)
+        if (Input.GetKeyDown(control) && ClosestEnemy != null)
         {
             // El prop será de forma aleatoria uno de todos los del mapa
             Prop = allProps[Random.Range(0, allProps.Length)];

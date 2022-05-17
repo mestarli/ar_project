@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 1835411181}
   - component: {fileID: 1835411183}
   - component: {fileID: 940855604}
+  - component: {fileID: 1245979985354159006}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -449,6 +450,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 100
   Maxlife: 0
+--- !u!114 &1245979985354159006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5707353096201398965}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4507d4242a71834b922010845e3c60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  duration: 0
+  raiseSpeed: 0
+  destroyDelay: 0
+  destroyPushForce: 0
+  destroyRotForce: 0
+  blendAmount: 0
 --- !u!1 &5707353096225929210
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,7 +559,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6419989315430160036, guid: a333980890d1c964e98193b65f795db1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a333980890d1c964e98193b65f795db1, type: 3}
 --- !u!4 &2951107886536221973 stripped
 Transform:

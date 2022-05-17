@@ -13,6 +13,13 @@ public class SmokeBomb : MonoBehaviour
     [SerializeField] private List<GameObject> smokesEffects;
     [SerializeField] private VisualEffect[] smokeEffectsChildren;
 
+    [Header("CONTROL")]
+    [SerializeField] private string control;
+    // Setear la tecla
+    public void setControl(string tecla)
+    {
+        control = tecla;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +37,7 @@ public class SmokeBomb : MonoBehaviour
     private void ThrowSmokeBomb()
     {
         // Si presionamos la tecla R y podemos spawnear el smoke iniciaremos la corrutina
-        if (Input.GetKeyDown(KeyCode.R) && canSpawnSmoke)
+        if (Input.GetKeyDown(control) && canSpawnSmoke)
         {
             canSpawnSmoke = false;
             StartCoroutine(waitToThrowBombSmoke());

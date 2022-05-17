@@ -5,23 +5,26 @@ using UnityEngine;
 
 public class Blind : MonoBehaviour
 {
-
+    
     public Camera cam;
     public GameObject projectile;
     public Transform firePoint;
     public float projectileSpeed = 30;
 
     private Vector3 destination;
-
-    void Start()
+    [Space(10)]
+    [Header("CONTROL")]
+    [SerializeField] private string control;
+    // Setear la tecla
+    public void setControl(string tecla)
     {
-        
+        control = tecla;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown(control))
         {
             ShootProjectile();
         }

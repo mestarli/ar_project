@@ -7,8 +7,8 @@ public class Player : MonoBehaviour
 {
     public static Player Instance;
     
-    [SerializeField] private float life = 100f;
-    [SerializeField] private float Maxlife;
+    public float life = 100f;
+    public float Maxlife;
 
     void Awake()
     {
@@ -55,6 +55,11 @@ public class Player : MonoBehaviour
         {
             //_animator.SetTrigger("Damage");
         }
+    }
+    public void SumarVida(float sumar_vida)
+    {
+        life += sumar_vida;
+        UIManager.Instance.UpdateLife(life, Maxlife);
     }
     IEnumerator courotineShowGameOver()
     {

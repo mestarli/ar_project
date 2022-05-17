@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class LoadSkill : MonoBehaviour
 {
+    public static LoadSkill Instance;
     private int SelectedSkill_1;
     private int SelectedSkill_2;
     private int SelectedSkill_3;
@@ -18,12 +19,15 @@ public class LoadSkill : MonoBehaviour
     public Image SelectedSkillImage3;
 
     public List<Sprite> Sprites;
-    private MonoBehaviour EnableSkill_01;
-    private MonoBehaviour EnableSkill_02;
-    private MonoBehaviour EnableSkill_03;
+    public MonoBehaviour EnableSkill_01;
+    public MonoBehaviour EnableSkill_02;
+    public MonoBehaviour EnableSkill_03;
     
     [SerializeField]private List<string> Skills;
-    
+    void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
        Skill_1 = PlayerPrefs.GetInt("SelectedSkill_1", SelectedSkill_1);
@@ -50,10 +54,13 @@ public class LoadSkill : MonoBehaviour
     
     private void LoadSkills(){
         EnableSkill_01= (MonoBehaviour) Player.Instance.GetComponent(Type.GetType(Skills[Skill_1]));
-        EnableSkill_02= (MonoBehaviour) Player.Instance.GetComponent(Type.GetType(Skills[Skill_2]));
-        EnableSkill_03= (MonoBehaviour) Player.Instance.GetComponent(Type.GetType(Skills[Skill_3]));
+        EnableSkill_02 = (MonoBehaviour) Player.Instance.GetComponent(Type.GetType(Skills[Skill_2]));
+        EnableSkill_03 = (MonoBehaviour) Player.Instance.GetComponent(Type.GetType(Skills[Skill_3]));
         EnableSkill_01.enabled = true;
         EnableSkill_02.enabled = true;
         EnableSkill_03.enabled = true;
+        //EnableSkill_01.setControl("1");
+        //EnableSkill_02.setControl("2");
+        //EnableSkill_03.setControl("E");
     }
 }
