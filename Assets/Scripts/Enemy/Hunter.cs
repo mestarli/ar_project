@@ -23,9 +23,11 @@ public class Hunter : MonoBehaviour
     float recharge = 0;
     public float rechargeTime = 0;
     public GameObject bullet;
+    bool cegado;
 
     bool searching;
     NavMeshAgent _navMeshAgent;
+    FieldOfView fov;
     
     
     // Variables
@@ -34,6 +36,7 @@ public class Hunter : MonoBehaviour
     
     private void Awake()
     {
+        fov = GetComponent<FieldOfView>();
         _navMeshAgent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player");
         route.Add(firstWaypoint);
@@ -144,8 +147,19 @@ public class Hunter : MonoBehaviour
     {
         if (collision.gameObject.tag == "Smoke")
         {
-            state = 0;
+            state = 1;
+            if (!cegado) StartCoroutine(Cegar());
         }
+    }
+
+    IEnumerator Cegar()
+    {
+        cegado = true;
+        float aux = fov.viewRadius;
+        fov.viewRadius = 0;
+        yield return new WaitForSeconds(3);
+        fov.viewRadius = aux;
+            cegado = false;
     }
     private void MarcarEnemigo()
     {
