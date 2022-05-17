@@ -65,8 +65,7 @@ public class Hunter : MonoBehaviour
         }
         if (state == 2)
         {
-            _navMeshAgent.SetDestination(target.transform.position);
-            searching = false;
+            
 
             var dist = target.transform.position - transform.position;
             if (range > dist.magnitude && recharge <= 0)
@@ -74,7 +73,16 @@ public class Hunter : MonoBehaviour
                 Instantiate(bullet, transform.position, transform.rotation);
                 recharge = rechargeTime;
             }
-            
+            if (dist.magnitude > 6)
+            {
+                _navMeshAgent.SetDestination(target.transform.position);
+            }
+            else
+            {
+                _navMeshAgent.SetDestination(transform.position);
+            }
+
+            searching = false;
         }
         if(state == 1)
         {
