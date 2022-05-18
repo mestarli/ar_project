@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="" />
+    <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/BrujaAnims/Animations/Player_Copia_Spawn.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/BrujaAnims/Animations/Player_Copia_Spawn.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/BrujaAnims/Animations/Player_Correr.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/BrujaAnims/Animations/Player_Correr.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/BrujaAnims/Animations/Player_Curacion.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/BrujaAnims/Animations/Player_Curacion.fbx.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +113,7 @@
       <workItem from="1652760843412" duration="5143000" />
       <workItem from="1652772736132" duration="10341000" />
       <workItem from="1652792494649" duration="3428000" />
-      <workItem from="1652854629205" duration="1499000" />
+      <workItem from="1652854629205" duration="2057000" />
     </task>
     <servers />
   </component>
