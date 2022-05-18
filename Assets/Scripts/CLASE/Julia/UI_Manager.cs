@@ -86,7 +86,7 @@ public class UI_Manager : MonoBehaviour
     IEnumerator Coroutine_GameScene()
     {
         yield return new WaitForSeconds(2.0f);
-        //SceneManager.LoadScene("MainLevel");
+        SceneManager.LoadScene("SelectAbilities");
         optionsPanel.SetActive(false);
         gamePanel.SetActive(true);
         mainMenuPanel.SetActive(false);
