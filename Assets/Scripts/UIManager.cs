@@ -10,7 +10,7 @@ public class UIManager : MonoBehaviour
     
     [SerializeField] private Text nickname;
     [SerializeField] private Text record_game;
-    [SerializeField] private Text timeOnScreen;
+    public Text timeOnScreen;
     [SerializeField] private Image countLife;
     private float secondsCount;
     private int minuteCount;

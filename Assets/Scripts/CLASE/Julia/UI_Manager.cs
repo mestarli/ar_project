@@ -13,7 +13,7 @@ public class UI_Manager : MonoBehaviour
     public Dropdown imageQualityDropdown;
     public Dropdown screenResolutionDropdown;
     public Toggle fullScreenToggle;
-
+    public Text userRecord;
     private Resolution[] screenResolutions;
     
     private float volumeSliderValue;
@@ -32,6 +32,11 @@ public class UI_Manager : MonoBehaviour
         optionsPanel.SetActive(false);
         gamePanel.SetActive(false);
         mainMenuPanel.SetActive(true);
+
+        if (userRecord)
+        {
+            userRecord.text = UIManager.Instance.timeOnScreen.text;
+        }
 
         #region Volume
         

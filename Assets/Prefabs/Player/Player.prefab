@@ -355,8 +355,8 @@ MonoBehaviour:
     m_Bits: 128
   direction: 0
   casting: 0
-  wallCharges: 3
-  RechargeTimer: 0
+  wallCharges: 1
+  RechargeTimer: 10
   cam: {fileID: 5707353095205763992}
   cooldown: {fileID: 0}
 --- !u!114 &1835411177
