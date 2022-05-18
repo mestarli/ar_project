@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6762055383566158788
 Transform:
   m_ObjectHideFlags: 0
@@ -1843,7 +1843,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4897157633145714112
 Transform:
   m_ObjectHideFlags: 0
@@ -2848,6 +2848,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6762055383566158788}
     m_Modifications:
+    - target: {fileID: 4067004294347706466, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6c1e7075e75167841a9883a8eb3c6788, type: 2}
     - target: {fileID: 5230290171001052073, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.8
@@ -3281,6 +3285,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6762055383566158788}
     m_Modifications:
+    - target: {fileID: 4067004294347706466, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 011cd5d5572eb6e429993f3d5a34672f, type: 2}
     - target: {fileID: 5230290171001052073, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.5
@@ -3773,6 +3781,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6762055383566158788}
     m_Modifications:
+    - target: {fileID: 4067004294347706466, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5f4b5f78709f78f45a3a6a50640ae34e, type: 2}
     - target: {fileID: 5230290171001052073, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.41
@@ -3839,7 +3851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5230290172245190325, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4526720588539026815, guid: 71e291531bad7a149ae379785ea7ba50, type: 3}
