@@ -345,19 +345,19 @@ MonoBehaviour:
     m_Bits: 128
   velocity: {x: 0, y: 0, z: 0}
   isGrounded: 0
-  castKeyBind: 0
-  directionKeyBind: 0
-  range: 0
-  iceWallPreview: {fileID: 0}
-  iceWallOBJ: {fileID: 0}
+  castKeyBind: 101
+  directionKeyBind: 113
+  range: 2
+  iceWallPreview: {fileID: 8454281264304887919}
+  iceWallOBJ: {fileID: 4672335200901023123}
   LayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   direction: 0
   casting: 0
   wallCharges: 3
   RechargeTimer: 0
-  cam: {fileID: 0}
+  cam: {fileID: 5707353095205763992}
   cooldown: {fileID: 0}
 --- !u!114 &1835411177
 MonoBehaviour:
@@ -763,6 +763,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58c2913271a7a6143afd4a75a0553258, type: 3}
+--- !u!1 &4672335200901023123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5929837094768931959, guid: 58c2913271a7a6143afd4a75a0553258, type: 3}
+  m_PrefabInstance: {fileID: 1341082543182623204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8656507883680518358 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7691694588742197554, guid: 58c2913271a7a6143afd4a75a0553258, type: 3}
@@ -859,6 +864,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1590754522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7747119300293924611}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.96648264, y: 0.35398573, z: 0.9322192}
+  m_Center: {x: 0.01675868, y: 0.18126097, z: -0.033890035}
 --- !u!1001 &8768634465056855405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -919,5 +937,10 @@ PrefabInstance:
 --- !u!4 &5724372181582834355 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3945571903966117854, guid: 21a9abc5d5eb41645aa32c82132b6b17, type: 3}
+  m_PrefabInstance: {fileID: 8768634465056855405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8454281264304887919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 928821871004355842, guid: 21a9abc5d5eb41645aa32c82132b6b17, type: 3}
   m_PrefabInstance: {fileID: 8768634465056855405}
   m_PrefabAsset: {fileID: 0}
