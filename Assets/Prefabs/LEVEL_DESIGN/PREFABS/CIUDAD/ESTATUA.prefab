@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3167535943604887023}
   - component: {fileID: 99988182242676850}
   - component: {fileID: 8652991124285718359}
+  - component: {fileID: 8742508288950505212}
   m_Layer: 0
   m_Name: sombrero
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: a9a2d560d907622449735216d1074e91, type: 3}
+  - {fileID: 2100000, guid: 48366db0bb6404045a8387c33f17edcb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,6 +84,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8742508288950505212
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3471821678574697607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6563390173714762448, guid: a9a2d560d907622449735216d1074e91, type: 3}
 --- !u!1 &3691123033054778191
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +109,7 @@ GameObject:
   - component: {fileID: 4459259929004584316}
   - component: {fileID: 3841894686410771030}
   - component: {fileID: 8396070518359554053}
+  - component: {fileID: 4175033859509061224}
   m_Layer: 0
   m_Name: Estatua
   m_TagString: Untagged
@@ -144,7 +160,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: a9a2d560d907622449735216d1074e91, type: 3}
+  - {fileID: 2100000, guid: 48366db0bb6404045a8387c33f17edcb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -166,6 +182,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4175033859509061224
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3691123033054778191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5634759975100542853, guid: a9a2d560d907622449735216d1074e91, type: 3}
 --- !u!1 &4600851424566680801
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +207,7 @@ GameObject:
   - component: {fileID: 3713541211438326298}
   - component: {fileID: 5906005442689008113}
   - component: {fileID: 3931518278270667520}
+  - component: {fileID: 1367687217946170039}
   m_Layer: 0
   m_Name: plataforma
   m_TagString: Untagged
@@ -227,7 +258,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: a9a2d560d907622449735216d1074e91, type: 3}
+  - {fileID: 2100000, guid: c09a1022c1ace514fbd022e12f6cb83f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -249,6 +280,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1367687217946170039
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4600851424566680801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6050594691346666774, guid: a9a2d560d907622449735216d1074e91, type: 3}
 --- !u!1 &5362668337563741690
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +305,7 @@ GameObject:
   - component: {fileID: 8182593966376214287}
   - component: {fileID: 5548764245620655253}
   - component: {fileID: 145113428106495630}
+  - component: {fileID: 2864178847656350357}
   m_Layer: 0
   m_Name: bandera
   m_TagString: Untagged
@@ -310,7 +356,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: a9a2d560d907622449735216d1074e91, type: 3}
+  - {fileID: 2100000, guid: 48366db0bb6404045a8387c33f17edcb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -332,6 +378,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2864178847656350357
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5362668337563741690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 821112146494898634, guid: a9a2d560d907622449735216d1074e91, type: 3}
 --- !u!1 &8150084774838191377
 GameObject:
   m_ObjectHideFlags: 0
