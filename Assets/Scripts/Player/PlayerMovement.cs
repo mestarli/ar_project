@@ -45,6 +45,9 @@ public class PlayerMovement : MonoBehaviour
 
     [Space(10)] [Header("COOLDOWN")] [SerializeField] private Cooldown cooldown;
     
+    
+    public Animator _animator;
+    
     private void Start()
     {
         instance = this;
@@ -61,13 +64,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void CharacterMovement()
     {
+        _animator.SetBool("IsRunning", false);
         // La booleana IsGrounded se activará siempre y cuando detecte que su collider toque una mesh con el nombre de layer "Ground".
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundmask);
+        
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.W) ||
+            Input.GetKey(KeyCode.D) && isGrounded && velocity.y < 0)
+        {
+            _animator.SetBool("IsRunning", true);
+        }
 
         // Si estamos en el suelo y no estamos saltando, pondremos en negativo el eje vertical de nuestro player para que tenga gravedad.
         if(isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
+            _animator.SetBool("IsJumping", false);
         }
 
         // Recogemos los valores del teclado en X e Y para el movimiento horizontal y vertical del player.
@@ -90,6 +101,7 @@ public class PlayerMovement : MonoBehaviour
         // Si saltamos con Espacio y estamos en el suelo nuestro eje vertical será igual que (nuestro jumpHeight * -2 * gravedad).
         if(Input.GetButtonDown("Jump") && isGrounded)
         {
+            _animator.SetBool("IsJumping", true);
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity); 
         }
         

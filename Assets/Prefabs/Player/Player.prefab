@@ -347,7 +347,7 @@ MonoBehaviour:
   isGrounded: 0
   castKeyBind: 101
   directionKeyBind: 113
-  range: 2
+  range: 7
   iceWallPreview: {fileID: 8454281264304887919}
   iceWallOBJ: {fileID: 4672335200901023123}
   LayerMask:
