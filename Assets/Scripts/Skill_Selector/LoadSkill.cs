@@ -13,7 +13,12 @@ public class LoadSkill : MonoBehaviour
     public int Skill_1;
     public int Skill_2;
     public int Skill_3;
+
+    public GameObject player;
     
+    
+    [SerializeField] private List<Component> skills_scripts;
+
     public Image SelectedSkillImage1;
     public Image SelectedSkillImage2;
     public Image SelectedSkillImage3;
@@ -27,6 +32,9 @@ public class LoadSkill : MonoBehaviour
     void Awake()
     {
         Instance = this;
+
+        player = GameObject.FindGameObjectWithTag("Player");
+        
         Skill_1 = PlayerPrefs.GetInt("SelectedSkill_1", SelectedSkill_1);
         Skill_2 = PlayerPrefs.GetInt("SelectedSkill_2", SelectedSkill_2);
         Skill_3 = PlayerPrefs.GetInt("SelectedSkill_3", SelectedSkill_3);
@@ -50,14 +58,12 @@ public class LoadSkill : MonoBehaviour
     }
     
     private void LoadSkills(){
-        EnableSkill_01= (MonoBehaviour) Player.Instance.GetComponent(Type.GetType(Skills[Skill_1]));
-        EnableSkill_02 = (MonoBehaviour) Player.Instance.GetComponent(Type.GetType(Skills[Skill_2]));
-        EnableSkill_03 = (MonoBehaviour) Player.Instance.GetComponent(Type.GetType(Skills[Skill_3]));
+        EnableSkill_01= (MonoBehaviour) player.GetComponent(Type.GetType(Skills[Skill_1]));
+        EnableSkill_02 = (MonoBehaviour) player.GetComponent(Type.GetType(Skills[Skill_2]));
+        EnableSkill_03 = (MonoBehaviour) player.GetComponent(Type.GetType(Skills[Skill_3]));
         EnableSkill_01.enabled = true;
         EnableSkill_02.enabled = true;
         EnableSkill_03.enabled = true;
-        //EnableSkill_01.setControl("1");
-        //EnableSkill_02.setControl("2");
-        //EnableSkill_03.setControl("E");
+
     }
 }
