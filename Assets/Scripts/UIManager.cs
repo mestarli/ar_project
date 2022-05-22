@@ -58,7 +58,6 @@ public class UIManager : MonoBehaviour
     
     public void UpdateLife(float life,float maxlife)
     {
-        Debug.Log("Bajando la vida yeah");
         countLife.fillAmount = life / maxlife;
     }
 }
