@@ -90,7 +90,7 @@ public class UI_Manager : MonoBehaviour
 
     IEnumerator Coroutine_GameScene()
     {
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene("SelectAbilities");
         optionsPanel.SetActive(false);
         gamePanel.SetActive(true);
@@ -131,7 +131,7 @@ public class UI_Manager : MonoBehaviour
 
     IEnumerator Coroutine_MainMenuScene()
     {
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(0.5f);
         //SceneManager.LoadScene("StartMenu");
         optionsPanel.SetActive(false);
         gamePanel.SetActive(false);
