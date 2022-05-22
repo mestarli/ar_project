@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AR_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SelectAbilities.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SelectAbilities.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CLASE/Julia/UI_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CLASE/Julia/UI_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevelOptimizar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevelOptimizar.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +113,7 @@
       <workItem from="1652792494649" duration="3428000" />
       <workItem from="1652854629205" duration="6014000" />
       <workItem from="1652879827341" duration="4515000" />
-      <workItem from="1653233036670" duration="1888000" />
+      <workItem from="1653233036670" duration="2881000" />
     </task>
     <servers />
   </component>

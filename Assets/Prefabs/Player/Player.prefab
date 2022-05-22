@@ -359,7 +359,7 @@ MonoBehaviour:
   RechargeTimer: 10
   cam: {fileID: 5707353095205763992}
   cooldown: {fileID: 0}
-  _animator: {fileID: 0}
+  _animator: {fileID: 5767131629364921518}
 --- !u!114 &1835411177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,7 +445,7 @@ MonoBehaviour:
   control: 121
   handsMat: {fileID: 2100000, guid: 7390bcd5dc3ed7a4eb45726f486f79e7, type: 2}
   invisibilityMat: {fileID: 2100000, guid: 3cbd6c5f3125a9741b074588239b9273, type: 2}
-  HandsGameObject: {fileID: 7747119300293924611}
+  HandsGameObject: {fileID: 347501431121403297}
   invisibilityTime: 5
 --- !u!114 &1835411183
 MonoBehaviour:
@@ -460,8 +460,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 5707353095205763999}
-  projectile: {fileID: 0}
-  firePoint: {fileID: 0}
+  projectile: {fileID: 2737115715341409342, guid: 390912655aba75f46b0ebf8986f92a3a, type: 3}
+  firePoint: {fileID: 5707353096225929205}
   projectileSpeed: 30
   control: 0
 --- !u!114 &940855604
@@ -835,6 +835,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34b0da009fb01094596b6b82d0481e6c, type: 3}
+--- !u!1 &347501431121403297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2048943693058738189, guid: 34b0da009fb01094596b6b82d0481e6c, type: 3}
+  m_PrefabInstance: {fileID: 7440547075648563794}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6973994832694332857 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 34b0da009fb01094596b6b82d0481e6c, type: 3}
