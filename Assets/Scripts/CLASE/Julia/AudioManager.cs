@@ -9,14 +9,19 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance;
 
     public Sound[] listSounds;
-
-    //public Slider volumeSlider;
-
-    //public float volumeSliderValue;
-    
+  
     void Awake()
     {
-        instance = this;
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        
+        else
+        {
+            Destroy(gameObject);
+        }
 
         foreach (Sound sound in listSounds)
         {
@@ -29,6 +34,28 @@ public class AudioManager : MonoBehaviour
             sound.audioSource.volume = sound.volume;
             sound.audioSource.loop = sound.loop;
             sound.audioSource.playOnAwake = sound.playOnAwake;
+        }
+    }
+    
+    public void PlaySong(string name)
+    {
+        foreach (Sound sound in listSounds)
+        {
+            if (name == sound.name)
+            {
+                sound.audioSource.Play();
+            }
+        }
+    }
+    
+    public void StopSong(string name)
+    {
+        foreach (Sound sound in listSounds)
+        {
+            if (name == sound.name)
+            {
+                sound.audioSource.Stop();
+            }
         }
     }
 }

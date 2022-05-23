@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
     [Space(10)] [Header("COOLDOWN")] 
     [SerializeField] private List<GameObject> cooldown;
 
-    
+    public bool playAudio;
     
     public Animator _animator;
     
@@ -84,13 +84,15 @@ public class PlayerMovement : MonoBehaviour
             Input.GetKey(KeyCode.D) && isGrounded && velocity.y < 0)
         {
             _animator.SetBool("IsRunning", true);
+            AudioManager.instance.PlaySong("Caminar");
         }
-
+        
         // Si estamos en el suelo y no estamos saltando, pondremos en negativo el eje vertical de nuestro player para que tenga gravedad.
         if(isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
             _animator.SetBool("IsJumping", false);
+            //AudioManager.instance.PlaySong("Saltar");
         }
 
         // Recogemos los valores del teclado en X e Y para el movimiento horizontal y vertical del player.
@@ -100,7 +102,7 @@ public class PlayerMovement : MonoBehaviour
         // El vector3 Move = la posicion horizontal dependiendo del valor en X (positivo o negativo) y
         // la posicion Vertical dependiendo del valor en z (positivo o negativo).
         Vector3 move = transform.right * axisX + transform.forward * axisZ;
-        
+
         // Si la magnitud de movimiento supera el valor 1, se dividirá por su propia magnitud (Esto hace que no aumente la velocidad en diagonal)
         if (move.magnitude > 1)
         {
@@ -149,7 +151,7 @@ public class PlayerMovement : MonoBehaviour
             CastingIceWall();
         }
     }
-
+    
     IEnumerator CoroutineWallCharges()
     {
         isRecharging = true;
