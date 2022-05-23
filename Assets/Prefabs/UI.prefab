@@ -894,7 +894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7911620559706024095, guid: 97c99e52e4941584abf5b41b9dcfb049, type: 3}
       propertyPath: cooldownTime
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7911620560314340859, guid: 97c99e52e4941584abf5b41b9dcfb049, type: 3}
       propertyPath: m_Layer
@@ -1041,7 +1041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7911620559706024095, guid: 97c99e52e4941584abf5b41b9dcfb049, type: 3}
       propertyPath: cooldownTime
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7911620560314340859, guid: 97c99e52e4941584abf5b41b9dcfb049, type: 3}
       propertyPath: m_Layer
@@ -1188,7 +1188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7911620559706024095, guid: 97c99e52e4941584abf5b41b9dcfb049, type: 3}
       propertyPath: cooldownTime
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7911620560314340859, guid: 97c99e52e4941584abf5b41b9dcfb049, type: 3}
       propertyPath: m_Layer

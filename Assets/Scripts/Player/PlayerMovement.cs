@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform cam;
 
     [Space(10)] [Header("COOLDOWN")] 
-    public List<GameObject> cooldown;
+    [SerializeField] private List<GameObject> cooldown;
 
     
     
@@ -60,6 +60,18 @@ public class PlayerMovement : MonoBehaviour
         CharacterMovement();
         
         //IceBullet();
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            cooldown[2].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
+            
+        }else if (Input.GetKeyDown(KeyCode.R))
+        {
+            cooldown[1].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
+            
+        }else if (Input.GetKeyDown(KeyCode.T))
+        {
+            cooldown[0].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
+        }
     }
 
     private void CharacterMovement()
