@@ -24,11 +24,12 @@ public class Hunter : MonoBehaviour
     public float rechargeTime = 0;
     public GameObject bullet;
     bool cegado;
-
+    Transform shootPoint;
     bool searching;
     NavMeshAgent _navMeshAgent;
    public  FieldOfView fov;
-    
+
+    Animator animator;
     
     // Variables
     [Header( "SCRIPT PLAYER_POLIMORFO")]
@@ -36,6 +37,7 @@ public class Hunter : MonoBehaviour
     
     private void Awake()
     {
+        animator = FindObjectOfType<Animator>();
         fov = GetComponent<FieldOfView>();
         _navMeshAgent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player");
@@ -81,18 +83,26 @@ public class Hunter : MonoBehaviour
         }
         if (state == 2)
         {
+
+            animator.SetBool("Caminar", false);
             var dist = target.transform.position - transform.position;
             if (range > dist.magnitude && recharge <= 0)
             {
-                Instantiate(bullet, transform.position, transform.rotation);
+                animator.SetBool("Disparar",true);
+                animator.SetBool("Correr", false);
                 recharge = rechargeTime;
             }
             if (dist.magnitude > 10)
             {
+
+                animator.SetBool("Correr", true);
+                animator.SetBool("Disparar", false);
                 _navMeshAgent.SetDestination(target.transform.position);
             }
             else
             {
+                animator.SetBool("Correr", false);
+                animator.SetBool("Idle", true);
                 _navMeshAgent.SetDestination(transform.position);
                 transform.LookAt(target.transform.position);
                 transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
@@ -105,6 +115,8 @@ public class Hunter : MonoBehaviour
             var dist = lastSeenPosition - transform.position;
             if(dist.magnitude >= 1 && !searching)
             {
+                animator.SetBool("Correr", true);
+                animator.SetBool("Idle", false);
                 _navMeshAgent.SetDestination(lastSeenPosition);
             }
             else
@@ -116,6 +128,8 @@ public class Hunter : MonoBehaviour
                 }
                 else
                 {
+                    animator.SetBool("Correr", false);
+                    animator.SetBool("Idle", true);
                     transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y + 25 * Time.deltaTime, transform.eulerAngles.z);
                 }
             }
@@ -128,6 +142,8 @@ public class Hunter : MonoBehaviour
             {
                 if (random < 0)
                 {
+                    animator.SetBool("Caminar", true);
+                    animator.SetBool("Idle", false);
                     random = Random.Range(1, 10);
                     indexRoute++;
                     if (indexRoute >= route.Count - 1)
@@ -138,6 +154,8 @@ public class Hunter : MonoBehaviour
                 else
                 {
 
+                    animator.SetBool("Caminar", false);
+                    animator.SetBool("Idle", true);
                     random -= Time.deltaTime;
                 }
             }
@@ -202,5 +220,9 @@ public class Hunter : MonoBehaviour
             }
         }
         return true;
+    }
+    public void Disparar()
+    {
+        Instantiate(bullet, shootPoint.position, transform.rotation);
     }
 }
