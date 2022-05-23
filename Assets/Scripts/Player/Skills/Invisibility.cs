@@ -8,8 +8,9 @@ public class Invisibility : MonoBehaviour
     public Material handsMat;
     public Material invisibilityMat;
     public GameObject HandsGameObject;
-    public int invisibilityTime;
+    public int invisibilityTime = 8;
     private bool isInvis = false;
+    public int positionCooldown = 0;
     
     
     // FALTA APLICAR LOGICA DE COOLDOWN
@@ -18,14 +19,17 @@ public class Invisibility : MonoBehaviour
     {
         if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "Invisibility")
         {
+            positionCooldown = 0;
             control = KeyCode.T;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Invisibility")
         {
             control = KeyCode.R; 
+            positionCooldown = 1;
         }
         else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() ==  "Invisibility")
         {
             control = KeyCode.E; 
+            positionCooldown = 2;
         }
     }
 
@@ -45,9 +49,12 @@ public class Invisibility : MonoBehaviour
     {
         isInvis = true;
         HandsGameObject.GetComponent<SkinnedMeshRenderer>().material = invisibilityMat;
+        gameObject.layer= 0;
+        //PlayerMovement.instance.cooldown[positionCooldown].GetComponent<Cooldown>().UseSpell();
         // APLICAR LOGICA PARA QUE DEJEN DE DETECTARTE LOS ENEMIES
         yield return new WaitForSeconds(invisibilityTime);
         HandsGameObject.GetComponent<SkinnedMeshRenderer>().material = handsMat;
+        gameObject.layer= 6;
         // DESAPLICAR LOGICA PARA QUE DEJEN DE DETECTARTE LOS ENEMIES
         isInvis = false;
         
