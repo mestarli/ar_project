@@ -14,6 +14,8 @@ public class Blind : MonoBehaviour
     private Vector3 destination;
     
     public KeyCode control;
+    
+    private bool isPosible = false;
     void Start()
     {
         if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "Blind")
@@ -33,8 +35,21 @@ public class Blind : MonoBehaviour
     {
         if (Input.GetKeyDown(control))
         {
-            ShootProjectile();
+            if (!isPosible)
+            {
+                StartCoroutine(CorroutineShootProjectile());
+            }
+            //
         }
+    }
+    
+    IEnumerator CorroutineShootProjectile()
+    {
+        isPosible = true;
+        ShootProjectile();
+        yield return new WaitForSeconds(6);
+        isPosible = false;
+        
     }
 
     private void ShootProjectile()

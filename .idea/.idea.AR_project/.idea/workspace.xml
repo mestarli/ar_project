@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Skills/Invisibility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Skills/Invisibility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevelOptimizar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevelOptimizar.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Hunter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Hunter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,7 @@
       <workItem from="1652854629205" duration="6014000" />
       <workItem from="1652879827341" duration="4515000" />
       <workItem from="1653233036670" duration="4111000" />
-      <workItem from="1653278652384" duration="2707000" />
+      <workItem from="1653278652384" duration="3026000" />
     </task>
     <servers />
   </component>

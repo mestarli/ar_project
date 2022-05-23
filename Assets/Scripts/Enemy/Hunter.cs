@@ -152,6 +152,13 @@ public class Hunter : MonoBehaviour
             state = 1;
             StartCoroutine(Cegar());
         }
+        
+        if (other.gameObject.tag == "Bullet")
+        {
+            target = null;
+            state = 1;
+            StartCoroutine(Cegar());
+        }
         else
         {
 
@@ -163,8 +170,7 @@ public class Hunter : MonoBehaviour
         cegado = true;
         float aux = GetComponent<NavMeshAgent>().speed;
         GetComponent<NavMeshAgent>().speed = 0;
-        yield return new WaitForSeconds(3);
-
+        yield return new WaitForSeconds(6);
         GetComponent<NavMeshAgent>().speed = aux;
         cegado = false;
     }
