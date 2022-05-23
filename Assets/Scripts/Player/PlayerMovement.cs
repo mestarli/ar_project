@@ -42,7 +42,9 @@ public class PlayerMovement : MonoBehaviour
     private bool isRecharging = false;
     [SerializeField] private Transform cam;
 
-    [Space(10)] [Header("COOLDOWN")] [SerializeField] private Cooldown cooldown;
+    [Space(10)] [Header("COOLDOWN")] 
+    public List<GameObject> cooldown;
+
     
     
     public Animator _animator;
@@ -51,7 +53,6 @@ public class PlayerMovement : MonoBehaviour
     {
         instance = this;
         cam = Camera.main.transform;
-        cooldown = FindObjectOfType<Cooldown>();
     }
 
     void Update()
@@ -117,7 +118,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!isRecharging)
             {
-                cooldown.UseSpell();
+                //cooldown.UseSpell();
                 StartCoroutine(CoroutineWallCharges());
             }
         }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,9 +20,9 @@ public class LoadSkill : MonoBehaviour
     
     [SerializeField] private List<Component> skills_scripts;
 
-    public Image SelectedSkillImage1;
-    public Image SelectedSkillImage2;
-    public Image SelectedSkillImage3;
+    public GameObject SelectedSkillImage1;
+    public GameObject SelectedSkillImage2;
+    public GameObject SelectedSkillImage3;
 
     public List<Sprite> Sprites;
     public MonoBehaviour EnableSkill_01;
@@ -46,15 +47,15 @@ public class LoadSkill : MonoBehaviour
         Skills.Add("Blind");
         Skills.Add("Polimorfo");
         Skills.Add("SmokeBomb");
-        PrinSelectedSkill();
+        PrintSelectedSkill();
         LoadSkills();
     }
 
-    public void PrinSelectedSkill()
+    public void PrintSelectedSkill()
     {
-        SelectedSkillImage1.sprite = Sprites[Skill_1];
-        SelectedSkillImage2.sprite = Sprites[Skill_2];
-        SelectedSkillImage3.sprite = Sprites[Skill_3];
+        SelectedSkillImage1.transform.GetChild(0).gameObject.GetComponent<Image>().sprite = Sprites[Skill_1];
+        SelectedSkillImage2.transform.GetChild(0).gameObject.GetComponent<Image>().sprite  = Sprites[Skill_2];
+        SelectedSkillImage3.transform.GetChild(0).gameObject.GetComponent<Image>().sprite  = Sprites[Skill_3];
     }
     
     private void LoadSkills(){
