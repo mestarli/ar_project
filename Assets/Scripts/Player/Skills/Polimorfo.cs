@@ -32,14 +32,14 @@ public class Polimorfo : MonoBehaviour
         allProps = GameObject.FindGameObjectsWithTag("Prop");
         if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "Polimorfo")
         {
-            control = KeyCode.T;
+            control = KeyCode.E;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Polimorfo")
         {
             control = KeyCode.R; 
         }
         else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Polimorfo")
         {
-            control = KeyCode.E; 
+            control = KeyCode.T; 
         }
     }
 

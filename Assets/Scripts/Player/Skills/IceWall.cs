@@ -33,14 +33,14 @@ public class IceWall : MonoBehaviour
         }
         if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "IceWall")
         {
-            control = KeyCode.T;
+            control = KeyCode.E;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "IceWall")
         {
             control = KeyCode.R; 
         }
         else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() ==  "IceWall")
         {
-            control = KeyCode.E; 
+            control = KeyCode.T; 
         }
     }
 
