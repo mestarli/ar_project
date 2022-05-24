@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="" />
+    <list default="true" id="6a3c1b41-3c6e-4a4c-9bb1-0c15e80ce706" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/CazadorAnims/Cazador_caminar.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CazadorAnims/Cazador_caminar.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevelOptimizar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevelOptimizar.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +23,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../M7_Programación/UF2/Practica_2/ArbatJulia_FuriousCarGame/Assets/ArbatJulia/Scripts/OptionsMenu_Scripts/Options_Controller.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../M7_Programación/UF2/Practica_2/ArbatJulia_FuriousCarGame/Assets/ArbatJulia/Scripts/OptionsMenu_Scripts/OptionsSceneManager_Controller.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +41,6 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -111,6 +109,7 @@
       <workItem from="1653233036670" duration="4111000" />
       <workItem from="1653278652384" duration="3026000" />
       <workItem from="1653313895726" duration="3903000" />
+      <workItem from="1653374013010" duration="781000" />
     </task>
     <servers />
   </component>

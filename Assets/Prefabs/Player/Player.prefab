@@ -431,7 +431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26972b8243e922543a9ed072708c2453, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerClone: {fileID: 919132149155446097, guid: 6950a5917c7ea804bac56b50aa9c955b, type: 3}
+  playerClone: {fileID: 7005821859682300801, guid: e5d615c7485b2b74bae8c833ef6f2c26, type: 3}
   spawnerClone: {fileID: 5707353096225929210}
   control: 0
 --- !u!114 &1835411181
