@@ -23,6 +23,7 @@ public class Polimorfo : MonoBehaviour
     [SerializeField] private float distanceToEnemy;
     
     public KeyCode control;
+    private bool isPosible = false;
     
     // Start is called before the first frame update
     void Start()
@@ -106,14 +107,22 @@ public class Polimorfo : MonoBehaviour
     private void ConvertirPolimorfo()
     {
         // Si le damos a la "F" y hay un enemigo cercano...
-        if (Input.GetKeyDown(control) && ClosestEnemy != null)
+        if (Input.GetKeyDown(control) && ClosestEnemy != null && !isPosible)
         {
+            Debug.Log("Lanzando polimorfo");
             // El prop será de forma aleatoria uno de todos los del mapa
             Prop = allProps[Random.Range(0, allProps.Length)];
             
             // Spawnearemos el prop en la posición del enemigo y luego lo destruiremos
             Instantiate(Prop, ClosestEnemy.transform.position, ClosestEnemy.transform.rotation);
             Destroy(ClosestEnemy.gameObject);
+            isPosible = true;
+            StartCoroutine(PolimorfoDisponible());
         }
+    }
+    private IEnumerator PolimorfoDisponible()
+    {
+        yield return new WaitForSeconds(5);
+        isPosible = false;
     }
 }

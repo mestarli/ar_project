@@ -173,6 +173,7 @@ public class Hunter : MonoBehaviour
         
         if (other.gameObject.tag == "Bullet")
         {
+            Debug.Log("ey bullet");
             target = null;
             state = 1;
             StartCoroutine(Cegar());
