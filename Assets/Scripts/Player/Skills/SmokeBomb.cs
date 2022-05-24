@@ -67,7 +67,7 @@ public class SmokeBomb : MonoBehaviour
         // Añadimos los visualEffects de humo que tienen los hijos del prefab de la lista smokesEffects a la lista smokeEffectsChildren y esperamos
         // 10s para borrar la lista de smokes, después podremos volver a spawnear otra bomba de humo y se desvanecerá la anterior bomba lanzada
         smokeEffectsChildren = smokesEffects[0].GetComponentsInChildren<VisualEffect>();
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(6);
         smokesEffects.Clear();
         canSpawnSmoke = true;   
         foreach (var visualEffect in smokeEffectsChildren)
