@@ -2764,7 +2764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listSounds:
   - name: Caminar
-    audioClip: {fileID: 8300000, guid: 48703f832d74a6745bb375115eb6f3e2, type: 3}
+    audioClip: {fileID: 8300000, guid: 65f1b430dfb448446a794a7fcb4a3e9a, type: 3}
     volume: 1
     loop: 1
     playOnAwake: 0
