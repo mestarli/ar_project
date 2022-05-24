@@ -44,6 +44,7 @@ public class Player : MonoBehaviour
     public void RestarVida(float restar_vida)
     {
         life -= restar_vida;
+        AudioManager.instance.PlaySong("Daño");
         UIManager.Instance.UpdateLife(life, Maxlife);
         if (life <= 0)
         {

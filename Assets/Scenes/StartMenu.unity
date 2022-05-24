@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2713,6 +2713,98 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007437117}
   m_CullTransparentMesh: 1
+--- !u!1 &1018208445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1018208446}
+  - component: {fileID: 1018208447}
+  m_Layer: 5
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1018208446
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018208445}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 960, y: 540}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1018208447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018208445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9053102f4a179354aa2043a985776cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listSounds:
+  - name: Caminar
+    audioClip: {fileID: 8300000, guid: 48703f832d74a6745bb375115eb6f3e2, type: 3}
+    volume: 1
+    loop: 1
+    playOnAwake: 0
+    audioSource: {fileID: 0}
+  - name: Correr
+    audioClip: {fileID: 8300000, guid: d934eee0be9806b4388fa181aa4f1fe2, type: 3}
+    volume: 1
+    loop: 1
+    playOnAwake: 0
+    audioSource: {fileID: 0}
+  - name: "Da\xF1o"
+    audioClip: {fileID: 8300000, guid: 42ffb94aab516ff4a9fe44e36f7f2f56, type: 3}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}
+  - name: Magia1
+    audioClip: {fileID: 8300000, guid: 0298a5454c5ca0c459bc89d978a0587b, type: 3}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}
+  - name: Magia2
+    audioClip: {fileID: 8300000, guid: daab11ac7f9204341ac76d2df593d5f7, type: 3}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}
+  - name: Magia3_Humo
+    audioClip: {fileID: 8300000, guid: 7f54948012927f44f9481a66240a0a28, type: 3}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}
+  - name: Magia4_Muro
+    audioClip: {fileID: 8300000, guid: 787b0f8a6c5fc1643b762ad36f151336, type: 3}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}
 --- !u!1 &1032737260
 GameObject:
   m_ObjectHideFlags: 0

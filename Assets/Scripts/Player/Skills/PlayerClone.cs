@@ -16,14 +16,14 @@ public class PlayerClone : MonoBehaviour
     {
         if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "PlayerClone")
         {
-            control = KeyCode.T;
+            control = KeyCode.E;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "PlayerClone")
         {
             control = KeyCode.R; 
         }
         else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() ==  "PlayerClone")
         {
-            control = KeyCode.E; 
+            control = KeyCode.T; 
         }
     }
     private void Update()

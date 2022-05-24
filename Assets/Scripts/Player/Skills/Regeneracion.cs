@@ -23,14 +23,14 @@ public class Regeneracion : MonoBehaviour
         speedVidaRegeneration = 10;
         if (LoadSkill.Instance.EnableSkill_01.GetType().ToString() == "Regeneracion")
         {
-            control = KeyCode.T;
+            control = KeyCode.E;
         }else if (LoadSkill.Instance.EnableSkill_02.GetType().ToString() == "Regeneracion")
         {
             control = KeyCode.R; 
         }
         else if (LoadSkill.Instance.EnableSkill_03.GetType().ToString() == "Regeneracion")
         {
-            control = KeyCode.E; 
+            control = KeyCode.T; 
         }
         
     }
