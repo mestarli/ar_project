@@ -3,7 +3,17 @@ guid: 9917dd20181e2b64a9d067363fd3bf5b
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal_M
+    second: {fileID: 2100000, guid: 8674470d8af48bc44b92affdd7fc2ed8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 934899b2f0169e34896ed230912f60bd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -88,7 +98,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.022499999
+    globalScale: 2.25
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
