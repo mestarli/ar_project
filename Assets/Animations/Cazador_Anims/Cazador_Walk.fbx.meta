@@ -1,0 +1,1194 @@
+fileFormatVersion: 2
+guid: e3047c61c060c0d448571714c510d8b5
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Cazador_Walk(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Cazador_Geo
+      parentName: Cazador_Walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:polySurface1
+      parentName: Cazador_RigOK:Cazador_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Skeleton_GRP
+      parentName: Cazador_Walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Base_Skeleton
+      parentName: Cazador_RigOK:Skeleton_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Spine_Root_Jnt
+      parentName: Cazador_RigOK:Base_Skeleton
+      position: {x: -0, y: 0.08, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Spine_1_Jnt
+      parentName: Cazador_RigOK:Spine_Root_Jnt
+      position: {x: -0, y: 0.02, z: -0.006972708}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Spine_2_Jnt
+      parentName: Cazador_RigOK:Spine_1_Jnt
+      position: {x: -0.02, y: 0, z: -1.1832913e-32}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: Cazador_RigOK:Chest_Jnt
+      parentName: Cazador_RigOK:Spine_2_Jnt
+      position: {x: -0.01, y: 4.440892e-18, z: 1.1832913e-32}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Cazador_RigOK:Neck_Base_Jnt
+      parentName: Cazador_RigOK:Chest_Jnt
+      position: {x: -0.018743927, y: -0.0032629222, z: -3.995927e-19}
+      rotation: {x: -0, y: -0, z: 0.08151248, w: 0.9966724}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Cazador_RigOK:Head_End_Jnt
+      parentName: Cazador_RigOK:Neck_Base_Jnt
+      position: {x: -0.03347618, y: 0.0069396053, z: -6.4947104e-19}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Cazador_RigOK:Shoulder_L_Jnt
+      parentName: Cazador_RigOK:Chest_Jnt
+      position: {x: -0.01, y: 0.0022065882, z: -0.01840289}
+      rotation: {x: 0.011377037, y: -0.7070153, z: -0.0113770105, w: 0.7070152}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: Cazador_RigOK:Elbow_L_Jnt
+      parentName: Cazador_RigOK:Shoulder_L_Jnt
+      position: {x: -0.012065641, y: -3.719247e-17, z: -1.0658141e-16}
+      rotation: {x: -0.000051379207, y: 0.0653638, z: 0.029095683, w: 0.99743724}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: Cazador_RigOK:Wrist_L_Jnt
+      parentName: Cazador_RigOK:Elbow_L_Jnt
+      position: {x: -0.019971408, y: 0.00043328165, z: -0.0009903173}
+      rotation: {x: -0.0011698653, y: -0.083241664, z: -0.014004633, w: 0.99643034}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Cazador_RigOK:Middle_Base_L_Jnt
+      parentName: Cazador_RigOK:Wrist_L_Jnt
+      position: {x: -0.0076265787, y: 1.7763568e-17, z: 5.3290704e-17}
+      rotation: {x: 0.7071068, y: 0.000000014901161, z: -0.000000010346412, w: 0.7071068}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000005}
+    - name: Cazador_RigOK:Middle_Mid_L_Jnt
+      parentName: Cazador_RigOK:Middle_Base_L_Jnt
+      position: {x: -0.002785554, y: 3.5527136e-17, z: 0}
+      rotation: {x: 0.000000059604645, y: -0.0000000052940807, z: 0.000000047389484, w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
+    - name: Cazador_RigOK:Middle_Tip_L_Jnt
+      parentName: Cazador_RigOK:Middle_Mid_L_Jnt
+      position: {x: -0.0030492672, y: -9.7699626e-17, z: -2.6645352e-17}
+      rotation: {x: -0, y: -0, z: 3.155518e-16, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Cazador_RigOK:Middle_Top_L_Jnt
+      parentName: Cazador_RigOK:Middle_Tip_L_Jnt
+      position: {x: -0.0032187973, y: -6.217249e-17, z: 0}
+      rotation: {x: -0.7071068, y: 0.000000021935012, z: -0.000000019836268, w: 0.7071067}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Cazador_RigOK:Thumb_Base_L_Jnt
+      parentName: Cazador_RigOK:Wrist_L_Jnt
+      position: {x: -0.0030097717, y: -0.0050228857, z: -0.0003760831}
+      rotation: {x: 0.33672637, y: 0.0873861, z: 0.29761356, w: 0.88904744}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Cazador_RigOK:Thumb_Mid_L_Jnt
+      parentName: Cazador_RigOK:Thumb_Base_L_Jnt
+      position: {x: -0.0038953912, y: -3.5527136e-17, z: -4.4408918e-17}
+      rotation: {x: -0.030702554, y: -0.03357457, z: 0.017879698, w: 0.9988045}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: Cazador_RigOK:Thumb_Top_L_Jnt
+      parentName: Cazador_RigOK:Thumb_Mid_L_Jnt
+      position: {x: -0.0032357913, y: 0.00032204235, z: 0.00007201663}
+      rotation: {x: 0.0000000037252903, y: -0, z: 6.9849193e-10, w: 1}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999998}
+    - name: Cazador_RigOK:Shoulder_R_Jnt
+      parentName: Cazador_RigOK:Chest_Jnt
+      position: {x: -0.00999999, y: 0.0022065903, z: 0.018402895}
+      rotation: {x: 0.7070153, y: 0.011377007, z: 0.7070152, w: 0.011377017}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Cazador_RigOK:Elbow_R_Jnt
+      parentName: Cazador_RigOK:Shoulder_R_Jnt
+      position: {x: 0.012065642, y: 0.000000014685316, z: 0.000000002109848}
+      rotation: {x: -0.00016949652, y: 0.08324959, z: 0.030034926, w: 0.99607605}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: Cazador_RigOK:Wrist_R_Jnt
+      parentName: Cazador_RigOK:Elbow_R_Jnt
+      position: {x: 0.01975551, y: 0.00060859264, z: 0.0020441199}
+      rotation: {x: -0.000000005995388, y: 0.000000111758695, z: -0.000000010177245, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.9999997}
+    - name: Cazador_RigOK:Middle_Base_R_Jnt
+      parentName: Cazador_RigOK:Wrist_R_Jnt
+      position: {x: 0.0075179166, y: -0.00021136765, z: 0.0012654179}
+      rotation: {x: 0.70375544, y: -0.06876348, z: 0.048957936, w: 0.7054099}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: Cazador_RigOK:Middle_Mid_R_Jnt
+      parentName: Cazador_RigOK:Middle_Base_R_Jnt
+      position: {x: 0.002785448, y: -0.000000040224222, z: 4.440892e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: Cazador_RigOK:Middle_Tip_R_Jnt
+      parentName: Cazador_RigOK:Middle_Mid_R_Jnt
+      position: {x: 0.0030493, y: -1.4210854e-16, z: 1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cazador_RigOK:Middle_Top_R_Jnt
+      parentName: Cazador_RigOK:Middle_Tip_R_Jnt
+      position: {x: 0.0032188, y: 3.5527136e-17, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Cazador_RigOK:Thumb_Base_R_Jnt
+      parentName: Cazador_RigOK:Wrist_R_Jnt
+      position: {x: 0.0030457103, y: 0.004939244, z: 0.00087017915}
+      rotation: {x: 0.3109275, y: 0.008714524, z: 0.31202734, w: 0.89771223}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Cazador_RigOK:Thumb_Mid_R_Jnt
+      parentName: Cazador_RigOK:Thumb_Base_R_Jnt
+      position: {x: 0.0038953822, y: 0.00000021131325, z: 0.0000002171962}
+      rotation: {x: -0.030702747, y: -0.033611737, z: 0.017917175, w: 0.9988026}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Cazador_RigOK:Thumb_Top_R_Jnt
+      parentName: Cazador_RigOK:Thumb_Mid_R_Jnt
+      position: {x: 0.0032357087, y: -0.00032234896, z: -0.00007241683}
+      rotation: {x: 0.0000000037252899, y: -0, z: 0.0000000017462296, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Cazador_RigOK:UpperLeg_L_Jnt
+      parentName: Cazador_RigOK:Spine_Root_Jnt
+      position: {x: -0.01, y: -0.012276948, z: -0.004582043}
+      rotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Cazador_RigOK:MiddleLeg_L_Jnt
+      parentName: Cazador_RigOK:UpperLeg_L_Jnt
+      position: {x: -0.028157698, y: -1.110223e-18, z: 4.440892e-18}
+      rotation: {x: 0.99969345, y: -0, z: -0.024758877, w: 0}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Cazador_RigOK:LowerLeg_L_Jnt
+      parentName: Cazador_RigOK:MiddleLeg_L_Jnt
+      position: {x: -0.02522402, y: -1.110223e-18, z: 6.661338e-18}
+      rotation: {x: 0.99690396, y: -0.077796005, z: -0.0076781195, w: 0.008455859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Foot_L_Jnt
+      parentName: Cazador_RigOK:LowerLeg_L_Jnt
+      position: {x: -0.013455077, y: 8.881784e-18, z: 2.220446e-18}
+      rotation: {x: -0.83178896, y: -0.55479306, z: -0.017403316, w: -0.0053802906}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Cazador_RigOK:Toe_L_Jnt
+      parentName: Cazador_RigOK:Foot_L_Jnt
+      position: {x: -0.012916597, y: 0, z: -4.2188474e-17}
+      rotation: {x: 1, y: 0.000000029802319, z: -0.0000000027423075, w: -0.0000000025640572}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Cazador_RigOK:Jacket_Base_Jnt
+      parentName: Cazador_RigOK:Spine_Root_Jnt
+      position: {x: 2.9582283e-33, y: -2.6645352e-17, z: -0.019071268}
+      rotation: {x: -0.43413138, y: -0.5581487, z: 0.43413138, w: 0.5581487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Jacket_Mid_Jnt
+      parentName: Cazador_RigOK:Jacket_Base_Jnt
+      position: {x: -0.013481738, y: 8.881784e-18, z: 1.6510369e-18}
+      rotation: {x: -0, y: -0, z: -0.02902928, w: 0.9995786}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Cazador_RigOK:Jacket_Tip_Jnt
+      parentName: Cazador_RigOK:Jacket_Mid_Jnt
+      position: {x: -0.013316594, y: 3.5527136e-17, z: 1.8095256e-18}
+      rotation: {x: 0.000000028924621, y: 0.0000000306549, z: 0.03505662, w: 0.99938536}
+      scale: {x: 1.0000002, y: 1, z: 1.0000005}
+    - name: Cazador_RigOK:Jacket_Top_Jnt
+      parentName: Cazador_RigOK:Jacket_Tip_Jnt
+      position: {x: -0.020573225, y: -1.7763568e-17, z: 1.8586937e-18}
+      rotation: {x: -0.000000033268254, y: -0.000000025876245, z: 0.11803121, w: 0.9930099}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Cazador_RigOK:Jacket_End_Jnt
+      parentName: Cazador_RigOK:Jacket_Top_Jnt
+      position: {x: -0.02, y: -4.440892e-18, z: 2.4492936e-18}
+      rotation: {x: -1.7763566e-15, y: 4.4408916e-16, z: -1, w: -0.0000000149011585}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Cazador_RigOK:UpperLeg_R_Jnt
+      parentName: Cazador_RigOK:Spine_Root_Jnt
+      position: {x: 0.01, y: -0.0122769, z: -0.00458204}
+      rotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Cazador_RigOK:MiddleLeg_R_Jnt
+      parentName: Cazador_RigOK:UpperLeg_R_Jnt
+      position: {x: -0.028157698, y: -3.8857806e-18, z: -2.220446e-18}
+      rotation: {x: 0.99969345, y: 0.000000029802326, z: 0.024759742, w: -0.000000029802326}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Cazador_RigOK:LowerLeg_R_Jnt
+      parentName: Cazador_RigOK:MiddleLeg_R_Jnt
+      position: {x: -0.025224026, y: 0, z: -5.1070257e-17}
+      rotation: {x: -0.9969039, y: 0.07779598, z: -0.0076790107, w: 0.008455866}
+      scale: {x: 0.99999976, y: 1, z: 1.0000004}
+    - name: Cazador_RigOK:Foot_R_Jnt
+      parentName: Cazador_RigOK:LowerLeg_R_Jnt
+      position: {x: -0.013455106, y: -2.220446e-18, z: -2.220446e-18}
+      rotation: {x: 0.831789, y: 0.5547929, z: -0.017403308, w: -0.005380265}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: Cazador_RigOK:Toe_R_Jnt
+      parentName: Cazador_RigOK:Foot_R_Jnt
+      position: {x: -0.012916578, y: -6.661338e-18, z: 8.881784e-18}
+      rotation: {x: -1, y: -0, z: 0.00000009016893, w: 0.000000018915081}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: Cazador_RigOK:IK_Skeleton
+      parentName: Cazador_RigOK:Skeleton_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Spine_Root_Jnt
+      parentName: Cazador_RigOK:IK_Skeleton
+      position: {x: -0, y: 0.08, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Spine_1_Jnt
+      parentName: Cazador_RigOK:IK_Spine_Root_Jnt
+      position: {x: -0, y: 0.02, z: -0.006972708}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Spine_2_Jnt
+      parentName: Cazador_RigOK:IK_Spine_1_Jnt
+      position: {x: -0.02, y: 0, z: 9.795089e-35}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Chest_Jnt
+      parentName: Cazador_RigOK:IK_Spine_2_Jnt
+      position: {x: -0.01, y: 0, z: 4.8975445e-35}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Neck_Base_Jnt
+      parentName: Cazador_RigOK:IK_Chest_Jnt
+      position: {x: -0.018743927, y: -0.0032629222, z: -3.995927e-19}
+      rotation: {x: 0, y: 0, z: 0.081512466, w: 0.99667233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Head_End_Jnt
+      parentName: Cazador_RigOK:IK_Neck_Base_Jnt
+      position: {x: -0.032639425, y: -3.4416914e-17, z: -6.4947104e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Jacket_Base_Jnt
+      parentName: Cazador_RigOK:IK_Spine_Root_Jnt
+      position: {x: 4.9303805e-34, y: 9.418516e-34, z: -0.019071268}
+      rotation: {x: -0.43413138, y: -0.5581487, z: 0.43413138, w: 0.5581487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Jacket_Mid_Jnt
+      parentName: Cazador_RigOK:IK_Jacket_Base_Jnt
+      position: {x: -0.013481738, y: -6.7231243e-18, z: 1.6510369e-18}
+      rotation: {x: 0, y: -0, z: -0.02902933, w: 0.9995786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Jacket_Tip_Jnt
+      parentName: Cazador_RigOK:IK_Jacket_Mid_Jnt
+      position: {x: -0.013316594, y: 2.5257573e-17, z: 1.8095256e-18}
+      rotation: {x: 0, y: 0, z: 0.035056736, w: 0.99938536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Jacket_Top_Jnt
+      parentName: Cazador_RigOK:IK_Jacket_Tip_Jnt
+      position: {x: -0.020573225, y: -1.2767564e-17, z: 1.8586937e-18}
+      rotation: {x: 0, y: 0, z: 0.11803113, w: 0.9930099}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Jacket_End_Jnt
+      parentName: Cazador_RigOK:IK_Jacket_Top_Jnt
+      position: {x: -0.02, y: -3.330669e-18, z: 2.4492936e-18}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Skeleton
+      parentName: Cazador_RigOK:Skeleton_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Spine_Root_Jnt
+      parentName: Cazador_RigOK:FK_Skeleton
+      position: {x: -0, y: 0.08, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Spine_1_Jnt
+      parentName: Cazador_RigOK:FK_Spine_Root_Jnt
+      position: {x: -0, y: 0.02, z: -0.006972708}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Spine_2_Jnt
+      parentName: Cazador_RigOK:FK_Spine_1_Jnt
+      position: {x: -0.02, y: 0, z: 9.795089e-35}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Chest_Jnt
+      parentName: Cazador_RigOK:FK_Spine_2_Jnt
+      position: {x: -0.01, y: 0, z: 4.8975445e-35}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Neck_Base_Jnt
+      parentName: Cazador_RigOK:FK_Chest_Jnt
+      position: {x: -0.018743927, y: -0.0032629222, z: -3.995927e-19}
+      rotation: {x: 0, y: 0, z: 0.081512466, w: 0.99667233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Head_End_Jnt
+      parentName: Cazador_RigOK:FK_Neck_Base_Jnt
+      position: {x: -0.032639425, y: -3.4416914e-17, z: -6.4947104e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Shoulder_L_Jnt
+      parentName: Cazador_RigOK:FK_Chest_Jnt
+      position: {x: -0.009864824, y: -0.0032027804, z: -0.01840289}
+      rotation: {x: 0.053123962, y: 0.9421675, z: -0.09328889, w: -0.3174829}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Elbow_L_Jnt
+      parentName: Cazador_RigOK:FK_Shoulder_L_Jnt
+      position: {x: -0.012065641, y: 3.7470028e-17, z: -7.105427e-17}
+      rotation: {x: -0.53567106, y: -0.17979065, z: 0.3439397, w: 0.7499582}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Wrist_L_Jnt
+      parentName: Cazador_RigOK:FK_Elbow_L_Jnt
+      position: {x: -0.019971408, y: 0.00043328165, z: -0.0009903173}
+      rotation: {x: -0.4315433, y: -0.3196021, z: 0.076338775, w: 0.8401174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Middle_Base_L_Jnt
+      parentName: Cazador_RigOK:FK_Wrist_L_Jnt
+      position: {x: -0.0076265787, y: 8.881784e-18, z: 3.5527136e-17}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Middle_Mid_L_Jnt
+      parentName: Cazador_RigOK:FK_Middle_Base_L_Jnt
+      position: {x: -0.002785554, y: -3.5527136e-17, z: 0}
+      rotation: {x: 0, y: 0, z: 0.35184634, w: 0.9360578}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Middle_Tip_L_Jnt
+      parentName: Cazador_RigOK:FK_Middle_Mid_L_Jnt
+      position: {x: -0.0030492672, y: -6.217249e-17, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Middle_Top_L_Jnt
+      parentName: Cazador_RigOK:FK_Middle_Tip_L_Jnt
+      position: {x: -0.0032187973, y: -6.128397e-33, z: -1e-45}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Thumb_Base_L_Jnt
+      parentName: Cazador_RigOK:FK_Wrist_L_Jnt
+      position: {x: -0.0030097717, y: -0.0050228857, z: -0.0003760831}
+      rotation: {x: 0.34466583, y: 0.06445653, z: 0.2657694, w: 0.8980075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Thumb_Mid_L_Jnt
+      parentName: Cazador_RigOK:FK_Thumb_Base_L_Jnt
+      position: {x: -0.0038953912, y: -1.7763568e-17, z: 0}
+      rotation: {x: -0.03191301, y: -0.053178385, z: -0.00839165, w: 0.9980397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Thumb_Top_L_Jnt
+      parentName: Cazador_RigOK:FK_Thumb_Mid_L_Jnt
+      position: {x: -0.0032357913, y: 0.00032204235, z: 0.00007201663}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Shoulder_R_Jnt
+      parentName: Cazador_RigOK:FK_Chest_Jnt
+      position: {x: -0.0098648155, y: -0.0032027762, z: 0.018402895}
+      rotation: {x: 0.9677938, y: 0.06243427, z: 0.24130875, w: -0.03531615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Elbow_R_Jnt
+      parentName: Cazador_RigOK:FK_Shoulder_R_Jnt
+      position: {x: 0.012065642, y: 0.000000014685316, z: 0.000000002109848}
+      rotation: {x: -0.25085112, y: -0.064935565, z: 0.43628466, w: 0.86169183}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Wrist_R_Jnt
+      parentName: Cazador_RigOK:FK_Elbow_R_Jnt
+      position: {x: 0.01975551, y: 0.00060859264, z: 0.0020441199}
+      rotation: {x: -0.71194863, y: 0.020016572, z: -0.1198354, w: 0.6916415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Middle_Base_R_Jnt
+      parentName: Cazador_RigOK:FK_Wrist_R_Jnt
+      position: {x: 0.0075179166, y: -0.00021136765, z: 0.0012654179}
+      rotation: {x: 0.7037554, y: -0.06876347, z: 0.04895791, w: 0.70540994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Middle_Mid_R_Jnt
+      parentName: Cazador_RigOK:FK_Middle_Base_R_Jnt
+      position: {x: 0.002785448, y: -0.000000040224222, z: -4.440892e-18}
+      rotation: {x: 0, y: 0, z: 0.4199889, w: 0.9075293}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Middle_Tip_R_Jnt
+      parentName: Cazador_RigOK:FK_Middle_Mid_R_Jnt
+      position: {x: 0.0030493, y: -1.7763568e-17, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Middle_Top_R_Jnt
+      parentName: Cazador_RigOK:FK_Middle_Tip_R_Jnt
+      position: {x: 0.0032188, y: -5.3290704e-17, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Thumb_Base_R_Jnt
+      parentName: Cazador_RigOK:FK_Wrist_R_Jnt
+      position: {x: 0.0030457103, y: 0.004939244, z: 0.00087017915}
+      rotation: {x: 0.3211645, y: -0.015041115, z: 0.2808595, w: 0.9042926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Thumb_Mid_R_Jnt
+      parentName: Cazador_RigOK:FK_Thumb_Base_R_Jnt
+      position: {x: 0.0038953822, y: 0.00000021131325, z: 0.0000002171962}
+      rotation: {x: -0.03191301, y: -0.053178385, z: -0.00839165, w: 0.9980397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Thumb_Top_R_Jnt
+      parentName: Cazador_RigOK:FK_Thumb_Mid_R_Jnt
+      position: {x: 0.0032357087, y: -0.00032234896, z: -0.00007241683}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_UpperLeg_L_Jnt
+      parentName: Cazador_RigOK:FK_Spine_Root_Jnt
+      position: {x: -0.01, y: -0.012276948, z: -0.004582043}
+      rotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_MiddleLeg_L_Jnt
+      parentName: Cazador_RigOK:FK_UpperLeg_L_Jnt
+      position: {x: -0.028157698, y: 0, z: 3.330669e-18}
+      rotation: {x: 0.99969345, y: 1.5160463e-18, z: -0.024758914, w: 6.121357e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_LowerLeg_L_Jnt
+      parentName: Cazador_RigOK:FK_MiddleLeg_L_Jnt
+      position: {x: -0.02522402, y: 3.330669e-18, z: 2.220446e-18}
+      rotation: {x: 0.9333127, y: -0.35820994, z: -0.02311488, w: 0.008871569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Foot_L_Jnt
+      parentName: Cazador_RigOK:FK_LowerLeg_L_Jnt
+      position: {x: -0.013455077, y: 8.881784e-18, z: 4.440892e-18}
+      rotation: {x: 0.9553864, y: 0.29535875, z: -1.8085507e-17, w: -5.850055e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Toe_L_Jnt
+      parentName: Cazador_RigOK:FK_Foot_L_Jnt
+      position: {x: -0.012916597, y: -4.776204e-18, z: -4.074675e-17}
+      rotation: {x: 1, y: -0, z: 0, w: 5.0532154e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Jacket_Base_Jnt
+      parentName: Cazador_RigOK:FK_Spine_Root_Jnt
+      position: {x: 4.9303805e-34, y: 9.418516e-34, z: -0.019071268}
+      rotation: {x: -0.43413138, y: -0.5581487, z: 0.43413138, w: 0.5581487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Jacket_Mid_Jnt
+      parentName: Cazador_RigOK:FK_Jacket_Base_Jnt
+      position: {x: -0.013481738, y: -6.7231243e-18, z: 1.6510369e-18}
+      rotation: {x: 0, y: -0, z: -0.02902933, w: 0.9995786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Jacket_Tip_Jnt
+      parentName: Cazador_RigOK:FK_Jacket_Mid_Jnt
+      position: {x: -0.013316594, y: 2.5257573e-17, z: 1.8095256e-18}
+      rotation: {x: 0, y: 0, z: 0.035056736, w: 0.99938536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Jacket_Top_Jnt
+      parentName: Cazador_RigOK:FK_Jacket_Tip_Jnt
+      position: {x: -0.020573225, y: -1.2767564e-17, z: 1.8586937e-18}
+      rotation: {x: 0, y: 0, z: 0.11803113, w: 0.9930099}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Jacket_End_Jnt
+      parentName: Cazador_RigOK:FK_Jacket_Top_Jnt
+      position: {x: -0.02, y: -3.330669e-18, z: 2.4492936e-18}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_UpperLeg_R_Jnt
+      parentName: Cazador_RigOK:FK_Spine_Root_Jnt
+      position: {x: 0.01, y: -0.0122769, z: -0.00458204}
+      rotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_MiddleLeg_R_Jnt
+      parentName: Cazador_RigOK:FK_UpperLeg_R_Jnt
+      position: {x: -0.028157698, y: -3.330669e-18, z: 0}
+      rotation: {x: 0.99969345, y: -5.977262e-17, z: 0.024759784, w: -5.9695606e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_LowerLeg_R_Jnt
+      parentName: Cazador_RigOK:FK_MiddleLeg_R_Jnt
+      position: {x: -0.025224026, y: 1.110223e-18, z: -5.1070257e-17}
+      rotation: {x: 0.9333131, y: -0.35820895, z: 0.023115696, w: -0.008871847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Foot_R_Jnt
+      parentName: Cazador_RigOK:FK_LowerLeg_R_Jnt
+      position: {x: -0.013455106, y: -3.330669e-18, z: -2.220446e-18}
+      rotation: {x: 0.95538616, y: 0.2953596, z: 1.8086754e-17, w: 5.850016e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:FK_Toe_R_Jnt
+      parentName: Cazador_RigOK:FK_Foot_R_Jnt
+      position: {x: -0.012916578, y: -7.51716e-19, z: 1.1321394e-17}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Master_CTRL_GRP
+      parentName: Cazador_Walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Master_CTRL
+      parentName: Cazador_RigOK:Master_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_FK_Switch_CTRL_GRP
+      parentName: Cazador_RigOK:Master_CTRL
+      position: {x: -0, y: 0, z: 0.08}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.20891342, y: 0.20891342, z: 0.20891342}
+    - name: Cazador_RigOK:IK_FK_Switch_CTRL
+      parentName: Cazador_RigOK:IK_FK_Switch_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_CTRLS_GRP
+      parentName: Cazador_RigOK:Master_CTRL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_ARM_R_CTRLS_GRP_Mirror
+      parentName: Cazador_RigOK:IK_CTRLS_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Cazador_RigOK:IK_ARM_R_CTRLS_GRP
+      parentName: Cazador_RigOK:IK_ARM_R_CTRLS_GRP_Mirror
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Wrist_R_CTRL_GRP
+      parentName: Cazador_RigOK:IK_ARM_R_CTRLS_GRP
+      position: {x: -0.050462216, y: 0.14336507, z: -0.0089973}
+      rotation: {x: -0.7671717, y: 0.005552744, z: 0.041990034, w: 0.6400419}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Wrist_R_CTRL
+      parentName: Cazador_RigOK:IK_Wrist_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_ARM_L_CTRLS_GRP
+      parentName: Cazador_RigOK:IK_CTRLS_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Wrist_L_CTRL_GRP
+      parentName: Cazador_RigOK:IK_ARM_L_CTRLS_GRP
+      position: {x: -0.050462216, y: 0.14336507, z: -0.0089973}
+      rotation: {x: -0.7671717, y: 0.005552744, z: 0.041990034, w: 0.6400419}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Wrist_L_CTRL
+      parentName: Cazador_RigOK:IK_Wrist_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Foot_R_CTRLS_GRP_Mirror
+      parentName: Cazador_RigOK:IK_CTRLS_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Cazador_RigOK:IK_Foot_R_CTRLS_GRP
+      parentName: Cazador_RigOK:IK_Foot_R_CTRLS_GRP_Mirror
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Foot_R_CTRL_GRP
+      parentName: Cazador_RigOK:IK_Foot_R_CTRLS_GRP
+      position: {x: -0.011248655, y: 0.01437226, z: -0.004582043}
+      rotation: {x: -0.6306024, y: -0.30095088, z: 0.6532408, w: 0.29162577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Foot_R_CTRL
+      parentName: Cazador_RigOK:IK_Foot_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Foot_L_CTRLS_GRP
+      parentName: Cazador_RigOK:IK_CTRLS_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Foot_L_CTRL_GRP
+      parentName: Cazador_RigOK:IK_Foot_L_CTRLS_GRP
+      position: {x: -0.011248655, y: 0.01437226, z: -0.004582043}
+      rotation: {x: -0.6306024, y: -0.30095088, z: 0.6532408, w: 0.29162577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Foot_L_CTRL
+      parentName: Cazador_RigOK:IK_Foot_L_CTRL_GRP
+      position: {x: 0.0007445049, y: 0.001389762, z: -0.000027774431}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Spine_Root_CTRL_GRP
+      parentName: Cazador_RigOK:Master_CTRL
+      position: {x: -0, y: 0.08, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Spine_Root_CTRL
+      parentName: Cazador_RigOK:Spine_Root_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Jacket_Base_CTRL_GRP
+      parentName: Cazador_RigOK:Spine_Root_CTRL
+      position: {x: 8.628166e-34, y: -1.7763568e-17, z: -0.019071268}
+      rotation: {x: -0.43413138, y: -0.5581487, z: 0.43413138, w: 0.5581487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Jacket_Base_CTRL
+      parentName: Cazador_RigOK:Jacket_Base_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Jacket_Mid_CTRL_GRP
+      parentName: Cazador_RigOK:Jacket_Base_CTRL
+      position: {x: -0.013481738, y: -8.881784e-18, z: 1.6510369e-18}
+      rotation: {x: 0, y: -0, z: -0.02902933, w: 0.9995786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Jacket_Mid_CTRL
+      parentName: Cazador_RigOK:Jacket_Mid_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Jacket_Tip_CTRL_GRP
+      parentName: Cazador_RigOK:Jacket_Mid_CTRL
+      position: {x: -0.013316594, y: 2.6645352e-17, z: 2.2006094e-18}
+      rotation: {x: 0, y: 0, z: 0.035056736, w: 0.99938536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Jacket_Tip_CTRL
+      parentName: Cazador_RigOK:Jacket_Tip_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Jacket_Top_CTRL_GRP
+      parentName: Cazador_RigOK:Jacket_Tip_CTRL
+      position: {x: -0.020573225, y: -4.440892e-18, z: 1.735061e-18}
+      rotation: {x: 0, y: 0, z: 0.11803113, w: 0.9930099}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Jacket_Top_CTRL
+      parentName: Cazador_RigOK:Jacket_Top_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Spine_1_CTRL_GRP
+      parentName: Cazador_RigOK:Spine_Root_CTRL
+      position: {x: -0, y: 0.02, z: -0.006972708}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Spine_1_CTRL
+      parentName: Cazador_RigOK:Spine_1_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Spine_2_CTRL_GRP
+      parentName: Cazador_RigOK:Spine_1_CTRL
+      position: {x: -0.02, y: 0, z: -7.888609e-33}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Spine_2_CTRL
+      parentName: Cazador_RigOK:Spine_2_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.13446054, w: 0.99091893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Chest_CTRL_GRP
+      parentName: Cazador_RigOK:Spine_2_CTRL
+      position: {x: -0.01, y: 0, z: 3.9443044e-33}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Chest_CTRL
+      parentName: Cazador_RigOK:Chest_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Head_CTRL_GRP
+      parentName: Cazador_RigOK:Chest_CTRL
+      position: {x: -0.018743927, y: -0.0032629222, z: -3.995927e-19}
+      rotation: {x: 0, y: 0, z: 0.081512466, w: 0.99667233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Head_CTRL
+      parentName: Cazador_RigOK:Head_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.14649978, w: 0.9892107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Shoulder_R_CTRLS_GRP_Mirror
+      parentName: Cazador_RigOK:Chest_CTRL
+      position: {x: 0.13, y: -0.006972708, z: -2.2978586e-17}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Cazador_RigOK:Shoulder_R_CTRL_GRP
+      parentName: Cazador_RigOK:Shoulder_R_CTRLS_GRP_Mirror
+      position: {x: -0.01840289, y: 0.14, z: -0.009179296}
+      rotation: {x: -0.7070153, y: -0.0113770235, z: -0.0113770235, w: 0.7070153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Shoulder_R_CTRL
+      parentName: Cazador_RigOK:Shoulder_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.038229033, y: -0.51229733, z: 0.06384559, w: 0.85557806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Elbow_R_CTRL_GRP
+      parentName: Cazador_RigOK:Shoulder_R_CTRL
+      position: {x: -0.012065641, y: -6.661338e-18, z: -1.2434498e-16}
+      rotation: {x: -0.00016952498, y: 0.083249636, z: 0.030034939, w: 0.99607605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Elbow_R_CTRL
+      parentName: Cazador_RigOK:Elbow_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.28799155, y: -0.12895595, z: 0.38779756, w: 0.86605096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Wrist_R_CTRL_GRP
+      parentName: Cazador_RigOK:Elbow_R_CTRL
+      position: {x: -0.020289132, y: 0, z: 7.105427e-17}
+      rotation: {x: -0.0011699452, y: -0.08324158, z: -0.014004647, w: 0.9964303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Wrist_R_CTRL
+      parentName: Cazador_RigOK:Wrist_R_CTRL_GRP
+      position: {x: 0.00020371906, y: -0.0005932765, z: -0.0021071315}
+      rotation: {x: -0.7222409, y: 0, z: -0, w: 0.69164157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Thumb_Base_R_CTRL_GRP
+      parentName: Cazador_RigOK:Wrist_R_CTRL
+      position: {x: -0.0030097717, y: -0.0050228857, z: -0.0003760831}
+      rotation: {x: 0.34466583, y: 0.06445653, z: 0.26576936, w: 0.8980075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Thumb_Base_R_CTRL
+      parentName: Cazador_RigOK:Thumb_Base_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Thumb_Mid_R_CTRL_GRP
+      parentName: Cazador_RigOK:Thumb_Base_R_CTRL
+      position: {x: -0.0038953912, y: 5.3290704e-17, z: -1.7763568e-17}
+      rotation: {x: -0.03191301, y: -0.053178385, z: -0.00839165, w: 0.9980397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Thumb_Mid_R_CTRL_GRP
+      parentName: Cazador_RigOK:Thumb_Mid_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Base_R_CTRL_GRP
+      parentName: Cazador_RigOK:Wrist_R_CTRL
+      position: {x: -0.0076265787, y: 1.110223e-18, z: -5.3290704e-17}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Base_R_CTRL
+      parentName: Cazador_RigOK:Middle_Base_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Mid_R_CTRL_GRP
+      parentName: Cazador_RigOK:Middle_Base_R_CTRL
+      position: {x: -0.002785554, y: 3.5527136e-17, z: 3.330669e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Mid_R_CTRL
+      parentName: Cazador_RigOK:Middle_Mid_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.4199889, w: 0.9075293}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Tip_R_CTRL_GRP
+      parentName: Cazador_RigOK:Middle_Mid_R_CTRL
+      position: {x: -0.0030492672, y: -3.5527136e-17, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Tip_R_CTRL
+      parentName: Cazador_RigOK:Middle_Tip_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Shoulder_L_CTRL_GRP
+      parentName: Cazador_RigOK:Chest_CTRL
+      position: {x: -0.01, y: 0.0022065882, z: -0.01840289}
+      rotation: {x: 0.0113770235, y: -0.7070153, z: -0.0113770235, w: 0.7070153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Shoulder_L_CTRL
+      parentName: Cazador_RigOK:Shoulder_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0847916, y: -0.42520618, z: 0.17622453, w: 0.8837166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Elbow_L_CTRL_GRP
+      parentName: Cazador_RigOK:Shoulder_L_CTRL
+      position: {x: -0.012065641, y: -6.661338e-18, z: -1.2434498e-16}
+      rotation: {x: -0.00016952498, y: 0.083249636, z: 0.030034939, w: 0.99607605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Elbow_L_CTRL
+      parentName: Cazador_RigOK:Elbow_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.56747484, y: -0.22548836, z: 0.27544022, w: 0.7424689}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Wrist_L_CTRL_GRP
+      parentName: Cazador_RigOK:Elbow_L_CTRL
+      position: {x: -0.020289132, y: 0, z: 7.105427e-17}
+      rotation: {x: -0.0011699452, y: -0.08324158, z: -0.014004647, w: 0.9964303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Wrist_L_CTRL
+      parentName: Cazador_RigOK:Wrist_L_CTRL_GRP
+      position: {x: 0.00013687328, y: 0.00044203983, z: -0.0010272665}
+      rotation: {x: -0.41818944, y: -0.25466144, z: 0.123380266, w: 0.8631584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Thumb_Base_L_CTRL_GRP
+      parentName: Cazador_RigOK:Wrist_L_CTRL
+      position: {x: -0.0030097717, y: -0.0050228857, z: -0.0003760831}
+      rotation: {x: 0.34466583, y: 0.06445653, z: 0.26576936, w: 0.8980075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Thumb_Base_L_CTRL
+      parentName: Cazador_RigOK:Thumb_Base_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Thumb_Mid_L_CTRL_GRP
+      parentName: Cazador_RigOK:Thumb_Base_L_CTRL
+      position: {x: -0.0038953912, y: 5.3290704e-17, z: -1.7763568e-17}
+      rotation: {x: -0.03191301, y: -0.053178385, z: -0.00839165, w: 0.9980397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Thumb_Mid_L_CTRL_GRP
+      parentName: Cazador_RigOK:Thumb_Mid_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Base_L_CTRL_GRP
+      parentName: Cazador_RigOK:Wrist_L_CTRL
+      position: {x: -0.0076265787, y: 1.110223e-18, z: -5.3290704e-17}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Base_L_CTRL
+      parentName: Cazador_RigOK:Middle_Base_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Mid_L_CTRL_GRP
+      parentName: Cazador_RigOK:Middle_Base_L_CTRL
+      position: {x: -0.002785554, y: 3.5527136e-17, z: 3.330669e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Mid_L_CTRL
+      parentName: Cazador_RigOK:Middle_Mid_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.3518463, w: 0.9360578}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Tip_L_CTRL_GRP
+      parentName: Cazador_RigOK:Middle_Mid_L_CTRL
+      position: {x: -0.0030492672, y: -3.5527136e-17, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Middle_Tip_L_CTRL
+      parentName: Cazador_RigOK:Middle_Tip_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Shoulder_L_Jnt
+      parentName: Cazador_RigOK:Chest_CTRL
+      position: {x: -0.01, y: 0.0022065882, z: -0.01840289}
+      rotation: {x: -0.04500945, y: -0.6647063, z: -0.16688813, w: 0.72683436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Elbow_L_Jnt
+      parentName: Cazador_RigOK:IK_Shoulder_L_Jnt
+      position: {x: -0.012065641, y: -2.7061685e-18, z: 3.3605923e-18}
+      rotation: {x: -0.00270704, y: -0.0000010176558, z: -0.000001742278, w: 0.99999636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Wrist_L_Jnt
+      parentName: Cazador_RigOK:IK_Elbow_L_Jnt
+      position: {x: -0.020289132, y: 1.2337641e-18, z: 3.9514186e-17}
+      rotation: {x: -0.07050316, y: -0.08846654, z: 0.106945, w: 0.9878086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Middle_Base_L_Jnt
+      parentName: Cazador_RigOK:IK_Wrist_L_Jnt
+      position: {x: -0.0076265787, y: 1.3748231e-18, z: 1.4235244e-17}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Middle_Mid_L_Jnt
+      parentName: Cazador_RigOK:IK_Middle_Base_L_Jnt
+      position: {x: -0.002785554, y: 1.7763568e-17, z: 2.9379027e-32}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Middle_Tip_L_Jnt
+      parentName: Cazador_RigOK:IK_Middle_Mid_L_Jnt
+      position: {x: -0.0030492672, y: -5.8056222e-33, z: -1e-45}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Middle_Top_L_Jnt
+      parentName: Cazador_RigOK:IK_Middle_Tip_L_Jnt
+      position: {x: -0.0032187973, y: -6.128397e-33, z: -1e-45}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Thumb_Base_L_Jnt
+      parentName: Cazador_RigOK:IK_Wrist_L_Jnt
+      position: {x: -0.0030097717, y: -0.0050228857, z: -0.0003760831}
+      rotation: {x: 0.34466583, y: 0.06445653, z: 0.2657694, w: 0.8980075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Thumb_Mid_L_Jnt
+      parentName: Cazador_RigOK:IK_Thumb_Base_L_Jnt
+      position: {x: -0.0038953912, y: 3.5527136e-17, z: 1.7763568e-17}
+      rotation: {x: -0.03191301, y: -0.053178385, z: -0.00839165, w: 0.9980397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Thumb_Top_L_Jnt
+      parentName: Cazador_RigOK:IK_Thumb_Mid_L_Jnt
+      position: {x: -0.0032357913, y: 0.00032204235, z: 0.00007201663}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Shoulder_R_Jnt
+      parentName: Cazador_RigOK:Chest_CTRL
+      position: {x: -0.01, y: 0.002206592, z: 0.018402899}
+      rotation: {x: 0.6666846, y: -0.03618303, z: 0.72732574, w: 0.15880704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Elbow_R_Jnt
+      parentName: Cazador_RigOK:IK_Shoulder_R_Jnt
+      position: {x: 0.012065646, y: 0.0000000011720637, z: 1.7763568e-17}
+      rotation: {x: -0.0027039708, y: 0.0000020299697, z: -0.0000011411514, w: 0.99999636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Wrist_R_Jnt
+      parentName: Cazador_RigOK:IK_Elbow_R_Jnt
+      position: {x: 0.020289117, y: 0.0000000028845382, z: 0.00000007516294}
+      rotation: {x: 0.013502924, y: 0.0021512208, z: 0.1157628, w: 0.9931828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Middle_Base_R_Jnt
+      parentName: Cazador_RigOK:IK_Wrist_R_Jnt
+      position: {x: 0.0075179166, y: -0.00021136765, z: 0.0012654179}
+      rotation: {x: 0.7037554, y: -0.06876347, z: 0.04895791, w: 0.70540994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Middle_Mid_R_Jnt
+      parentName: Cazador_RigOK:IK_Middle_Base_R_Jnt
+      position: {x: 0.0027855, y: -1.7763568e-17, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Middle_Tip_R_Jnt
+      parentName: Cazador_RigOK:IK_Middle_Mid_R_Jnt
+      position: {x: 0.0030493, y: -1.7763568e-17, z: 3.330669e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Middle_Top_R_Jnt
+      parentName: Cazador_RigOK:IK_Middle_Tip_R_Jnt
+      position: {x: 0.0032188, y: -5.3290704e-17, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Thumb_Base_R_Jnt
+      parentName: Cazador_RigOK:IK_Wrist_R_Jnt
+      position: {x: 0.0030457103, y: 0.004939244, z: 0.00087017915}
+      rotation: {x: 0.3211645, y: -0.015041115, z: 0.2808595, w: 0.9042926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Thumb_Mid_R_Jnt
+      parentName: Cazador_RigOK:IK_Thumb_Base_R_Jnt
+      position: {x: 0.0038953822, y: 0.00000021131325, z: 0.0000002171962}
+      rotation: {x: -0.03191301, y: -0.053178385, z: -0.00839165, w: 0.9980397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Thumb_Top_R_Jnt
+      parentName: Cazador_RigOK:IK_Thumb_Mid_R_Jnt
+      position: {x: 0.0032357087, y: -0.00032234896, z: -0.00007241683}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:UpperLeg_L_CTRL_GRP
+      parentName: Cazador_RigOK:Spine_Root_CTRL
+      position: {x: -0.01, y: -0.012276948, z: -0.004582043}
+      rotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:UpperLeg_L_CTRL
+      parentName: Cazador_RigOK:UpperLeg_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:MiddleLeg_L_CTRL_GRP
+      parentName: Cazador_RigOK:UpperLeg_L_CTRL
+      position: {x: -0.028157698, y: 0, z: 8.881784e-18}
+      rotation: {x: 0.99969345, y: 1.5160463e-18, z: -0.024758914, w: 6.121357e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:MiddleLeg_L_CTRL
+      parentName: Cazador_RigOK:MiddleLeg_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:LowerLeg_L_CTRL_GRP
+      parentName: Cazador_RigOK:MiddleLeg_L_CTRL
+      position: {x: -0.02522402, y: 0, z: 0}
+      rotation: {x: 0.9333127, y: -0.35820994, z: -0.023114895, w: 0.008871608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:LowerLeg_L_CTRL
+      parentName: Cazador_RigOK:LowerLeg_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Foot_L_CTRL_GRP
+      parentName: Cazador_RigOK:LowerLeg_L_CTRL
+      position: {x: -0.013455077, y: 1.11022296e-17, z: -6.661338e-18}
+      rotation: {x: 0.9553864, y: 0.29535875, z: -2.1483396e-16, w: -6.9491573e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Foot_L_CTRL
+      parentName: Cazador_RigOK:Foot_L_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:UpperLeg_R_CTRL_GRP_Mirror
+      parentName: Cazador_RigOK:Spine_Root_CTRL
+      position: {x: -0, y: -0.08, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Cazador_RigOK:UpperLeg_R_CTRL_GRP
+      parentName: Cazador_RigOK:UpperLeg_R_CTRL_GRP_Mirror
+      position: {x: -0.01, y: 0.06772305, z: -0.004582043}
+      rotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:UpperLeg_R_CTRL
+      parentName: Cazador_RigOK:UpperLeg_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:MiddleLeg_R_CTRL_GRP
+      parentName: Cazador_RigOK:UpperLeg_R_CTRL
+      position: {x: -0.028157698, y: 0, z: 8.881784e-18}
+      rotation: {x: 0.99969345, y: 1.5160463e-18, z: -0.024758914, w: 6.121357e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:MiddleLeg_R_CTRL
+      parentName: Cazador_RigOK:MiddleLeg_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:LowerLeg_R_CTRL_GRP
+      parentName: Cazador_RigOK:MiddleLeg_R_CTRL
+      position: {x: -0.02522402, y: 0, z: 0}
+      rotation: {x: 0.9333127, y: -0.35820994, z: -0.023114895, w: 0.008871608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:LowerLeg_R_CTRL
+      parentName: Cazador_RigOK:LowerLeg_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Foot_R_CTRL_GRP
+      parentName: Cazador_RigOK:LowerLeg_R_CTRL
+      position: {x: -0.013455077, y: 1.11022296e-17, z: -6.661338e-18}
+      rotation: {x: 0.9553864, y: 0.29535875, z: -2.1483396e-16, w: -6.9491573e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:Foot_R_CTRL
+      parentName: Cazador_RigOK:Foot_R_CTRL_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_UpperLeg_R_Jnt
+      parentName: Cazador_RigOK:Spine_Root_CTRL
+      position: {x: 0.01, y: -0.0122769, z: -0.00458204}
+      rotation: {x: -0.50295204, y: -0.5026444, z: 0.50852907, w: 0.48557806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_MiddleLeg_R_Jnt
+      parentName: Cazador_RigOK:IK_UpperLeg_R_Jnt
+      position: {x: -0.028157698, y: -3.1261325e-18, z: -2.4493723e-34}
+      rotation: {x: 0.9996926, y: -0.024753306, z: 0.0006902564, w: -0.0012098022}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_LowerLeg_R_Jnt
+      parentName: Cazador_RigOK:IK_MiddleLeg_R_Jnt
+      position: {x: -0.025224026, y: 5.996516e-33, z: -4.940653e-17}
+      rotation: {x: 0.93335485, y: -0.3580434, z: 0.02547321, w: -0.0022130634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Foot_R_Jnt
+      parentName: Cazador_RigOK:IK_LowerLeg_R_Jnt
+      position: {x: -0.013455106, y: -2.220446e-18, z: -2.0495017e-18}
+      rotation: {x: 0.95538616, y: 0.2953596, z: 1.808556e-17, w: 5.850053e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Toe_R_Jnt
+      parentName: Cazador_RigOK:IK_Foot_R_Jnt
+      position: {x: -0.012916578, y: -7.51716e-19, z: 1.1321394e-17}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_UpperLeg_L_Jnt
+      parentName: Cazador_RigOK:Spine_Root_CTRL
+      position: {x: -0.01, y: -0.012276948, z: -0.004582043}
+      rotation: {x: -0.49459565, y: -0.4975161, z: 0.49077106, w: 0.51671726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_MiddleLeg_L_Jnt
+      parentName: Cazador_RigOK:IK_UpperLeg_L_Jnt
+      position: {x: -0.028157698, y: -5.551115e-19, z: 2.3381004e-18}
+      rotation: {x: 1, y: 0.0000003509216, z: 0.00000026287478, w: -9.230968e-14}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_LowerLeg_L_Jnt
+      parentName: Cazador_RigOK:IK_MiddleLeg_L_Jnt
+      position: {x: -0.02522402, y: 9.573068e-19, z: 3.37763e-18}
+      rotation: {x: 0.93290097, y: -0.35930482, z: -0.024026427, w: 0.0043064267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Foot_L_Jnt
+      parentName: Cazador_RigOK:IK_LowerLeg_L_Jnt
+      position: {x: -0.013455077, y: 8.881784e-18, z: 2.0879327e-18}
+      rotation: {x: 0.9553864, y: 0.29535875, z: -1.8085507e-17, w: -5.850055e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cazador_RigOK:IK_Toe_L_Jnt
+      parentName: Cazador_RigOK:IK_Foot_L_Jnt
+      position: {x: -0.012916597, y: -4.776204e-18, z: -4.074675e-17}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
