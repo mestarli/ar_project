@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
         //IceBullet();
         if (Input.GetKeyDown(KeyCode.E))
         {
-            cooldown[2].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
+            cooldown[0].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
             
         }else if (Input.GetKeyDown(KeyCode.R))
         {
@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
             
         }else if (Input.GetKeyDown(KeyCode.T))
         {
-            cooldown[0].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
+            cooldown[2].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
         }
     }
 
