@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2049792111079422528}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_CTRLS_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5555196242463519833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Tip_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8847542404309025920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_ARM_R_CTRLS_GRP_Mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 421731083180438369}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Jacket_Top_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5841961761272429056}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Mid_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4629825160366731077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Tip_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3891738403541289689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:MiddleLeg_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 485829385428580317}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "ca\xF1on_doble"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6186916651148374997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Elbow_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 846858326646644889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Chest_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +333,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7808043029173047982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Spine_Root_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,7 +368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9112328927672263316}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Middle_Mid_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2579707348731326340}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Base_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -432,7 +432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2682024681296147130}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Base_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7476302099600127736}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:UpperLeg_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -496,7 +496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8998696604330080008}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Thumb_Mid_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -528,7 +528,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8037525053391067850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Thumb_Mid_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 798214443432106076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Mid_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -592,7 +592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 996447983153626847}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Foot_L_CTRLS_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,7 +624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7201562068802163120}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:MiddleLeg_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2876022458600217015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Middle_Base_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -688,7 +688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5908566313887584309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Head_End_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -719,7 +719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2861468882041565327}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:LowerLeg_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -751,7 +751,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 64338803674972637}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Base_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,7 +783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2964797381183275091}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:LowerLeg_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4238137696432450396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Foot_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -847,7 +847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7449840671953181599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Elbow_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -879,7 +879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8856821113393220932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Spine_1_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6327255936377442877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Top_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 905508938136663265}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Head_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -974,7 +974,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9135358961678881808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Toe_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1005,7 +1005,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3546847493605184400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Mid_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1037,7 +1037,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4693119078747559453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Base_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1069,7 +1069,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3441768681581364921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Middle_Base_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1101,7 +1101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7882059935435906216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Foot_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1133,7 +1133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4524547484431857308}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Jacket_Base_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,7 +1165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 843786273665189843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Wrist_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1196,7 +1196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6250948587948158940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:MiddleLeg_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1228,7 +1228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4907700866124387260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Wrist_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1261,7 +1261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7572463304226740257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_FK_Switch_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1293,7 +1293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2137029820758890584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Mid_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1325,7 +1325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3765358670075433827}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Rig_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1359,7 +1359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3516132594980556536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Master_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1391,7 +1391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5696089713561796437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Tip_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1425,7 +1425,7 @@ GameObject:
   - component: {fileID: 5195666231417353161}
   - component: {fileID: 1471926857386615732}
   - component: {fileID: 1697245883418975661}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: polySurface4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1506,7 +1506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2119734096685201099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Spine_2_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1538,7 +1538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9035973239738017704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Neck_Base_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1570,7 +1570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6559131761954715393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Mid_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1602,7 +1602,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2986968668487174667}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Foot_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1634,7 +1634,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4425726430212659616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:UpperLeg_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1666,7 +1666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6153683692215969099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Toe_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1697,7 +1697,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8750698663734872886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Wrist_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1729,7 +1729,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5111987753165683394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Base_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1761,7 +1761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2334246219420781119}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1793,7 +1793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5346764195921455}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Base_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1825,7 +1825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2813643621677433113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_ARM_R_CTRLS_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1857,7 +1857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1627016459853107871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_UpperLeg_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1889,7 +1889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2303585569094751272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Thumb_Top_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1920,7 +1920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 694543468956974108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Thumb_Base_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1952,7 +1952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2769068127940157994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Middle_Mid_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1984,7 +1984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8010784633673521734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Wrist_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2016,7 +2016,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6765126192791556110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Jacket_Mid_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2048,7 +2048,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4702962287766850563}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Toe_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2079,7 +2079,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6466163551506051815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Base_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2111,7 +2111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8096335768546407819}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Foot_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2143,7 +2143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6172800788086152559}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Middle_Tip_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2175,7 +2175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6246191892467589474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Spine_2_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2207,7 +2207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5822345402351886065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Foot_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2238,7 +2238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8179723509368083108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_UpperLeg_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2270,7 +2270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8614236735587272124}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2310,7 +2310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6436491144254902602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Tip_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2342,7 +2342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2419170645811434480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Shoulder_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2374,7 +2374,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8397470299147497713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Elbow_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2406,7 +2406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3118949298541170290}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Shoulder_R_CTRLS_GRP_Mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2438,7 +2438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1163654890742431408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Jacket_End_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2469,7 +2469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4249328271022805637}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Middle_Mid_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2501,7 +2501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5019837894350233465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Foot_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2532,7 +2532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2323159875093844664}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_FK_Switch_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2565,7 +2565,7 @@ GameObject:
   - component: {fileID: 6173680633848243628}
   - component: {fileID: 1260676533723349656}
   - component: {fileID: 5638467073538558247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cubremanos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2646,7 +2646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8620583839559360192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:LowerLeg_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2680,7 +2680,7 @@ GameObject:
   - component: {fileID: 4830788650472547111}
   - component: {fileID: 8188266124750697676}
   - component: {fileID: 3145167475423666543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BASE_MOSQUETE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2761,7 +2761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 73939834418483471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Spine_Root_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2796,7 +2796,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 200802484619374318}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Thumb_Mid_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2828,7 +2828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5036857602119167677}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Shoulder_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2860,7 +2860,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6216164127855510348}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_UpperLeg_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2892,7 +2892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8948875758656854178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:LowerLeg_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2924,7 +2924,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3390705494178763451}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Wrist_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2957,7 +2957,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8724113818000819365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Base_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2989,7 +2989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3495313287814974581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Shoulder_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3023,7 +3023,7 @@ GameObject:
   - component: {fileID: 376437260477138599}
   - component: {fileID: 452469702178485904}
   - component: {fileID: 3977854234237915597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: gatillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3104,7 +3104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5212209447771611343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_LowerLeg_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3136,7 +3136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1932582229473003024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Spine_1_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3168,7 +3168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6617323076996787200}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Jacket_Base_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3200,7 +3200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 907365120954975384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Jacket_Tip_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3232,7 +3232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9191721684506114536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_End_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3263,7 +3263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 624565558605234108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Top_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3294,7 +3294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 989957432494580713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Middle_Top_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3325,7 +3325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1237759464006716815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Mid_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3359,7 +3359,7 @@ GameObject:
   - component: {fileID: 441479550825223680}
   - component: {fileID: 4894295885778299545}
   - component: {fileID: 9189262522105799967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: polySurface3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3441,7 +3441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638694952357416733}
   - component: {fileID: 843725306057654345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:polySurface1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3566,7 +3566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 148593354536548325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Wrist_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3599,7 +3599,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6867879983996846920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Middle_Top_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3630,7 +3630,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6335655442455343607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Toe_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3661,7 +3661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7377628353435143291}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Base_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3693,7 +3693,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4906515529301369380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Wrist_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3725,7 +3725,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8474020090823167724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Elbow_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3757,7 +3757,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1028351117911693470}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Middle_Top_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3788,7 +3788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6278529788272585869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:UpperLeg_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3820,7 +3820,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 754187786634132553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Foot_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3852,7 +3852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5255626197252765279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Tip_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3883,7 +3883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2662767265780958928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Chest_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3919,7 +3919,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4517689204484964470}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Foot_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3951,7 +3951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6380649673186767332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Spine_Root_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3988,7 +3988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1650864953091503243}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Base_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4021,7 +4021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 893617421905912952}
   - component: {fileID: 7924299105439521111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Cazador_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4069,7 +4069,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5490002314907738930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Shoulder_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4103,7 +4103,7 @@ GameObject:
   - component: {fileID: 5026757410070596625}
   - component: {fileID: 3694545190029974082}
   - component: {fileID: 2374739800606718291}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:polySurface2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4184,7 +4184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8405367187072233260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Toe_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4215,7 +4215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2265831099498003034}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Top_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4247,7 +4247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7224862421121389456}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Elbow_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4279,7 +4279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1529801577095836784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Mid_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4311,7 +4311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7956981366604888285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Shoulder_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4343,7 +4343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7333625475932297306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Top_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4374,7 +4374,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2096584153742340270}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_MiddleLeg_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4406,7 +4406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2337422172492973521}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_LowerLeg_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4438,7 +4438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6639564271739499064}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_MiddleLeg_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4470,7 +4470,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4159537745891295024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_MiddleLeg_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4502,7 +4502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 534148987311732157}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Thumb_Top_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4533,7 +4533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3722563717431609075}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Mid_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4565,7 +4565,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6343641523839175399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Toe_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4596,7 +4596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7745798718633331033}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Thumb_Top_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4627,7 +4627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5646887994821455289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Spine_2_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4659,7 +4659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 472880433040303766}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_ARM_L_CTRLS_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4691,7 +4691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7014442762933151707}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Shoulder_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4723,7 +4723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 788740611036586222}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Spine_2_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4755,7 +4755,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1043228181742570483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Spine_2_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4787,7 +4787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5360900873136904111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Thumb_Base_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4819,7 +4819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8325104651023365014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_LowerLeg_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4851,7 +4851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5712847915387694984}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:UpperLeg_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4883,7 +4883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2002030512807074139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Shoulder_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4915,7 +4915,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4770591863704452454}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:UpperLeg_R_CTRL_GRP_Mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4947,7 +4947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8420218028668299646}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Top_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4978,7 +4978,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4233243824099805112}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Base_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5010,7 +5010,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1514172062957655723}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Foot_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5041,7 +5041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6942248375284848279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Foot_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5073,7 +5073,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 984897629821313127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_MiddleLeg_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5105,7 +5105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 745473799424760956}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Middle_Tip_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5137,7 +5137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 803717979370213428}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Foot_R_CTRLS_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5169,7 +5169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3397448467019016461}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Tip_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5200,7 +5200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5601760067520343111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Elbow_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5232,7 +5232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3622525096328746114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Middle_Base_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5264,7 +5264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3510613400313163300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Thumb_Base_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5296,7 +5296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5965032483449170899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:LowerLeg_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5328,7 +5328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 152358425415046362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Mid_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5360,7 +5360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 416695060135745432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Wrist_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5393,7 +5393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5066611790517302706}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Elbow_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5425,7 +5425,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3034243349243503144}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Middle_Tip_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5457,7 +5457,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7244354599185738492}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Thumb_Base_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5489,7 +5489,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6536595793746189016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Wrist_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5522,7 +5522,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2317776266995724262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Middle_Tip_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5554,7 +5554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1495490646454916560}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Base_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5588,7 +5588,7 @@ GameObject:
   - component: {fileID: 9149337833423469213}
   - component: {fileID: 1073795349427498200}
   - component: {fileID: 23290400875586310}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: amarre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5669,7 +5669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8228501125106873340}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:MiddleLeg_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5703,7 +5703,7 @@ GameObject:
   - component: {fileID: 3976234346150748153}
   - component: {fileID: 1179661931066374911}
   - component: {fileID: 4967147591740146863}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pCylinder12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5784,7 +5784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2422481864093149279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5816,7 +5816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4277900985499539887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Thumb_Mid_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5848,7 +5848,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1697064137546161731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Tip_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5880,7 +5880,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5121800468855394378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Shoulder_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5912,7 +5912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 741455846963917443}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Mid_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5943,7 +5943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8577655818475875251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Elbow_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5975,7 +5975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3523130052641215475}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Wrist_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6008,7 +6008,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6345779720551142556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Jacket_Tip_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6040,7 +6040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7158743162515237510}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Foot_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6072,7 +6072,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2998569689395300695}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Wrist_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6103,7 +6103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9143404733563754050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Spine_1_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6135,7 +6135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4432364314971727561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Base_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6169,7 +6169,7 @@ GameObject:
   - component: {fileID: 7670331037246286139}
   - component: {fileID: 4364640757815587649}
   - component: {fileID: 7924299104607152730}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_clon
   m_TagString: PlayerClone
   m_Icon: {fileID: 0}
@@ -6238,7 +6238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8581460222491003871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Jacket_End_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6269,7 +6269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8397297117511618300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Wrist_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6301,7 +6301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2881641258128552945}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Foot_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6334,7 +6334,7 @@ GameObject:
   - component: {fileID: 214463078369667191}
   - component: {fileID: 601600857005225984}
   - component: {fileID: 2393723351179995497}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "ca\xF1on"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6415,7 +6415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9186870426697158714}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Spine_Root_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6447,7 +6447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3667933143103751857}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Chest_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6481,7 +6481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5134788324608411410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:MiddleLeg_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6513,7 +6513,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8019097171894267505}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_UpperLeg_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6545,7 +6545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4438167185414382748}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Spine_1_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6577,7 +6577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7037870885844824215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Head_End_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6608,7 +6608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6441240390208222097}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Head_End_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6639,7 +6639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5723709410689102084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Top_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6670,7 +6670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3479460854310299581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Foot_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6702,7 +6702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1933570460275337009}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Foot_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6734,7 +6734,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6524517838824212163}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Base_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6766,7 +6766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7293169753855058337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_LowerLeg_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6798,7 +6798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3307155272415251502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Mid_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6830,7 +6830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1297977027476124865}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Base_Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6862,7 +6862,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 385511201956185839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:MiddleLeg_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6894,7 +6894,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6601281127855784716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Thumb_Top_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6925,7 +6925,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6449260037228281982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Middle_Mid_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6957,7 +6957,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6785854386866244748}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Skeleton_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6991,7 +6991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7359051350000528909}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Mid_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7022,7 +7022,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3643188620534974743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Foot_R_CTRLS_GRP_Mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7054,7 +7054,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 838356647444943713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Shoulder_R_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7086,7 +7086,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8599981949207122574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:UpperLeg_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7120,7 +7120,7 @@ GameObject:
   - component: {fileID: 8999946760239562760}
   - component: {fileID: 792857767672900698}
   - component: {fileID: 6136347916081749827}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: amarre_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7201,7 +7201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4288062167811766660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Neck_Base_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7233,7 +7233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2637702062987643725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Wrist_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7266,7 +7266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1917333956757773996}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:LowerLeg_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7300,7 +7300,7 @@ GameObject:
   - component: {fileID: 5228604064509432549}
   - component: {fileID: 5985291182760434086}
   - component: {fileID: 6654005617692331689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: recarga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7383,7 +7383,7 @@ GameObject:
   - component: {fileID: 6970247269107653768}
   - component: {fileID: 516362979898219725}
   - component: {fileID: 8248124581450483531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:polySurface5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7464,7 +7464,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5656136348577292194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Shoulder_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7496,7 +7496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1624236426787809719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Spine_Root_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7529,7 +7529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5879221232314715471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Elbow_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7561,7 +7561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4752098329518792045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Middle_Top_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7592,7 +7592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3156386536661194306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:FK_Spine_1_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7624,7 +7624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6209403422920917863}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Mid_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7656,7 +7656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6238658592162683758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Tip_R_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7688,7 +7688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 692144977348684280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Jacket_Top_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7719,7 +7719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6676018685131417530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:UpperLeg_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7751,7 +7751,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5727793314451988693}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Jacket_Top_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7783,7 +7783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6564293797623407100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Mid_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7815,7 +7815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4663948985295585589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Head_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7847,7 +7847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3829580643697330243}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Master_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7881,7 +7881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5916267937421827168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Neck_Base_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7913,7 +7913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8410684572565066957}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Chest_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7945,7 +7945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4213644272253711393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Middle_Base_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7977,7 +7977,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6234155964816932202}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Base_L_CTRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8009,7 +8009,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6339275144237846137}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Thumb_Mid_R_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8041,7 +8041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6344983907495126460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Middle_Tip_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8073,7 +8073,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911987508190788814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Chest_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8107,7 +8107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3362413133948190821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Elbow_L_CTRL_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8139,7 +8139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2215170738821565366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:Wrist_L_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8172,7 +8172,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6683585233899793684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cazador_RigOK:IK_Jacket_Mid_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
