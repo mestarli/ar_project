@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4951391263561494371}
   - component: {fileID: 1328400119311359900}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Muros_de_piedra
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 1413271095458889572}
   - component: {fileID: 7972728792168581807}
   - component: {fileID: 4588405496080698756}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Muro1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

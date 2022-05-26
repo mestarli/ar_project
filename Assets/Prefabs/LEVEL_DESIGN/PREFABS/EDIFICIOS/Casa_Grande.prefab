@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2450795575079514591}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Casa_Grande
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 8550177963141359321}
   - component: {fileID: 5858236192653906451}
   - component: {fileID: 212558747446801864}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: CasaGrandeOk
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -148,13 +148,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -230,13 +242,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -312,13 +336,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -394,13 +430,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -476,13 +524,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -558,13 +618,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -640,13 +712,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -722,13 +806,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -804,13 +900,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -886,13 +994,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2450795575079514591}
     m_Modifications:
+    - target: {fileID: 1518605391628711094, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_Name
       value: Farola2 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223476267253659812, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7010686199284452122, guid: fb4bb3c155997e1499199592f67606be, type: 3}
       propertyPath: m_StaticEditorFlags
