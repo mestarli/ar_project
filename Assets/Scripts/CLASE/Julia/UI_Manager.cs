@@ -25,6 +25,7 @@ public class UI_Manager : MonoBehaviour
     [SerializeField] private GameObject optionsPanel;
     [SerializeField] private GameObject gamePanel;
     [SerializeField] private GameObject mainMenuPanel;
+    [SerializeField] private GameObject menuHabilidades;
     
     // Start is called before the first frame update
     void Start()
@@ -91,7 +92,7 @@ public class UI_Manager : MonoBehaviour
     IEnumerator Coroutine_GameScene()
     {
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene("SelectAbilities");
+        menuHabilidades.SetActive(true);
         optionsPanel.SetActive(false);
         gamePanel.SetActive(true);
         mainMenuPanel.SetActive(false);
@@ -132,6 +133,7 @@ public class UI_Manager : MonoBehaviour
     IEnumerator Coroutine_MainMenuScene()
     {
         yield return new WaitForSeconds(0.5f);
+        menuHabilidades.SetActive(true);
         //SceneManager.LoadScene("StartMenu");
         optionsPanel.SetActive(false);
         gamePanel.SetActive(false);
