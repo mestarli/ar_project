@@ -5608,7 +5608,7 @@ MonoBehaviour:
   controller: {fileID: 5707353096201398961}
   axisX: 0
   axisZ: 0
-  speed: 12
+  speed: 6
   gravity: -9.81
   jumpHeight: 1.5
   groundCheck: {fileID: 5707353095674144547}
