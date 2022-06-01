@@ -37,7 +37,7 @@ public class PlayerClone : MonoBehaviour
     private void SpawnearClone()
     {
 
-        if (Input.GetKeyDown(control) && GameObject.FindWithTag("PlayerClone") == null)
+        if (Input.GetKeyDown(control) && GameObject.FindWithTag("PlayerClone") == null && !PlayerMovement.instance.SkillActive)
         {
             // Spawneamos el prefab en la posicion del player y donde estemos mirando
             Instantiate(playerClone, spawnerClone.transform.position, transform.rotation);
@@ -53,6 +53,7 @@ public class PlayerClone : MonoBehaviour
                 // Paramos la corrutina DestruirClone
                 StopCoroutine(destruirClone);
             }*/
+            PlayerMovement.instance._animator.SetTrigger("Clone");
         }
         
         // Si existe un objeto con el tag "PlayerClone" se moverá hacia delante

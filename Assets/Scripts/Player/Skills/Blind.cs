@@ -33,7 +33,7 @@ public class Blind : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(control))
+        if (Input.GetKeyDown(control) && !PlayerMovement.instance.SkillActive)
         {
             if (!isPosible)
             {

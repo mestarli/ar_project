@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag =="Finish")
         {
-            SceneManager.LoadScene("YouWin");
+            UIManager.Instance.YouWin();
         }
         if (other.gameObject.tag =="exit")
         {
@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
     }
     IEnumerator courotineShowGameOver()
     {
-        yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene("GameOver");
+        yield return new WaitForSeconds(0.2f);
+        UIManager.Instance.YouLose();
     }
 }

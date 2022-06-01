@@ -5631,6 +5631,7 @@ MonoBehaviour:
   wallCharges: 1
   RechargeTimer: 10
   cam: {fileID: 5707353095205763992}
+  SkillActive: 0
   cooldown:
   - {fileID: 0}
   - {fileID: 0}
@@ -5704,7 +5705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26972b8243e922543a9ed072708c2453, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerClone: {fileID: 7005821859682300801, guid: e5d615c7485b2b74bae8c833ef6f2c26, type: 3}
+  playerClone: {fileID: 7006315130231866748, guid: ff7e4a7a42fb4354bafca6e399d889e2, type: 3}
   spawnerClone: {fileID: 5707353096225929210}
   control: 0
 --- !u!114 &1835411181
@@ -5847,7 +5848,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5707353096225929210}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.75}
+  m_LocalPosition: {x: 0, y: -1.101, z: 0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7988,6 +7989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IceWall 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5929837094768931959, guid: 58c2913271a7a6143afd4a75a0553258, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7691694588742197554, guid: 58c2913271a7a6143afd4a75a0553258, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -8069,7 +8074,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c7df7703691dbf438ab88959be75704, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.024887487
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c7df7703691dbf438ab88959be75704, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8077,7 +8082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c7df7703691dbf438ab88959be75704, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6664032
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c7df7703691dbf438ab88959be75704, type: 3}
       propertyPath: m_LocalRotation.w

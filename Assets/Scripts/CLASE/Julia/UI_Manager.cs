@@ -252,6 +252,9 @@ public class UI_Manager : MonoBehaviour
         PlayerPrefs.SetInt("qualityNum", imageQualityDropdown.value);
         imageQualityInt = imageQualityDropdown.value;
     }
-
+    public void restartGame()
+    {
+        SceneManager.LoadScene("MainLevelOptimizar");
+    }
     #endregion
 }

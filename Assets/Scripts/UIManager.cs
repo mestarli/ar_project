@@ -15,6 +15,10 @@ public class UIManager : MonoBehaviour
     private float secondsCount;
     private int minuteCount;
     private int hourCount;
+    [SerializeField] private GameObject panelYouWin;
+    [SerializeField] private GameObject panelYouLoose;
+    [SerializeField] private GameObject butonSave;
+    
     private void Awake()
     {
         Instance = this;
@@ -35,10 +39,9 @@ public class UIManager : MonoBehaviour
             User new_user = new User();
             new_user.player_nickname = nickname.text;
             new_user.player_record = record_game.text;
-            Debug.Log("Hola user "+ new_user.player_nickname);
-            Debug.Log("Hola record "+ new_user.player_record);
             DataManager.Instance.NewUserTMP = new_user;
             WebRequestManager.Instance.LeerJSON_Usuarios_Y_Crear_Usuario();
+            butonSave.SetActive(false);
         }
     }
     
@@ -59,5 +62,26 @@ public class UIManager : MonoBehaviour
     public void UpdateLife(float life,float maxlife)
     {
         countLife.fillAmount = life / maxlife;
+    }
+
+    public void restartGame()
+    {
+        SceneManager.LoadScene("MainLevelOptimizar");
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void YouWin()
+    {
+        record_game.text = timeOnScreen.text;
+        Cursor.lockState = CursorLockMode.None;
+        panelYouWin.SetActive(true);
+    }
+    public void YouLose()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        panelYouLoose.SetActive(true);
     }
 }

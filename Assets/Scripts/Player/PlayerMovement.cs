@@ -42,6 +42,8 @@ public class PlayerMovement : MonoBehaviour
     private bool isRecharging = false;
     [SerializeField] private Transform cam;
 
+    public bool SkillActive;
+
     [Space(10)] [Header("COOLDOWN")] 
     [SerializeField] private List<GameObject> cooldown;
 
@@ -60,15 +62,15 @@ public class PlayerMovement : MonoBehaviour
         CharacterMovement();
         
         //IceBullet();
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && !SkillActive)
         {
             cooldown[0].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
             
-        }else if (Input.GetKeyDown(KeyCode.R))
+        }else if (Input.GetKeyDown(KeyCode.R) && !SkillActive)
         {
             cooldown[1].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
             
-        }else if (Input.GetKeyDown(KeyCode.T))
+        }else if (Input.GetKeyDown(KeyCode.T) && !SkillActive)
         {
             cooldown[2].transform.GetChild(0).gameObject.GetComponent<Cooldown>().UseSpell();
         }
@@ -79,12 +81,17 @@ public class PlayerMovement : MonoBehaviour
         _animator.SetBool("IsRunning", false);
         // La booleana IsGrounded se activará siempre y cuando detecte que su collider toque una mesh con el nombre de layer "Ground".
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundmask);
-        
+
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.W) ||
             Input.GetKey(KeyCode.D) && isGrounded && velocity.y < 0)
         {
             _animator.SetBool("IsRunning", true);
-            AudioManager.instance.PlaySong("Caminar");
+            Debug.Log("Esta playing"+AudioManager.instance.listSounds[0].audioSource.isPlaying);
+            if (!AudioManager.instance.listSounds[0].audioSource.isPlaying )
+            {
+                //AudioManager.instance.PlaySong("Caminar");
+            }
+            
         }
         
         // Si estamos en el suelo y no estamos saltando, pondremos en negativo el eje vertical de nuestro player para que tenga gravedad.

@@ -60,6 +60,9 @@ public class Cooldown : MonoBehaviour
             isCooldown = false;
             textCooldown.gameObject.SetActive(false);
             imageCooldown.fillAmount = 0f;
+            PlayerMovement.instance.SkillActive = false;
+            PlayerMovement.instance._animator.ResetTrigger("Clone");
+            PlayerMovement.instance._animator.SetTrigger("Default");
         }
         else
         {
@@ -79,6 +82,7 @@ public class Cooldown : MonoBehaviour
             isCooldown = true;
             textCooldown.gameObject.SetActive(true);
             cooldownTimer = cooldownTime;
+            PlayerMovement.instance.SkillActive = true;
         }
     }
 }

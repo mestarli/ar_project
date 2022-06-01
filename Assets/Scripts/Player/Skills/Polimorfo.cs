@@ -107,7 +107,7 @@ public class Polimorfo : MonoBehaviour
     private void ConvertirPolimorfo()
     {
         // Si le damos a la "F" y hay un enemigo cercano...
-        if (Input.GetKeyDown(control) && ClosestEnemy != null && !isPosible)
+        if (Input.GetKeyDown(control) && ClosestEnemy != null && !isPosible && !PlayerMovement.instance.SkillActive)
         {
             // El prop será de forma aleatoria uno de todos los del mapa
             Prop = allProps[Random.Range(0, allProps.Length)];

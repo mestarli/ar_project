@@ -44,7 +44,7 @@ public class SmokeBomb : MonoBehaviour
     private void ThrowSmokeBomb()
     {
         // Si presionamos la tecla R y podemos spawnear el smoke iniciaremos la corrutina
-        if (Input.GetKeyDown(control) && canSpawnSmoke)
+        if (Input.GetKeyDown(control) && canSpawnSmoke && !PlayerMovement.instance.SkillActive)
         {
             canSpawnSmoke = false;
             StartCoroutine(waitToThrowBombSmoke());

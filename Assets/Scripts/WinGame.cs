@@ -20,7 +20,7 @@ public class WinGame : MonoBehaviour
     {
         if (other.gameObject.tag =="Player")
         {
-            SceneManager.LoadScene("YouWin");
+            //SceneManager.LoadScene("YouWin");
         }
     }
 }

@@ -8,7 +8,7 @@ public class Invisibility : MonoBehaviour
     public Material handsMat;
     public Material invisibilityMat;
     public GameObject HandsGameObject;
-    public int invisibilityTime = 8;
+    public int invisibilityTime = 12;
     private bool isInvis = false;
 
 
@@ -32,7 +32,7 @@ public class Invisibility : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(control))
+        if (Input.GetKeyDown(control) && !PlayerMovement.instance.SkillActive)
         {
             if (!isInvis)
             {

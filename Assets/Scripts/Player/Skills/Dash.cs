@@ -42,7 +42,7 @@ public class Dash : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(control)&& uses>0 && !blinking&&blinkable)
+        if (Input.GetKeyDown(control)&& uses>0 && !blinking&&blinkable && !PlayerMovement.instance.SkillActive)
         {
             StartCoroutine(Blink());
             uses--;

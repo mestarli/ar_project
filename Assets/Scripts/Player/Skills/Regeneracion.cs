@@ -46,7 +46,7 @@ public class Regeneracion : MonoBehaviour
     {
         
         // Si no tenemos máxima vida, le damos a la G y no estamos ya regenerando vida... se activará el bool regenerar vida y la corrutina "RegenerarVida"
-        if (currentVidaPlayer < maxVidaPlayer && Input.GetKeyDown(control) && !RegenerateVida)
+        if (currentVidaPlayer < maxVidaPlayer && Input.GetKeyDown(control) && !RegenerateVida && !PlayerMovement.instance.SkillActive)
         {
             RegenerateVida = true;
             StartCoroutine(RegenerarVida());
