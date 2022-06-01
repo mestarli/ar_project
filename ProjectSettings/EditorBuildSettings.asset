@@ -9,16 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: 0814ed186114b50479a3d4480174c8b4
   - enabled: 1
-    path: Assets/Scenes/SelectAbilities.unity
-    guid: 0fc743454304df5459191a6c8273318d
-  - enabled: 1
     path: Assets/Scenes/MainLevelOptimizar.unity
     guid: 607f790789e7abd44bb25bb21bdec0ef
-  - enabled: 1
-    path: Assets/Scenes/YouWin.unity
-    guid: 5affa04ac22bc244699e98ca9ce1f724
-  - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: ec953b3bee4aec0419dc2dd665c6cc78
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 66ec41590e922f3418b4b82f704fb1a5, type: 2}
